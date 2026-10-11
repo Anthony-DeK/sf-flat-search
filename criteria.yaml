@@ -3,7 +3,7 @@ bedrooms: [1, 2]
 
 # Approximate bounding boxes (lat_min, lat_max, lon_min, lon_max). Coordinates win over text when present.
 neighborhoods:
-  Nob Hill:        {names: [nob hill, lower nob hill],              box: [37.786, 37.797, -122.4205, -122.4085]}
+  Nob Hill:        {names: [nob hill, lower nob hill],              box: [37.786, 37.797, -122.4225, -122.4085]}
   North Beach:     {names: [north beach, telegraph hill],           box: [37.796, 37.808, -122.414, -122.400]}
   Russian Hill:    {names: [russian hill],                          box: [37.795, 37.806, -122.4255, -122.414]}
   Cow Hollow:      {names: [cow hollow, marina],                    box: [37.794, 37.808, -122.448, -122.4255]}

@@ -93,7 +93,9 @@ def main():
                     if prev.get(f) not in (None, "", []) and getattr(l, f) in (None, "", []):
                         setattr(l, f, prev[f])
             ev = evaluate(l)
-            needs_detail = not (prev and prev.get("detailed")) and not prefilter_rejects(l, ev)
+            # Older records flagged rejects as detailed without fetching; a fetched record always has text.
+            was_detailed = bool(prev and prev.get("detailed") and (prev.get("text") or prev["status"] != "reject"))
+            needs_detail = not was_detailed and not prefilter_rejects(l, ev)
             if needs_detail and details_left > 0:
                 details_left -= 1
                 try:
@@ -107,7 +109,7 @@ def main():
                     print(f"  details failed {l.url}: {e}")
                     detailed = False
             else:
-                detailed = bool(prev and prev.get("detailed")) or not needs_detail
+                detailed = was_detailed   # pre-rejected listings stay unfetched so criteria changes re-check them
 
             rec = {**l.to_dict(), **ev, "hood_confident": "neighborhood" not in ev["unknown"] and ev["hood"] is not None,
                    "detailed": detailed, "last_seen": t, "active": True,

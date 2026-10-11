@@ -25,7 +25,8 @@ sources:
 
   - name: AppFolio landlords
     adapter: appfolio
-    subdomains: [amsires, eminvest, twobliving, azaripm, bancalsf, apg, progressivesf, luminor, greenerealty]
+    subdomains: [amsires, eminvest, twobliving, azaripm, bancalsf, apg, progressivesf, luminor, greenerealty,
+                 spsf, chandlerproperties, baypropertygroup, amore, ggproperties, ralstonmgmt]
 
   - name: r/SFBayHousing
     adapter: reddit

@@ -177,8 +177,8 @@ fetch("listings.json", { cache: "no-store" }).then(r => r.json()).then(d => {
   $("manual").innerHTML = (d.manual || []).map(m => `<li><b>${esc(m.name)}</b>: ${esc(m.why)}${m.tip ? ". " + esc(m.tip) : ""}</li>`).join("");
   if (window.L) {
     map = L.map("map", { scrollWheelZoom: false }).setView([37.785, -122.43], 13);
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
-      { attribution: "© OpenStreetMap © CARTO", maxZoom: 19 }).addTo(map);
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+      { attribution: "© OpenStreetMap contributors", maxZoom: 19 }).addTo(map);
     layer = L.layerGroup().addTo(map);
   }
   render();

@@ -19,7 +19,9 @@ def _parse(data, cat):
         idx, lat, lon = (loc.split("~") + [None, None])[:3]
         li = [int(i) for i in idx.split(":")] if idx else []
         locations = dec.get("locations", [])
-        subarea = locations[li[0]][2] if li and li[0] < len(locations) else ""
+        entry = locations[li[0]] if li and li[0] < len(locations) else None
+        # Entries look like [1, "sfbay", "sfc"]; some (area-wide posts) have no subarea.
+        subarea = entry[2] if isinstance(entry, list) and len(entry) > 2 else ""
         if subarea != "sfc":
             continue
         tags = {x[0]: x[1:] for x in it if isinstance(x, list) and x and isinstance(x[0], int)}

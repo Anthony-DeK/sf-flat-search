@@ -2,8 +2,8 @@ name: scan
 
 on:
   schedule:
-    # Every 30 min, ~7am-midnight Pacific (cron is UTC).
-    - cron: "*/30 0-7,14-23 * * *"
+    # Every 30 min, ~7am-midnight Pacific (cron is UTC). Off the :00/:30 marks, which GitHub often delays or drops.
+    - cron: "7,37 0-7,14-23 * * *"
   workflow_dispatch:
 
 permissions:
@@ -37,4 +37,4 @@ jobs:
           git config user.name "apartment-bot"
           git config user.email "apartment-bot@users.noreply.github.com"
           git add data docs/listings.json
-          git diff --cached --quiet || (git commit -m "scan $(date -u +%FT%TZ)" && git push)
+          git diff --cached --quiet || (git commit -m "scan $(date -u +%FT%TZ)" && git pull --rebase -X theirs origin main && git push)

@@ -14,11 +14,25 @@ neighborhoods:
   Mission Dolores: {names: [mission dolores, dolores heights, dolores park], box: [37.755, 37.770, -122.436, -122.420]}
   Castro:          {names: ['castro(?! valley)', duboce triangle, eureka valley, upper market], box: [37.755, 37.7715, -122.4425, -122.436]}
   Noe Valley:      {names: [noe valley],                            box: [37.740, 37.755, -122.442, -122.421]}
-  SoMa:
-    names: [soma, south of market, south beach, rincon hill, mission bay, yerba buena, east cut]
-    poly: [[37.7946, -122.3950], [37.7759, -122.4176], [37.7725, -122.4200], [37.7693, -122.4200],
-           [37.7700, -122.4030], [37.7637, -122.3990], [37.7637, -122.3860], [37.7800, -122.3870],
-           [37.7890, -122.3880]]
+  # SoMa split along 7th and 4th St. The Market-Howard corridor between 5th and 8th is excluded below.
+  West SoMa:
+    names: ['west(ern)? soma', wsoma]
+    poly: [[37.7799, -122.4119], [37.7759, -122.4176], [37.7725, -122.4200], [37.7693, -122.4200], [37.7700, -122.4030]]
+  Central SoMa:
+    names: [central soma, yerba buena]
+    poly: [[37.7857, -122.4058], [37.7799, -122.4119], [37.7700, -122.4030], [37.7765, -122.3945]]
+  East SoMa / Mission Bay:
+    names: [south beach, rincon hill, east cut, south park, mission bay]
+    poly: [[37.7946, -122.3950], [37.7857, -122.4058], [37.7765, -122.3945], [37.7700, -122.4030],
+           [37.7637, -122.3990], [37.7637, -122.3860], [37.7800, -122.3870], [37.7890, -122.3880]]
+  SoMa (unsure which part):   # text label only, no coordinates: always a "maybe"
+    names: [soma, south of market]
+    weak: true
+
+# Listings with coordinates inside these areas are rejected even if they match an area above.
+exclude:
+  Market St corridor (5th-8th, Market-Howard):
+    poly: [[37.7834, -122.4075], [37.7782, -122.4141], [37.7761, -122.4116], [37.7810, -122.4044]]
 
 # Zip-only matches are weak (e.g. 94110 also covers the Mission/Bernal), so they land in "maybe".
 weak_zips: ["94108", "94109", "94133", "94114", "94110", "94131", "94123", "94115", "94117", "94102", "94103", "94105", "94107", "94158"]
@@ -31,7 +45,7 @@ required:
     match: 'in[- ]?unit (laundry|w/?d|washer)|washer\s*(/|&|and)?\s*dryer\s*(in|inside)\s*(the\s*)?(unit|apartment)|laundry in (the )?unit|w/d in unit|w/d in apartment|private (washer|laundry)'
     reject: 'coin[- ]?op|shared laundry|laundry (on[- ]site|in (the )?building|room)|common laundry'
 
-not_residential: '\b(commercial|office|retail) space\b|\bparking (space|spot) (for rent|available)\b|\bstorage unit\b'
+not_residential: '^\W*(?:\w+\s+){0,2}parking\b|\b(commercial|office|retail) space\b|\bparking (space|spot) (for rent|available)\b|\bstorage unit\b'
 
 bonus: [balcony, deck, roof deck, rooftop, roof top, patio, terrace, "views?", parking, garage, garden, gym]
 

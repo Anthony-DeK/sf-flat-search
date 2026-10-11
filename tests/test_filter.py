@@ -91,8 +91,11 @@ def test_new_neighborhoods():
     assert neighborhood(L(lat=37.7890, lon=-122.4350))[0] == "Pacific Heights"
     assert neighborhood(L(lat=37.7765, lon=-122.4245))[0] == "Hayes Valley"
     assert neighborhood(L(lat=37.7610, lon=-122.4390))[0] == "Castro"
-    assert neighborhood(L(lat=37.7810, lon=-122.3990))[0] == "SoMa"         # 2nd & Folsom
-    assert neighborhood(L(lat=37.7700, lon=-122.3910))[0] == "SoMa"         # Mission Bay
+    assert neighborhood(L(lat=37.7859, lon=-122.3928))[0] == "East SoMa / Mission Bay"   # South Beach
+    assert neighborhood(L(lat=37.7700, lon=-122.3910))[0] == "East SoMa / Mission Bay"   # Mission Bay
+    assert neighborhood(L(lat=37.7754, lon=-122.4130))[0] == "West SoMa"                 # 1288 Howard
+    assert neighborhood(L(lat=37.7801, lon=-122.4038))[0] == "Central SoMa"              # 900 Folsom
+    assert neighborhood(L(hood_text="SOMA")) == ("SoMa (unsure which part)", False)
     assert neighborhood(L(lat=37.7830, lon=-122.4150))[0] is None           # Tenderloin, north of Market
     assert neighborhood(L(hood_text="lower pac hts")) == ("Pacific Heights", True)
     assert neighborhood(L(hood_text="hayward / castro valley"))[0] is None
@@ -112,3 +115,9 @@ def test_alert_email_parser():
     assert [(l.price, l.beds) for l in ls] == [(3850, 1), (4400, 2)]
     assert ls[0].address.startswith("1450 Washington St #4")
     assert ls[0].photo == "https://photos/1.jpg" and ls[0].furnished is True
+
+
+def test_market_corridor_excluded():
+    ev = evaluate(L(lat=37.7800, lon=-122.4100, text="furnished, in-unit laundry"))   # 6th & Mission
+    assert ev["status"] == "reject" and ev["reasons"][0].startswith("excluded area")
+    assert "not residential" in evaluate(L(title="Spacious Garage Parking - Close to Jasper"))["reasons"]

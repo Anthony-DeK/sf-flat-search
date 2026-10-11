@@ -26,6 +26,8 @@ def _named(text, h):
 
 
 def _inside(lat, lon, h):
+    if "box" not in h and "poly" not in h:
+        return False
     if "box" in h:
         la0, la1, lo0, lo1 = h["box"]
         return la0 <= lat <= la1 and lo0 <= lon <= lo1
@@ -37,10 +39,19 @@ def _inside(lat, lon, h):
     return inside
 
 
+def excluded(listing, crit=CRITERIA):
+    if listing.lat is None:
+        return None
+    return next((name for name, h in (crit.get("exclude") or {}).items()
+                 if _inside(listing.lat, listing.lon, h)), None)
+
+
 def neighborhood(listing, crit=CRITERIA):
     """Return (name, confident). name is None when the listing is outside the target area."""
     hoods = crit["neighborhoods"]
     if listing.lat is not None and listing.lon is not None:
+        if excluded(listing, crit):
+            return None, True
         for name, h in hoods.items():
             if _inside(listing.lat, listing.lon, h):
                 return name, True
@@ -48,7 +59,7 @@ def neighborhood(listing, crit=CRITERIA):
     labeled = " ".join([listing.hood_text, listing.title, listing.address])
     for name, h in hoods.items():
         if _named(labeled, h):
-            return name, True
+            return name, not h.get("weak")
     for name, h in hoods.items():
         if _named(listing.text, h):
             return name, False   # only mentioned in the description ("walk to North Beach")
@@ -87,7 +98,9 @@ def evaluate(listing, crit=CRITERIA):
         reasons.append(f"{listing.beds} beds")
 
     hood, confident = neighborhood(listing, crit)
-    if hood is None:
+    if excl := excluded(listing, crit):
+        reasons.append(f"excluded area: {excl}")
+    elif hood is None:
         reasons.append("outside target neighborhoods")
     elif not confident:
         unknown.append("neighborhood")

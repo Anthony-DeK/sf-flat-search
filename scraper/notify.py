@@ -17,18 +17,22 @@ def _line(l):
 
 
 def push(listings, dry_run=False):
+    """Returns True if anything was actually delivered."""
     topic = os.environ.get("NTFY_TOPIC")
+    sent = False
     for l in listings:
         title = ("🔥 " if l.get("deal") else "") + _line(l)
         body = l["title"][:200] + (f"\n+ {', '.join(l['bonus'])}" if l.get("bonus") else "") + f"\n{l['source']}"
         if dry_run or not topic:
             print(f"  [push] {title} | {l['url']}")
             continue
+        sent = True
         # JSON publish keeps emoji/UTF-8 intact (headers are latin-1 only).
         http.post("https://ntfy.sh/", json={
             "topic": topic, "title": title, "message": body, "click": l["url"],
             "priority": 4 if l.get("deal") else 3, "tags": ["house"],
         })
+    return sent
 
 
 def _rows(items):
@@ -41,8 +45,9 @@ def _rows(items):
 
 
 def email(matches, maybes, broken, dashboard_url="", dry_run=False):
+    """Returns True if the email was actually sent."""
     if not (matches or maybes or broken):
-        return
+        return False
     if matches or maybes:
         subject = f"🏠 {len(matches)} new match{'es' * (len(matches) != 1)}" + (f", {len(maybes)} maybe" if maybes else "")
     else:
@@ -59,9 +64,10 @@ def email(matches, maybes, broken, dashboard_url="", dry_run=False):
     user, pw, to = (os.environ.get(k) for k in ("GMAIL_USER", "GMAIL_APP_PASSWORD", "ALERT_TO"))
     if dry_run or not (user and pw):
         print(f"  [email] {subject} ({len(matches)} matches, {len(maybes)} maybes, {len(broken)} broken)")
-        return
+        return False
     msg = MIMEText(html, "html")
     msg["Subject"], msg["From"], msg["To"] = subject, user, to or user
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
         s.login(user, pw)
         s.send_message(msg)
+    return True

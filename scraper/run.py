@@ -163,12 +163,13 @@ def main():
 
     new_matches.sort(key=lambda r: (not r["deal"], r["price"] or 1e9))
     print(f"\nnew matches: {len(new_matches)} · new maybes: {len(new_maybes)} · broken: {len(broken)}")
-    notify.push(new_matches, dry_run=args.dry_run)
-    notify.email(new_matches, new_maybes, broken, os.environ.get("DASHBOARD_URL", ""), dry_run=args.dry_run)
+    pushed = notify.push(new_matches, dry_run=args.dry_run)
+    emailed = notify.email(new_matches, new_maybes, broken, os.environ.get("DASHBOARD_URL", ""), dry_run=args.dry_run)
 
     if args.dry_run:
         return
-    for r in new_matches + new_maybes:
+    # Only consume alerts that reached you; until secrets are set, listings stay pending.
+    for r in (new_matches if pushed or emailed else []) + (new_maybes if emailed else []):
         state[r["id"]]["alerted"] = True
     drop_before = now() - DROP_REJECTS_AFTER
     state = {k: v for k, v in state.items()

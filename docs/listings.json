@@ -1,0 +1,372 @@
+{
+ "updated": "2026-10-11T16:54:56+00:00",
+ "listings": [
+  {
+   "id": "craigslist:7981674444",
+   "source": "Craigslist (apa)",
+   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sun-115pm-145pm/7981674444.html",
+   "title": "OPEN SUN 1:15pm-1:45pm. Furnished, In-Unit W/D,H/W Flrs(690 Sutter)",
+   "price": 3495,
+   "beds": 1,
+   "baths": null,
+   "sqft": null,
+   "address": "690 Sutter Street, San Francisco, CA 94102",
+   "hood_text": "nob hill",
+   "lat": 37.7889,
+   "lon": -122.4114,
+   "photo": "https://images.craigslist.org/01414_hJblfWsofF0_0qs0eU_600x450.jpg",
+   "available": "available now \n \n \n\n\n\n \n open house: \n \n sunday 2",
+   "furnished": true,
+   "in_unit_wd": true,
+   "lease": "12mo",
+   "amenities": [],
+   "status": "match",
+   "hood": "Nob Hill",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [
+    "views"
+   ],
+   "hood_confident": true,
+   "last_seen": "2026-10-11T16:54:56+00:00",
+   "active": true,
+   "first_seen": "2026-10-11T16:54:56+00:00",
+   "price_history": [
+    [
+     "2026-10-11T16:54:56+00:00",
+     3495
+    ]
+   ],
+   "also_on": [
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sun-115pm-145pm/7980833415.html",
+    "https://eminvest.appfolio.com/listings/detail/9f40b45d-6ca8-4d48-b985-24193a46ebc8"
+   ],
+   "deal": false,
+   "snippet": "Executive 1BR/1BA\n\n* $3,495/month annual lease\n\n* Fully furnished executive residence\n\n* In‑unit washer & dryer\n\n* Hardwood floors throughout\n\n* Large windows with city views\n\n* Bright, light-filled living space\n\n* Chef’s kitchen with stainless steel appliances\n\n* Open, comfortable living layout\n\n* Prime Nob Hill address\n\n* Available: October 15th\n\n\n\n* Video walkthrough: youtube.com/shorts/E2T276C"
+  },
+  {
+   "id": "craigslist:7980294789",
+   "source": "Craigslist (apa)",
+   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-one-bedroom-condounion/7980294789.html",
+   "title": "One Bedroom Condo**Union Square and Financial District**Washer/Dryer**",
+   "price": 4000,
+   "beds": 1,
+   "baths": null,
+   "sqft": 477,
+   "address": "901 Bush Street, San Francisco, CA 94109",
+   "hood_text": "danville / san ramon",
+   "lat": 37.7897,
+   "lon": -122.4121,
+   "photo": "https://images.craigslist.org/00O0O_3rulAVro2i6_0fu0bC_600x450.jpg",
+   "available": "available now \n \n \n\n\n \n application fee details:",
+   "furnished": true,
+   "in_unit_wd": true,
+   "lease": "",
+   "amenities": [],
+   "status": "match",
+   "hood": "Nob Hill",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [
+    "deck",
+    "parking",
+    "roof deck",
+    "views"
+   ],
+   "hood_confident": true,
+   "last_seen": "2026-10-11T16:54:56+00:00",
+   "active": true,
+   "first_seen": "2026-10-11T16:54:56+00:00",
+   "price_history": [
+    [
+     "2026-10-11T16:54:56+00:00",
+     4000
+    ]
+   ],
+   "also_on": [
+    "https://amsires.appfolio.com/listings/detail/419ecdd0-8691-451b-960f-a307367611db"
+   ],
+   "deal": false,
+   "snippet": "901 Bush Street, #507, San Francisco, CA 94109\n\n\n\nPlease note: This property is currently furnished, but the owner is open to removing the furniture. The price would be the same.\n\n\n\nCozy One-bedroom, One-bath on Lower Nob Hill. Light and Bright Corner Unit on the 5th Floor. City-light views, Hardwood floors, Stainless Steel Dishwasher, and Stainless Steel Stove/Oven and Microwave. Granite countert"
+  },
+  {
+   "id": "craigslist:7978922373",
+   "source": "Craigslist (apa)",
+   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-stunning-nob-hill-1br/7978922373.html",
+   "title": "Stunning Nob Hill 1BR w/ Office",
+   "price": 4000,
+   "beds": 1,
+   "baths": null,
+   "sqft": null,
+   "address": "",
+   "hood_text": "nob hill",
+   "lat": 37.7917,
+   "lon": -122.4186,
+   "photo": "https://images.craigslist.org/00x0x_l0H5R9seCXz_0jm0cU_600x450.jpg",
+   "available": "",
+   "furnished": true,
+   "in_unit_wd": true,
+   "lease": "",
+   "amenities": [],
+   "status": "match",
+   "hood": "Nob Hill",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [],
+   "hood_confident": true,
+   "last_seen": "2026-10-11T16:54:56+00:00",
+   "active": true,
+   "first_seen": "2026-10-11T16:54:56+00:00",
+   "price_history": [
+    [
+     "2026-10-11T16:54:56+00:00",
+     4000
+    ]
+   ],
+   "deal": false,
+   "snippet": "Stunning Nob Hill 1BR w/ Office, Walk-In Closets & Luxury Bath in good environment."
+  },
+  {
+   "id": "craigslist:7972730133",
+   "source": "Craigslist (apa)",
+   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bed-bath/7972730133.html",
+   "title": "2 BED 2 BATH",
+   "price": 4500,
+   "beds": 2,
+   "baths": null,
+   "sqft": 1425,
+   "address": "",
+   "hood_text": "oakland downtown",
+   "lat": 37.7999,
+   "lon": -122.4342,
+   "photo": "",
+   "available": "",
+   "furnished": true,
+   "in_unit_wd": true,
+   "lease": "",
+   "amenities": [],
+   "status": "match",
+   "hood": "Cow Hollow",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [],
+   "hood_confident": true,
+   "last_seen": "2026-10-11T16:54:56+00:00",
+   "active": true,
+   "first_seen": "2026-10-11T16:54:56+00:00",
+   "price_history": [
+    [
+     "2026-10-11T16:54:56+00:00",
+     4500
+    ]
+   ],
+   "deal": false,
+   "snippet": "THIS WELL MAINTAINED APARTMENT IS AVAILABLE FOR RENT FOR STUDENT AND PROFESSIONALS. PLEASE DO MAKE A REQUEST FOR MORE INFO AND PHOTOS"
+  },
+  {
+   "id": "blueground:51084",
+   "source": "Blueground",
+   "url": "https://www.theblueground.com/p/furnished-apartments/sfo-1741",
+   "title": "1201 Sutter St",
+   "price": 3320,
+   "beds": 1,
+   "baths": 1,
+   "sqft": 457,
+   "address": "1201 Sutter St",
+   "hood_text": "Lower Nob Hill",
+   "lat": 37.7876407,
+   "lon": -122.4202681,
+   "photo": "https://photos2.theblueground.com/736/pg51084-o-83e792fc-cedc-4b91-a0e3-2a98f80193b5.jpeg",
+   "available": "2027-06-28",
+   "furnished": true,
+   "in_unit_wd": true,
+   "lease": "11mo min",
+   "amenities": [
+    "rooftop"
+   ],
+   "status": "match",
+   "hood": "Nob Hill",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [
+    "rooftop"
+   ],
+   "hood_confident": true,
+   "last_seen": "2026-10-11T16:54:56+00:00",
+   "active": true,
+   "first_seen": "2026-10-11T16:54:56+00:00",
+   "price_history": [
+    [
+     "2026-10-11T16:54:56+00:00",
+     3320
+    ]
+   ],
+   "deal": true,
+   "snippet": "Rent a fully furnished apartment in Lower Nob Hill, Saint Francis. This serviced apartment for rent has property ID 1741 and is suitable for long-term rental."
+  },
+  {
+   "id": "blueground:39976",
+   "source": "Blueground",
+   "url": "https://www.theblueground.com/p/furnished-apartments/sfo-1621",
+   "title": "429 14th St",
+   "price": 3720,
+   "beds": 1,
+   "baths": 1,
+   "sqft": 500,
+   "address": "429 14th St",
+   "hood_text": "Mission Dolores",
+   "lat": 37.7679227,
+   "lon": -122.4228996,
+   "photo": "https://photos2.theblueground.com/736/pg39976-o-edc4283a-ccf9-4e8e-9974-5a6460303d8a.jpeg",
+   "available": "2027-03-01",
+   "furnished": true,
+   "in_unit_wd": true,
+   "lease": "1mo min",
+   "amenities": [],
+   "status": "match",
+   "hood": "Mission Dolores",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [],
+   "hood_confident": true,
+   "last_seen": "2026-10-11T16:54:56+00:00",
+   "active": true,
+   "first_seen": "2026-10-11T16:54:56+00:00",
+   "price_history": [
+    [
+     "2026-10-11T16:54:56+00:00",
+     3720
+    ]
+   ],
+   "deal": false,
+   "snippet": "Rent a fully furnished apartment in Mission Dolores, Saint Francis. This serviced apartment for rent has property ID 1621 and is suitable for long-term rental."
+  },
+  {
+   "id": "appfolio:twobliving:de0de694-9c70-40ba-b7eb-584bcba07af1",
+   "source": "AppFolio · twobliving",
+   "url": "https://twobliving.appfolio.com/listings/detail/de0de694-9c70-40ba-b7eb-584bcba07af1",
+   "title": "Bright & Beautifully Remodeled Junior 1-Bedroom With In Unit WD!",
+   "price": 3250,
+   "beds": 1,
+   "baths": 1.0,
+   "sqft": 515,
+   "address": "520 Geary Street, Unit 403, San Francisco, CA 94102",
+   "hood_text": "",
+   "lat": 37.786951301978,
+   "lon": -122.411882823343,
+   "photo": "https://images.cdn.appfolio.com/twobliving/images/b57026ae-8e28-47ea-824d-1cc2eedb771a/medium.jpg",
+   "available": "",
+   "furnished": null,
+   "in_unit_wd": true,
+   "lease": "",
+   "amenities": [],
+   "status": "maybe",
+   "hood": "Nob Hill",
+   "reasons": [],
+   "unknown": [
+    "furnished"
+   ],
+   "bonus": [],
+   "hood_confident": true,
+   "last_seen": "2026-10-11T16:54:56+00:00",
+   "active": true,
+   "first_seen": "2026-10-11T16:54:56+00:00",
+   "price_history": [
+    [
+     "2026-10-11T16:54:56+00:00",
+     3250
+    ]
+   ],
+   "deal": true,
+   "snippet": "3D Tour - https://real.vision/my/520-geary-street-403/tour \r\n\r\n520 Geary Street, San Francisco, CA 94102\r\nWelcome home to this bright, beautifully remodeled junior 1-bedroom apartment in the heart of San Francisco.\r\nFilled with natural light, this thoughtfully updated home combines classic San Francisco character with clean, modern finishes. The spacious main living area features beautiful hardwoo"
+  }
+ ],
+ "health": {
+  "Craigslist apartments": {
+   "zero_runs": 0,
+   "error_runs": 0,
+   "can_be_empty": false,
+   "last_count": 22,
+   "last_ok": "2026-10-11T16:54:56+00:00",
+   "last_error": null
+  },
+  "Craigslist sublets": {
+   "zero_runs": 0,
+   "error_runs": 1,
+   "can_be_empty": true,
+   "last_count": 0,
+   "last_error": "IndexError: list index out of range"
+  },
+  "Blueground": {
+   "zero_runs": 0,
+   "error_runs": 0,
+   "can_be_empty": false,
+   "last_count": 31,
+   "last_ok": "2026-10-11T16:54:56+00:00",
+   "last_error": null
+  },
+  "RentSFNow": {
+   "zero_runs": 1,
+   "error_runs": 0,
+   "can_be_empty": true,
+   "last_count": 0,
+   "last_ok": "2026-10-11T16:54:56+00:00",
+   "last_error": null
+  },
+  "AppFolio landlords": {
+   "zero_runs": 0,
+   "error_runs": 0,
+   "can_be_empty": false,
+   "last_count": 81,
+   "last_ok": "2026-10-11T16:54:56+00:00",
+   "last_error": null
+  },
+  "r/SFBayHousing": {
+   "zero_runs": 0,
+   "error_runs": 0,
+   "can_be_empty": true,
+   "last_count": 9,
+   "last_ok": "2026-10-11T16:54:56+00:00",
+   "last_error": null
+  }
+ },
+ "manual": [
+  {
+   "name": "Furnished Finder",
+   "why": "403 / captcha",
+   "tip": "Best furnished 3-12 mo inventory; create a saved search"
+  },
+  {
+   "name": "Landing",
+   "why": "403"
+  },
+  {
+   "name": "HotPads",
+   "why": "PerimeterX captcha"
+  },
+  {
+   "name": "Apartment List",
+   "why": "403"
+  },
+  {
+   "name": "Redfin rentals",
+   "why": "captcha"
+  },
+  {
+   "name": "CorporateHousing.com",
+   "why": "403"
+  },
+  {
+   "name": "SF City Rents",
+   "why": "listings rendered by JS (AppFolio websites)"
+  },
+  {
+   "name": "Zumper / PadMapper",
+   "why": "JS app; internal API possible later"
+  },
+  {
+   "name": "Facebook: SF Housing, Rooms, Apartments, Sublets",
+   "why": "login required"
+  }
+ ]
+}

@@ -28,6 +28,23 @@ sources:
     subdomains: [amsires, eminvest, twobliving, azaripm, bancalsf, apg, progressivesf, luminor, greenerealty,
                  spsf, chandlerproperties, baypropertygroup, amore, ggproperties, ralstonmgmt]
 
+  - name: Zumper / PadMapper
+    adapter: zumper
+    skip_feeds: [blueground_buildings, blueground_cities]   # scraped directly above
+
+  - name: Alert emails
+    adapter: alertmail
+    can_be_empty: true
+    days: 3
+    # Set each saved search's filters on the site (SF, $3-5k, 1-2BR, furnished, in-unit W/D) and
+    # declare here what those filters guarantee, so the listing doesn't land in "maybe".
+    senders:
+      - {name: Furnished Finder, from: furnishedfinder.com, assume: {furnished: true}}
+      - {name: Zillow,           from: zillow.com,          assume: {furnished: true, in_unit_wd: true}}
+      - {name: HotPads,          from: hotpads.com,         assume: {furnished: true, in_unit_wd: true}}
+      - {name: Apartments.com,   from: apartments.com,      assume: {furnished: true, in_unit_wd: true}}
+      - {name: Redfin,           from: redfin.com}
+
   - name: r/SFBayHousing
     adapter: reddit
     url: https://www.reddit.com/r/SFBayHousing/new/.rss
@@ -42,5 +59,4 @@ manual:
   - {name: Redfin rentals, why: "captcha"}
   - {name: CorporateHousing.com, why: "403"}
   - {name: SF City Rents, why: "listings rendered by JS (AppFolio websites)"}
-  - {name: Zumper / PadMapper, why: "JS app; internal API possible later"}
   - {name: "Facebook: SF Housing, Rooms, Apartments, Sublets", why: "login required"}

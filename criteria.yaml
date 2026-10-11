@@ -1,17 +1,27 @@
 price: {min: 3000, max: 5000}
 bedrooms: [1, 2]
 
-# Approximate bounding boxes (lat_min, lat_max, lon_min, lon_max). Coordinates win over text when present.
+# Areas checked in order; first hit wins. Coordinates beat text labels when present.
+# box: [lat_min, lat_max, lon_min, lon_max]; poly: [[lat, lon], ...] for shapes a box can't follow.
+# names are regexes matched on word boundaries against the source's neighborhood label/title/address.
 neighborhoods:
   Nob Hill:        {names: [nob hill, lower nob hill],              box: [37.786, 37.797, -122.4225, -122.4085]}
   North Beach:     {names: [north beach, telegraph hill],           box: [37.796, 37.808, -122.414, -122.400]}
   Russian Hill:    {names: [russian hill],                          box: [37.795, 37.806, -122.4255, -122.414]}
   Cow Hollow:      {names: [cow hollow, marina],                    box: [37.794, 37.808, -122.448, -122.4255]}
+  Pacific Heights: {names: ['(lower )?pac(ific)? h(eigh)?ts'],      box: [37.784, 37.794, -122.4475, -122.4225]}
+  Hayes Valley:    {names: [hayes valley],                          box: [37.7715, 37.780, -122.4335, -122.4195]}
   Mission Dolores: {names: [mission dolores, dolores heights, dolores park], box: [37.755, 37.770, -122.436, -122.420]}
+  Castro:          {names: ['castro(?! valley)', duboce triangle, eureka valley, upper market], box: [37.755, 37.7715, -122.4425, -122.436]}
   Noe Valley:      {names: [noe valley],                            box: [37.740, 37.755, -122.442, -122.421]}
+  SoMa:
+    names: [soma, south of market, south beach, rincon hill, mission bay, yerba buena, east cut]
+    poly: [[37.7946, -122.3950], [37.7759, -122.4176], [37.7725, -122.4200], [37.7693, -122.4200],
+           [37.7700, -122.4030], [37.7637, -122.3990], [37.7637, -122.3860], [37.7800, -122.3870],
+           [37.7890, -122.3880]]
 
 # Zip-only matches are weak (e.g. 94110 also covers the Mission/Bernal), so they land in "maybe".
-weak_zips: ["94108", "94109", "94133", "94114", "94110", "94131", "94123"]
+weak_zips: ["94108", "94109", "94133", "94114", "94110", "94131", "94123", "94115", "94117", "94102", "94103", "94105", "94107", "94158"]
 
 required:
   furnished:

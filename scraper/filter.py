@@ -21,22 +21,36 @@ def _flag(structured, text, rule):
     return None
 
 
+def _named(text, h):
+    return any(re.search(rf"\b{n}\b", text, re.I) for n in h["names"])
+
+
+def _inside(lat, lon, h):
+    if "box" in h:
+        la0, la1, lo0, lo1 = h["box"]
+        return la0 <= lat <= la1 and lo0 <= lon <= lo1
+    # Ray casting point-in-polygon.
+    pts, inside = h["poly"], False
+    for (y1, x1), (y2, x2) in zip(pts, pts[1:] + pts[:1]):
+        if (y1 > lat) != (y2 > lat) and lon < x1 + (lat - y1) * (x2 - x1) / (y2 - y1):
+            inside = not inside
+    return inside
+
+
 def neighborhood(listing, crit=CRITERIA):
     """Return (name, confident). name is None when the listing is outside the target area."""
     hoods = crit["neighborhoods"]
     if listing.lat is not None and listing.lon is not None:
         for name, h in hoods.items():
-            la0, la1, lo0, lo1 = h["box"]
-            if la0 <= listing.lat <= la1 and lo0 <= listing.lon <= lo1:
+            if _inside(listing.lat, listing.lon, h):
                 return name, True
         return None, True
-    labeled = " ".join([listing.hood_text, listing.title, listing.address]).lower()
+    labeled = " ".join([listing.hood_text, listing.title, listing.address])
     for name, h in hoods.items():
-        if any(n in labeled for n in h["names"]):
+        if _named(labeled, h):
             return name, True
-    body = listing.text.lower()
     for name, h in hoods.items():
-        if any(n in body for n in h["names"]):
+        if _named(listing.text, h):
             return name, False   # only mentioned in the description ("walk to North Beach")
     m = ZIP_RE.search(listing.address or "")
     if m and m.group(1) in crit["weak_zips"]:

@@ -65,7 +65,7 @@ def test_neighborhood_by_coords():
     assert neighborhood(L(lat=37.7510, lon=-122.4330))[0] == "Noe Valley"
     assert neighborhood(L(lat=37.7620, lon=-122.4260))[0] == "Mission Dolores"
     # Coordinates outside every box win over a "near Nob Hill" mention.
-    assert neighborhood(L(lat=37.7790, lon=-122.3950, hood_text="nob hill"))[0] is None   # SoMa
+    assert neighborhood(L(lat=37.7550, lon=-122.4950, hood_text="nob hill"))[0] is None   # Outer Sunset
     assert neighborhood(L(lat=37.7880, lon=-122.4075))[0] is None                         # Union Square
 
 
@@ -85,3 +85,30 @@ def test_parsers():
     assert parse_price("Rent: $3,495/mo") == 3495
     assert parse_beds("Sunny 2BR/1BA") == 2
     assert parse_beds("Big studio") == 0
+
+
+def test_new_neighborhoods():
+    assert neighborhood(L(lat=37.7890, lon=-122.4350))[0] == "Pacific Heights"
+    assert neighborhood(L(lat=37.7765, lon=-122.4245))[0] == "Hayes Valley"
+    assert neighborhood(L(lat=37.7610, lon=-122.4390))[0] == "Castro"
+    assert neighborhood(L(lat=37.7810, lon=-122.3990))[0] == "SoMa"         # 2nd & Folsom
+    assert neighborhood(L(lat=37.7700, lon=-122.3910))[0] == "SoMa"         # Mission Bay
+    assert neighborhood(L(lat=37.7830, lon=-122.4150))[0] is None           # Tenderloin, north of Market
+    assert neighborhood(L(hood_text="lower pac hts")) == ("Pacific Heights", True)
+    assert neighborhood(L(hood_text="hayward / castro valley"))[0] is None
+
+
+def test_alert_email_parser():
+    from scraper.adapters.alertmail import parse_alert
+    html = """
+    <a href="https://click.zillow.com/abc"><img src="https://photos/1.jpg"></a>
+    <a href="https://click.zillow.com/abc">$3,850/mo</a>
+    <a href="https://click.zillow.com/abc">1 bd · 1 ba · 650 sqft</a>
+    <a href="https://click.zillow.com/abc">1450 Washington St #4, San Francisco, CA 94109</a>
+    <a href="https://click.zillow.com/xyz">$4,400/mo 2 bds 2200 Pacific Ave APT 3, San Francisco</a>
+    <a href="https://zillow.com/unsubscribe">Unsubscribe</a>
+    """
+    ls = parse_alert(html, "Zillow", {"furnished": True})
+    assert [(l.price, l.beds) for l in ls] == [(3850, 1), (4400, 2)]
+    assert ls[0].address.startswith("1450 Washington St #4")
+    assert ls[0].photo == "https://photos/1.jpg" and ls[0].furnished is True

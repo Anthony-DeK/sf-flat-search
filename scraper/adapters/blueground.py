@@ -24,8 +24,8 @@ def _slugs(state, crit):
 
     def walk(locs):
         for loc in locs:
-            name = loc.get("name", "").lower()
-            if loc.get("propertyCount") and any(w in name for w in wanted):
+            name = loc.get("name", "")
+            if loc.get("propertyCount") and any(re.search(rf"\b{w}\b", name, re.I) for w in wanted):
                 out.append(loc["slug"])
             walk(loc.get("locations", []))
 
@@ -37,9 +37,17 @@ def search(cfg, crit):
     city = _state(http.get(BASE + CITY).text)
     results = {}
     for slug in _slugs(city, crit):
-        http.pause(1)
-        st = _state(http.get(f"{BASE}{CITY}/s/{slug}").text)
-        for p in st.get("properties", {}).get("allProperties", {}).get("main", []):
+        props, page = [], 1
+        while True:   # 18 units per page; ?page=N (N >= 2) returns the next slice
+            http.pause(1)
+            st = _state(http.get(f"{BASE}{CITY}/s/{slug}" + (f"?page={page}" if page > 1 else "")).text)
+            batch = st.get("properties", {}).get("allProperties", {}).get("main", [])
+            props += batch
+            total = st.get("properties", {}).get("meta", {}).get("totalItems", 0)
+            if not batch or len(props) >= total or page >= 15:
+                break
+            page += 1
+        for p in props:
             if p.get("bedrooms") not in crit["bedrooms"]:
                 continue
             a = p.get("address", {})

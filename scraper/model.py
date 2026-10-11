@@ -30,7 +30,7 @@ class Listing:
 
 
 PRICE_RE = re.compile(r"\$\s?(\d{1,2},?\d{3})")
-BEDS_RE = re.compile(r"\b(\d)\s*(?:br|bd|bed(?:room)?s?)\b|\b(studio)\b", re.I)
+BEDS_RE = re.compile(r"\b(\d)\s*(?:br|bds?|beds?|bedrooms?)\b|\b(studio)\b", re.I)
 
 
 def parse_price(s):

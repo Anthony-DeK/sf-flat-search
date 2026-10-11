@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SF Apartment Hunter</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root {
+  --bg: #f7f6f3; --surface: #ffffff; --text: #1d1d1b; --muted: #6b6a66; --border: #e3e1dc;
+  --accent: #2f5d8a; --match: #2e7d4f; --maybe: #a06a12; --deal: #c2410c; --chip: #efede8;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161615; --surface: #1f1f1d; --text: #ecebe7; --muted: #9b9a95; --border: #33322f;
+    --accent: #7fb0e0; --match: #5fc48a; --maybe: #e0a84a; --deal: #fb8a4c; --chip: #2a2a27;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161615; --surface: #1f1f1d; --text: #ecebe7; --muted: #9b9a95; --border: #33322f;
+  --accent: #7fb0e0; --match: #5fc48a; --maybe: #e0a84a; --deal: #fb8a4c; --chip: #2a2a27;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+header { padding: 20px 16px 8px; max-width: 1200px; margin: 0 auto; }
+h1 { font-size: 20px; margin: 0 0 2px; }
+.sub { color: var(--muted); font-size: 13px; }
+main { max-width: 1200px; margin: 0 auto; padding: 0 16px 40px; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; align-items: center; }
+select, input[type=number], button {
+  font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--border);
+  border-radius: 8px; padding: 6px 10px;
+}
+button { cursor: pointer; }
+button[aria-pressed="true"] { background: var(--accent); color: var(--surface); border-color: var(--accent); }
+label.chk { display: inline-flex; gap: 6px; align-items: center; font-size: 14px; }
+#map { height: 320px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 14px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; }
+.card img { width: 100%; height: 170px; object-fit: cover; background: var(--chip); display: block; }
+.noimg { height: 8px; background: var(--chip); }
+.body { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.price { font-size: 19px; font-weight: 650; }
+.meta { color: var(--muted); font-size: 13px; }
+.title a { color: var(--text); text-decoration: none; font-weight: 550; }
+.title a:hover { text-decoration: underline; }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.chip { background: var(--chip); border-radius: 999px; padding: 1px 8px; font-size: 12px; }
+.chip.match { color: var(--match); font-weight: 600; }
+.chip.maybe { color: var(--maybe); font-weight: 600; }
+.chip.deal { color: var(--deal); font-weight: 600; }
+.chip.new { background: var(--accent); color: var(--surface); }
+.snippet { font-size: 13px; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.actions { display: flex; gap: 6px; margin-top: auto; padding-top: 4px; }
+.actions button { padding: 3px 8px; font-size: 13px; }
+.card.inactive { opacity: .55; }
+details { margin-top: 28px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 10px 14px; }
+summary { cursor: pointer; font-weight: 600; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+td, th { text-align: left; padding: 4px 6px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.empty { color: var(--muted); padding: 30px 0; text-align: center; }
+.leaflet-popup-content a { color: #2f5d8a; }
+</style>
+</head>
+<body>
+<header>
+  <h1>SF Apartment Hunter</h1>
+  <div class="sub">Furnished 1–2BR · in-unit W/D · $3–5k · Nob Hill, North Beach, Russian Hill, Cow Hollow/Marina, Mission Dolores, Noe Valley · <span id="updated"></span></div>
+</header>
+<main>
+  <div class="controls">
+    <select id="status"><option value="match">Matches</option><option value="all">Matches + maybes</option><option value="maybe">Maybes</option></select>
+    <select id="hood"><option value="">All neighborhoods</option></select>
+    <select id="lease"><option value="">Any lease</option><option value="12mo">12-month</option><option value="short">Shorter / flexible</option></select>
+    <input id="maxprice" type="number" step="100" placeholder="Max $" style="width:100px">
+    <select id="sort"><option value="new">Newest</option><option value="price">Price ↑</option><option value="ppb">$/bedroom ↑</option></select>
+    <button id="favs" aria-pressed="false">★ Favorites</button>
+    <label class="chk"><input type="checkbox" id="deal"> 🔥 deals only</label>
+    <label class="chk"><input type="checkbox" id="inactive"> show gone</label>
+  </div>
+  <div id="map"></div>
+  <div id="grid" class="grid"></div>
+  <details>
+    <summary>Sources &amp; health</summary>
+    <table id="health"></table>
+    <p class="meta">Not scraped (bot protection or login). Set up their own saved-search alerts:</p>
+    <ul id="manual" class="meta"></ul>
+  </details>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const store = {
+  get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+};
+let favs = new Set(store.get("favs", [])), hidden = new Set(store.get("hidden", []));
+const lastVisit = store.get("lastVisit", null);
+let data = { listings: [] }, map, layer;
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const money = n => n ? "$" + n.toLocaleString() : "$?";
+const ago = iso => { const h = (Date.now() - new Date(iso)) / 36e5; return h < 1 ? "just now" : h < 24 ? Math.round(h) + "h ago" : Math.round(h / 24) + "d ago"; };
+
+function filtered() {
+  const st = $("status").value, hood = $("hood").value, lease = $("lease").value, max = +$("maxprice").value || Infinity;
+  const onlyFav = $("favs").getAttribute("aria-pressed") === "true";
+  let out = data.listings.filter(l =>
+    (st === "all" || l.status === st) && (!hood || l.hood === hood) && (l.price ?? 0) <= max &&
+    (!lease || (lease === "12mo" ? l.lease === "12mo" : l.lease && l.lease !== "12mo")) &&
+    (!$("deal").checked || l.deal) && ($("inactive").checked || l.active) &&
+    (onlyFav ? favs.has(l.id) : !hidden.has(l.id)));
+  const s = $("sort").value;
+  out.sort(s === "price" ? (a, b) => (a.price ?? 1e9) - (b.price ?? 1e9)
+    : s === "ppb" ? (a, b) => (a.price ?? 1e9) / (a.beds || 1) - (b.price ?? 1e9) / (b.beds || 1)
+    : (a, b) => b.first_seen.localeCompare(a.first_seen));
+  return out;
+}
+
+function card(l) {
+  const ph = l.price_history || [];
+  const drop = ph.length > 1 && ph[ph.length - 1][1] < ph[0][1] ? ph[0][1] - ph[ph.length - 1][1] : 0;
+  const isNew = lastVisit && l.first_seen > lastVisit;
+  const chips = [
+    `<span class="chip ${l.status}">${l.status === "match" ? "✓ match" : "? " + esc((l.unknown || []).join(", "))}</span>`,
+    isNew ? `<span class="chip new">new</span>` : "",
+    l.deal ? `<span class="chip deal">🔥 deal</span>` : "",
+    drop ? `<span class="chip deal">↓ $${drop.toLocaleString()}</span>` : "",
+    l.lease ? `<span class="chip">${esc(l.lease)}</span>` : "",
+    ...(l.bonus || []).map(b => `<span class="chip">${esc(b)}</span>`),
+  ].join("");
+  const also = (l.also_on || []).map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">also #${i + 1}</a>`).join(" ");
+  return `<article class="card${l.active ? "" : " inactive"}">
+    ${l.photo ? `<img loading="lazy" src="${esc(l.photo)}" alt="">` : `<div class="noimg"></div>`}
+    <div class="body">
+      <div class="top"><span class="price">${money(l.price)}</span>
+        <span class="meta">${l.beds ?? "?"}BR${l.baths ? " · " + l.baths + "ba" : ""}${l.sqft ? " · " + l.sqft + " ft²" : ""}</span></div>
+      <div class="title"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title || l.address || "Listing")}</a></div>
+      <div class="meta">${esc(l.hood || "?")} · ${esc(l.source)} · ${ago(l.first_seen)} ${also}</div>
+      <div class="chips">${chips}</div>
+      ${l.snippet ? `<div class="snippet">${esc(l.snippet)}</div>` : ""}
+      <div class="actions">
+        <button data-fav="${esc(l.id)}">${favs.has(l.id) ? "★ Saved" : "☆ Save"}</button>
+        <button data-hide="${esc(l.id)}">${hidden.has(l.id) ? "Unhide" : "Hide"}</button>
+      </div>
+    </div></article>`;
+}
+
+function render() {
+  const list = filtered();
+  $("grid").innerHTML = list.length ? list.map(card).join("") : `<div class="empty">No listings match these filters yet.</div>`;
+  if (!map) return;
+  layer.clearLayers();
+  const pts = list.filter(l => l.lat != null);
+  pts.forEach(l => L.circleMarker([l.lat, l.lon], {
+      radius: 7, weight: 2, color: l.deal ? "#c2410c" : l.status === "match" ? "#2e7d4f" : "#a06a12", fillOpacity: .6 })
+    .bindPopup(`<b>${money(l.price)}</b> · ${l.beds}BR<br><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a>`)
+    .addTo(layer));
+  if (pts.length) map.fitBounds(L.latLngBounds(pts.map(l => [l.lat, l.lon])).pad(0.2), { maxZoom: 15 });
+}
+
+document.addEventListener("click", e => {
+  const f = e.target.dataset.fav, h = e.target.dataset.hide;
+  if (f) { favs.has(f) ? favs.delete(f) : favs.add(f); store.set("favs", [...favs]); render(); }
+  if (h) { hidden.has(h) ? hidden.delete(h) : hidden.add(h); store.set("hidden", [...hidden]); render(); }
+});
+$("favs").onclick = () => { $("favs").setAttribute("aria-pressed", $("favs").getAttribute("aria-pressed") !== "true"); render(); };
+["status", "hood", "lease", "maxprice", "sort", "deal", "inactive"].forEach(id => $(id).addEventListener("input", render));
+
+fetch("listings.json", { cache: "no-store" }).then(r => r.json()).then(d => {
+  data = d;
+  $("updated").textContent = "updated " + ago(d.updated);
+  [...new Set(d.listings.map(l => l.hood).filter(h => h && !h.startsWith("zip")))].sort()
+    .forEach(h => $("hood").insertAdjacentHTML("beforeend", `<option>${esc(h)}</option>`));
+  $("health").innerHTML = "<tr><th>Source</th><th>Last count</th><th>Status</th></tr>" + Object.entries(d.health || {}).map(([n, h]) =>
+    `<tr><td>${esc(n)}</td><td>${h.last_count ?? "–"}</td><td>${h.last_error ? "⚠️ " + esc(h.last_error) : h.zero_runs >= 4 && !h.can_be_empty ? "⚠️ empty " + h.zero_runs + " runs" : "ok"}</td></tr>`).join("");
+  $("manual").innerHTML = (d.manual || []).map(m => `<li><b>${esc(m.name)}</b>: ${esc(m.why)}${m.tip ? ". " + esc(m.tip) : ""}</li>`).join("");
+  if (window.L) {
+    map = L.map("map", { scrollWheelZoom: false }).setView([37.785, -122.43], 13);
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+      { attribution: "© OpenStreetMap © CARTO", maxZoom: 19 }).addTo(map);
+    layer = L.layerGroup().addTo(map);
+  }
+  render();
+  store.set("lastVisit", d.updated);
+}).catch(() => { $("grid").innerHTML = `<div class="empty">Couldn't load listings.json.</div>`; });
+</script>
+</body>
+</html>

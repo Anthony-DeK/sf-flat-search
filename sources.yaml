@@ -1,0 +1,45 @@
+# Researched and verified 2026-10-11. Each entry maps to scraper/adapters/<adapter>.py.
+sources:
+  - name: Craigslist apartments
+    adapter: craigslist
+    category: apa
+    queries:                              # merged; structured filters set furnished / W/D flags
+      - {is_furnished: 1, laundry: 1, min_bedrooms: 1, max_bedrooms: 2}
+      - {is_furnished: 1, min_bedrooms: 1, max_bedrooms: 2}             # W/D not tagged by poster
+      - {query: furnished, laundry: 1, min_bedrooms: 1, max_bedrooms: 2} # furnished not tagged
+
+  - name: Craigslist sublets
+    adapter: craigslist
+    can_be_empty: true
+    category: sub
+    queries:
+      - {is_furnished: 1}
+      - {query: furnished}
+
+  - name: Blueground
+    adapter: blueground
+
+  - name: RentSFNow
+    adapter: rentsfnow
+    can_be_empty: true     # furnished catalog is often empty
+
+  - name: AppFolio landlords
+    adapter: appfolio
+    subdomains: [amsires, eminvest, twobliving, azaripm, bancalsf, apg, progressivesf, luminor, greenerealty]
+
+  - name: r/SFBayHousing
+    adapter: reddit
+    url: https://www.reddit.com/r/SFBayHousing/new/.rss
+    can_be_empty: true
+
+# Not scraped. Bot protection or JS-only; set up each site's own saved-search alert.
+manual:
+  - {name: Furnished Finder, why: "403 / captcha", tip: "Best furnished 3-12 mo inventory; create a saved search"}
+  - {name: Landing, why: "403"}
+  - {name: HotPads, why: "PerimeterX captcha"}
+  - {name: Apartment List, why: "403"}
+  - {name: Redfin rentals, why: "captcha"}
+  - {name: CorporateHousing.com, why: "403"}
+  - {name: SF City Rents, why: "listings rendered by JS (AppFolio websites)"}
+  - {name: Zumper / PadMapper, why: "JS app; internal API possible later"}
+  - {name: "Facebook: SF Housing, Rooms, Apartments, Sublets", why: "login required"}

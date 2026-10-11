@@ -1,0 +1,30 @@
+price: {min: 3000, max: 5000}
+bedrooms: [1, 2]
+
+# Approximate bounding boxes (lat_min, lat_max, lon_min, lon_max). Coordinates win over text when present.
+neighborhoods:
+  Nob Hill:        {names: [nob hill, lower nob hill],              box: [37.786, 37.797, -122.4205, -122.4085]}
+  North Beach:     {names: [north beach, telegraph hill],           box: [37.796, 37.808, -122.414, -122.400]}
+  Russian Hill:    {names: [russian hill],                          box: [37.795, 37.806, -122.4255, -122.414]}
+  Cow Hollow:      {names: [cow hollow, marina],                    box: [37.794, 37.808, -122.448, -122.4255]}
+  Mission Dolores: {names: [mission dolores, dolores heights, dolores park], box: [37.755, 37.770, -122.436, -122.420]}
+  Noe Valley:      {names: [noe valley],                            box: [37.740, 37.755, -122.442, -122.421]}
+
+# Zip-only matches are weak (e.g. 94110 also covers the Mission/Bernal), so they land in "maybe".
+weak_zips: ["94108", "94109", "94133", "94114", "94110", "94131", "94123"]
+
+required:
+  furnished:
+    match: '\b(fully[- ]|partially[- ]|newly[- ])?furnished\b'
+    reject: '\bunfurnished\b|\bnot furnished\b|\bfurniture not included\b'
+  in_unit_wd:
+    match: 'in[- ]?unit (laundry|w/?d|washer)|washer\s*(/|&|and)?\s*dryer\s*(in|inside)\s*(the\s*)?(unit|apartment)|laundry in (the )?unit|w/d in unit|w/d in apartment|private (washer|laundry)'
+    reject: 'coin[- ]?op|shared laundry|laundry (on[- ]site|in (the )?building|room)|common laundry'
+
+not_residential: '\b(commercial|office|retail) space\b|\bparking (space|spot) (for rent|available)\b|\bstorage unit\b'
+
+bonus: [balcony, deck, roof deck, rooftop, roof top, patio, terrace, "views?", parking, garage, garden, gym]
+
+lease:
+  12mo:  '12[- ]?month|one[- ]year|1[- ]year|annual lease|year lease|yearly lease'
+  m2m:   'month[- ]to[- ]month|monthly lease|no lease'

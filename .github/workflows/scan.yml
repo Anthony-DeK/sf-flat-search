@@ -1,0 +1,40 @@
+name: scan
+
+on:
+  schedule:
+    # Every 30 min, ~7am-midnight Pacific (cron is UTC).
+    - cron: "*/30 0-7,14-23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Scan sources
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+          DASHBOARD_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python -m scraper.run
+      - name: Commit state
+        run: |
+          git config user.name "apartment-bot"
+          git config user.email "apartment-bot@users.noreply.github.com"
+          git add data docs/listings.json
+          git diff --cached --quiet || (git commit -m "scan $(date -u +%FT%TZ)" && git push)

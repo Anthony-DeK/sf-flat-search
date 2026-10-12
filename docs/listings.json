@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T10:38:25+00:00",
+ "updated": "2026-10-12T22:05:16+00:00",
  "listings": [
   {
    "id": "craigslist:7981674444",
@@ -37,11 +37,12 @@
      3495
     ]
    ],
+   "deal": true,
    "also_on": [
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sun-115pm-145pm/7980833415.html",
-    "https://eminvest.appfolio.com/listings/detail/9f40b45d-6ca8-4d48-b985-24193a46ebc8"
+    "https://eminvest.appfolio.com/listings/detail/9f40b45d-6ca8-4d48-b985-24193a46ebc8",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-furnished-in-unit-dh/7982250735.html"
    ],
-   "deal": false,
    "snippet": "Executive 1BR/1BA\n\n* $3,495/month annual lease\n\n* Fully furnished executive residence\n\n* In‑unit washer & dryer\n\n* Hardwood floors throughout\n\n* Large windows with city views\n\n* Bright, light-filled living space\n\n* Chef’s kitchen with stainless steel appliances\n\n* Open, comfortable living layout\n\n* Prime Nob Hill address\n\n* Available: October 15th\n\n\n\n* Video walkthrough: youtube.com/shorts/E2T276C"
   },
   {
@@ -54,7 +55,7 @@
    "baths": null,
    "sqft": 477,
    "address": "901 Bush Street, San Francisco, CA 94109",
-   "hood_text": "danville / san ramon",
+   "hood_text": "Felton",
    "lat": 37.7897,
    "lon": -122.4121,
    "photo": "https://images.craigslist.org/00O0O_3rulAVro2i6_0fu0bC_600x450.jpg",
@@ -74,7 +75,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -99,7 +100,7 @@
    "baths": null,
    "sqft": 650,
    "address": "",
-   "hood_text": "berkeley",
+   "hood_text": "oakland north / temescal",
    "lat": 37.7789,
    "lon": -122.3928,
    "photo": "",
@@ -120,7 +121,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -142,7 +143,7 @@
    "baths": null,
    "sqft": null,
    "address": "85 Columbia Square, SAN FANCISCO, CA 94103",
-   "hood_text": "berkeley",
+   "hood_text": "oakland north / temescal",
    "lat": 37.7725,
    "lon": -122.4147,
    "photo": "https://images.craigslist.org/00d0d_1OWRHs0UC3l_0gw0b1_600x450.jpg",
@@ -157,7 +158,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -220,7 +221,7 @@
    "baths": null,
    "sqft": 1425,
    "address": "",
-   "hood_text": "oakland downtown",
+   "hood_text": "dublin / pleasanton / livermore",
    "lat": 37.7999,
    "lon": -122.4342,
    "photo": "",
@@ -235,7 +236,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -257,7 +258,7 @@
    "baths": null,
    "sqft": 530,
    "address": "236 Shipley, San Francisco, CA 94107",
-   "hood_text": "berkeley",
+   "hood_text": "oakland north / temescal",
    "lat": 37.7791,
    "lon": -122.4038,
    "photo": "https://images.craigslist.org/00e0e_h4Vmgpnvl66_0gs0aY_600x450.jpg",
@@ -274,7 +275,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -296,7 +297,7 @@
    "baths": null,
    "sqft": 605,
    "address": "425 1st St, San Francisco, CA 94105",
-   "hood_text": "berkeley",
+   "hood_text": "oakland north / temescal",
    "lat": 37.7859,
    "lon": -122.3928,
    "photo": "https://images.craigslist.org/00W0W_2nwkynpEe25_0ak06S_600x450.jpg",
@@ -313,7 +314,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -355,7 +356,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -399,7 +400,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -436,7 +437,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -479,7 +480,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -518,7 +519,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -555,7 +556,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -598,7 +599,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -609,6 +610,50 @@
    ],
    "deal": true,
    "snippet": "225 9th St | Bright & Spacious 1BR + Office in SOMA\r\n\r\n$3,495/month | Available Now \r\nANNA KANTOR | 415-604-8236 (text to schedule a tour) \r\nApply: bancalsf.com/availability/all\r\n\r\nBRIGHT & SPACIOUS 1BR + OFFICE IN SOMA\r\nWelcome to this charming and spacious one-bedroom plus office residence at 225 9th St, conveniently located in San Francisco’s vibrant SOMA neighborhood. This home offers a fun..."
+  },
+  {
+   "id": "appfolio:progressivesf:ea194d7b-0e3f-47a5-a339-a99435a0fba3",
+   "source": "AppFolio · progressivesf",
+   "url": "https://progressivesf.appfolio.com/listings/detail/ea194d7b-0e3f-47a5-a339-a99435a0fba3",
+   "title": "HUGE 2 Level 2br/1.5Ba Loft, High Ceilings, Laundry, Central Location! PROGRESSIVE",
+   "price": 4895,
+   "beds": 2,
+   "baths": 1.5,
+   "sqft": null,
+   "address": "175 Bluxome Street, #107, San Francisco, CA 94107",
+   "hood_text": "",
+   "lat": null,
+   "lon": null,
+   "photo": "https://images.cdn.appfolio.com/progressivesf/images/fc0eb0ad-6903-40c3-ad72-a73aac175a4d/medium.jpeg",
+   "available": "",
+   "furnished": null,
+   "in_unit_wd": true,
+   "lease": "",
+   "amenities": [],
+   "status": "maybe",
+   "hood": "zip 94107",
+   "reasons": [],
+   "unknown": [
+    "neighborhood",
+    "furnished"
+   ],
+   "bonus": [],
+   "hood_confident": false,
+   "last_seen": "2026-10-12T22:05:16+00:00",
+   "active": true,
+   "first_seen": "2026-10-11T16:54:56+00:00",
+   "price_history": [
+    [
+     "2026-10-11T16:54:56+00:00",
+     5100
+    ],
+    [
+     "2026-10-12T22:05:16+00:00",
+     4895
+    ]
+   ],
+   "deal": false,
+   "snippet": "Welcome to 175 Bluxome Street! This huge unit is centrally located - within walking distance to Cal Train, AT&T Park, Whole Foods, and the Financial District. And easy access to 280, 101, and many public transportation options.\r\n\r\nThis modern, custom-designed, 2-level condo has hardwood floors and an open floor plan living/dining area, tucked away, courtyard facing bedrooms, and in-unit laundry..."
   },
   {
    "id": "reddit:t3_1x1nirp",
@@ -640,7 +685,7 @@
     "views"
    ],
    "hood_confident": false,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -677,7 +722,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -722,7 +767,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -772,7 +817,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -820,7 +865,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -853,7 +898,7 @@
    "available": "",
    "furnished": null,
    "in_unit_wd": true,
-   "lease": "12mo",
+   "lease": "",
    "amenities": [],
    "status": "maybe",
    "hood": "Nob Hill",
@@ -862,11 +907,10 @@
     "furnished"
    ],
    "bonus": [
-    "parking",
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -876,7 +920,7 @@
     ]
    ],
    "deal": false,
-   "snippet": "Perched on the top of Nob Hill, and across the street from Grace Cathedral, this newly renovated one-bedroom, one-bathroom apartment features multiple large windows that overlook the Cathedral and allow for tons of natural light. The kitchen features matching stainless steel appliances (dishwasher, gas stove/oven, refrigerator & microwave), stone countertops, and white shaker cabinets. In-Unit lau"
+   "snippet": "Perched on the top of Nob Hill, and across the street from Grace Cathedral, this newly renovated one-bedroom, one-bathroom apartment features multiple large windows that overlook the Cathedral and allow for tons of natural light. The kitchen features matching stainless steel appliances (dishwasher, gas stove/oven, refrigerator & microwave), stone countertops, and white shaker cabinets. In-Unit ..."
   },
   {
    "id": "appfolio:spsf:cf61f308-407d-4be5-9fd4-734bad4d1842",
@@ -895,20 +939,18 @@
    "available": "",
    "furnished": null,
    "in_unit_wd": true,
-   "lease": "13mo",
+   "lease": "",
    "amenities": [],
    "status": "maybe",
-   "hood": "Central SoMa",
+   "hood": "zip 94103",
    "reasons": [],
    "unknown": [
     "neighborhood",
     "furnished"
    ],
-   "bonus": [
-    "garden"
-   ],
+   "bonus": [],
    "hood_confident": false,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -917,8 +959,8 @@
      4595
     ]
    ],
-   "deal": true,
-   "snippet": "THE APARTMENT:\r\n\r\nThis updated Edwardian apartment blends modern finishes with classic San Francisco charm. Featuring high ceilings, crown molding, and abundant natural light, the spacious layout welcomes you with a wide entry foyer—perfect for a home office or additional living space.\r\n\r\nThe bright front bedroom showcases large bay windows and generous closet space, while the second bedroom overl"
+   "deal": false,
+   "snippet": "THE APARTMENT:\r\n\r\nThis updated Edwardian apartment blends modern finishes with classic San Francisco charm. Featuring high ceilings, crown molding, and abundant natural light, the spacious layout welcomes you with a wide entry foyer—perfect for a home office or additional living space.\r\n\r\nThe bright front bedroom showcases large bay windows and generous closet space, while the second bedroom ov..."
   },
   {
    "id": "appfolio:spsf:0ab577c2-844b-4713-8d5a-2e66652c9584",
@@ -940,7 +982,7 @@
    "lease": "",
    "amenities": [],
    "status": "maybe",
-   "hood": "Central SoMa",
+   "hood": "zip 94103",
    "reasons": [],
    "unknown": [
     "neighborhood",
@@ -948,7 +990,7 @@
    ],
    "bonus": [],
    "hood_confident": false,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -957,8 +999,8 @@
      4695
     ]
    ],
-   "deal": true,
-   "snippet": "Experience the perfect blend of modern updates and classic San Francisco character at 569-571 Minna Street. This thoughtfully renovated apartment preserves its original charm while offering the comfort and style of today's living.\r\n\r\nInside, you'll find a bright, inviting living space featuring updated finishes, refreshed interiors, and timeless architectural details that give the home its unique "
+   "deal": false,
+   "snippet": "Experience the perfect blend of modern updates and classic San Francisco character at 569-571 Minna Street. This thoughtfully renovated apartment preserves its original charm while offering the comfort and style of today's living.\r\n\r\nInside, you'll find a bright, inviting living space featuring updated finishes, refreshed interiors, and timeless architectural details that give the home its uniq..."
   },
   {
    "id": "zumper:22916083",
@@ -989,7 +1031,7 @@
     "gym"
    ],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -1035,7 +1077,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -1078,7 +1120,7 @@
     "balcony"
    ],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -1115,7 +1157,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -1152,7 +1194,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -1189,7 +1231,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-10-12T10:38:25+00:00",
+   "last_seen": "2026-10-12T22:05:16+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -1200,6 +1242,88 @@
    ],
    "deal": false,
    "snippet": "\nFeatures: Carpet | Dishwasher | Full Size Refrigerator | Furnished | In-Unit Laundry | Onsite Laundry | Outdoor Space | Utilities Included | Washer/Dryer Onsite"
+  },
+  {
+   "id": "craigslist:7982482746",
+   "source": "Craigslist (apa)",
+   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-elegant-pacific-heights/7982482746.html",
+   "title": "Elegant Pacific Heights condominium with fabulous outdoor space",
+   "price": 3420,
+   "beds": 1,
+   "baths": null,
+   "sqft": 1769,
+   "address": "2829 California St, San Francisco, CA 94115",
+   "hood_text": "Central Waterfront",
+   "lat": 37.788,
+   "lon": -122.4409,
+   "photo": "https://images.craigslist.org/00909_hnOnXSomJgK_0oc0g7_600x450.jpg",
+   "available": "",
+   "furnished": true,
+   "in_unit_wd": true,
+   "lease": "",
+   "amenities": [],
+   "status": "match",
+   "hood": "Pacific Heights",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [
+    "garage",
+    "parking",
+    "patio"
+   ],
+   "hood_confident": true,
+   "last_seen": "2026-10-12T22:05:16+00:00",
+   "active": true,
+   "first_seen": "2026-10-12T22:05:16+00:00",
+   "price_history": [
+    [
+     "2026-10-12T22:05:16+00:00",
+     3420
+    ]
+   ],
+   "deal": false,
+   "snippet": "This sophisticated residence features two levels and a gorgeous open kitchen and living room/dining area, outfitted with hardwood floors, and designed with floor-to-ceiling windows and sliding glass doors opening out to an expansive, private patio for seamless indoor/outdoor entertaining. The modern kitchen is outfitted with quartz countertops, a sleek tile backsplash, a center island, and luxurio"
+  },
+  {
+   "id": "appfolio:spsf:66576efb-4b62-4b13-be47-68a1ca346e99",
+   "source": "AppFolio · spsf",
+   "url": "https://spsf.appfolio.com/listings/detail/66576efb-4b62-4b13-be47-68a1ca346e99",
+   "title": "Renovated Nob Hill 1BR w/ In-Unit Laundry!",
+   "price": 4495,
+   "beds": 1,
+   "baths": 1.0,
+   "sqft": null,
+   "address": "1111 Jones Street #6, San Francisco, CA 94109",
+   "hood_text": "",
+   "lat": 37.791565363043,
+   "lon": -122.414210398798,
+   "photo": "https://images.cdn.appfolio.com/spsf/images/1f99c781-dc84-4651-941e-08203c97de85/medium.jpeg",
+   "available": "",
+   "furnished": null,
+   "in_unit_wd": true,
+   "lease": "12mo",
+   "amenities": [],
+   "status": "maybe",
+   "hood": "Nob Hill",
+   "reasons": [],
+   "unknown": [
+    "furnished"
+   ],
+   "bonus": [
+    "parking"
+   ],
+   "hood_confident": true,
+   "last_seen": "2026-10-12T22:05:16+00:00",
+   "active": true,
+   "first_seen": "2026-10-12T22:05:16+00:00",
+   "price_history": [
+    [
+     "2026-10-12T22:05:16+00:00",
+     4495
+    ]
+   ],
+   "deal": false,
+   "snippet": "Perched on the top of Nob Hill, and across the street from Grace Cathedral, this newly renovated one-bedroom, one-bathroom apartment features multiple large west facing windows that allow for tons of natural light. The kitchen features matching stainless steel appliances (dishwasher, gas stove/oven, refrigerator & microwave), stone countertops, and white shaker cabinets. In-Unit laundry was recent"
   }
  ],
  "health": {
@@ -1207,40 +1331,40 @@
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": false,
-   "last_count": 20,
-   "last_ok": "2026-10-12T10:38:25+00:00",
+   "last_count": 23,
+   "last_ok": "2026-10-12T22:05:16+00:00",
    "last_error": null
   },
   "Craigslist sublets": {
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": true,
-   "last_count": 6,
+   "last_count": 5,
    "last_error": null,
-   "last_ok": "2026-10-12T10:38:25+00:00"
+   "last_ok": "2026-10-12T22:05:16+00:00"
   },
   "Blueground": {
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": false,
-   "last_count": 216,
-   "last_ok": "2026-10-12T10:38:25+00:00",
+   "last_count": 213,
+   "last_ok": "2026-10-12T22:05:16+00:00",
    "last_error": null
   },
   "RentSFNow": {
-   "zero_runs": 5,
+   "zero_runs": 6,
    "error_runs": 0,
    "can_be_empty": true,
    "last_count": 0,
-   "last_ok": "2026-10-12T10:38:25+00:00",
+   "last_ok": "2026-10-12T22:05:16+00:00",
    "last_error": null
   },
   "AppFolio landlords": {
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": false,
-   "last_count": 136,
-   "last_ok": "2026-10-12T10:38:25+00:00",
+   "last_count": 140,
+   "last_ok": "2026-10-12T22:05:16+00:00",
    "last_error": null
   },
   "r/SFBayHousing": {
@@ -1248,7 +1372,7 @@
    "error_runs": 0,
    "can_be_empty": true,
    "last_count": 9,
-   "last_ok": "2026-10-12T10:38:25+00:00",
+   "last_ok": "2026-10-12T22:05:16+00:00",
    "last_error": null
   },
   "Zumper / PadMapper": {
@@ -1256,12 +1380,12 @@
    "error_runs": 0,
    "can_be_empty": false,
    "last_count": 9,
-   "last_ok": "2026-10-12T10:38:25+00:00",
+   "last_ok": "2026-10-12T22:05:16+00:00",
    "last_error": null
   },
   "Alert emails": {
    "zero_runs": 0,
-   "error_runs": 4,
+   "error_runs": 5,
    "can_be_empty": true,
    "last_count": 0,
    "last_error": "error: command SEARCH illegal in state AUTH, only allowed in states SELECTED"

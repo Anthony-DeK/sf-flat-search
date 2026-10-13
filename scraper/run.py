@@ -42,13 +42,14 @@ def prefilter_rejects(l, ev):
 
 
 def deal_flags(records):
-    """Flag listings in the cheapest quartile of price-per-bedroom within their neighborhood."""
-    by_hood = {}
+    """Flag listings in the cheapest quartile of price-per-bedroom within their neighborhood,
+    comparing furnished with furnished and unfurnished with unfurnished (furniture carries a premium)."""
+    by_group = {}
     for r in records.values():
         if r["status"] != "reject" and r.get("price") and r.get("beds") and r.get("hood_confident"):
-            by_hood.setdefault(r["hood"], []).append(r["price"] / r["beds"])
+            by_group.setdefault((r["hood"], r.get("furnished") is True), []).append(r["price"] / r["beds"])
     for r in records.values():
-        vals = by_hood.get(r.get("hood"), [])
+        vals = by_group.get((r.get("hood"), r.get("furnished") is True), [])
         r["deal"] = bool(len(vals) >= 6 and r.get("price") and r.get("beds")
                          and r["price"] / r["beds"] <= statistics.quantiles(vals, n=4)[0])
 
@@ -57,7 +58,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="print alerts instead of sending; don't save state")
     ap.add_argument("--source", help="only run sources whose name contains this")
-    ap.add_argument("--max-details", type=int, default=int(os.environ.get("MAX_DETAILS", 60)))
+    ap.add_argument("--max-details", type=int, default=int(os.environ.get("MAX_DETAILS", 120)))
     args = ap.parse_args()
 
     cfg = yaml.safe_load((ROOT / "sources.yaml").read_text())

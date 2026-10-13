@@ -5,8 +5,9 @@ sources:
     category: apa
     queries:                              # merged; structured filters set furnished / W/D flags
       - {is_furnished: 1, laundry: 1, min_bedrooms: 1, max_bedrooms: 2}
-      - {is_furnished: 1, min_bedrooms: 1, max_bedrooms: 2}             # W/D not tagged by poster
-      - {query: furnished, laundry: 1, min_bedrooms: 1, max_bedrooms: 2} # furnished not tagged
+      - {laundry: 1, min_bedrooms: 1, max_bedrooms: 2}                   # furnished or not
+      - {is_furnished: 1, min_bedrooms: 1, max_bedrooms: 2}              # W/D not tagged by poster
+      - {query: 'in-unit | "in unit" | "w/d in"', min_bedrooms: 1, max_bedrooms: 2}  # W/D only in the text
 
   - name: Craigslist sublets
     adapter: craigslist
@@ -40,10 +41,11 @@ sources:
     # declare here what those filters guarantee, so the listing doesn't land in "maybe".
     senders:
       - {name: Furnished Finder, from: furnishedfinder.com, assume: {furnished: true}}
-      - {name: Zillow,           from: zillow.com,          assume: {furnished: true, in_unit_wd: true}}
-      - {name: HotPads,          from: hotpads.com,         assume: {furnished: true, in_unit_wd: true}}
-      - {name: Apartments.com,   from: apartments.com,      assume: {furnished: true, in_unit_wd: true}}
+      - {name: Zillow,           from: zillow.com,          assume: {in_unit_wd: true}}
+      - {name: HotPads,          from: hotpads.com,         assume: {in_unit_wd: true}}
+      - {name: Apartments.com,   from: apartments.com,      assume: {in_unit_wd: true}}
       - {name: Redfin,           from: redfin.com}
+      - {name: MLSListings,      from: mlslistings.com}
 
   - name: r/SFBayHousing
     adapter: reddit

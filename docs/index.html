@@ -66,11 +66,12 @@ td, th { text-align: left; padding: 4px 6px; border-bottom: 1px solid var(--bord
 <body>
 <header>
   <h1>SF Apartment Hunter</h1>
-  <div class="sub">Furnished 1–2BR · in-unit W/D · $3–5k · Nob Hill, North Beach, Russian Hill, Cow Hollow/Marina, Pacific Heights, Hayes Valley, Castro, Mission Dolores, Noe Valley, West/Central/East SoMa &amp; Mission Bay (excl. Market St 5th–8th) · <span id="updated"></span></div>
+  <div class="sub">1–2BR (furnished or unfurnished) · in-unit W/D · $3–5k · Nob Hill, North Beach, Russian Hill, Cow Hollow/Marina, Pacific Heights, Hayes Valley, Castro, Mission Dolores, Noe Valley, West/Central/East SoMa &amp; Mission Bay (excl. Market St 5th–8th) · <span id="updated"></span></div>
 </header>
 <main>
   <div class="controls">
     <select id="status"><option value="match">Matches</option><option value="all">Matches + maybes</option><option value="maybe">Maybes</option></select>
+    <select id="furn"><option value="">Furnished + unfurnished</option><option value="yes">Furnished</option><option value="no">Unfurnished</option><option value="unknown">Furnishing not stated</option></select>
     <select id="hood"><option value="">All neighborhoods</option></select>
     <select id="lease"><option value="">Any lease</option><option value="12mo">12-month</option><option value="short">Shorter / flexible</option></select>
     <input id="maxprice" type="number" step="100" placeholder="Max $" style="width:100px">
@@ -103,10 +104,11 @@ const money = n => n ? "$" + n.toLocaleString() : "$?";
 const ago = iso => { const h = (Date.now() - new Date(iso)) / 36e5; return h < 1 ? "just now" : h < 24 ? Math.round(h) + "h ago" : Math.round(h / 24) + "d ago"; };
 
 function filtered() {
-  const st = $("status").value, hood = $("hood").value, lease = $("lease").value, max = +$("maxprice").value || Infinity;
+  const st = $("status").value, hood = $("hood").value, furn = $("furn").value, lease = $("lease").value, max = +$("maxprice").value || Infinity;
   const onlyFav = $("favs").getAttribute("aria-pressed") === "true";
   let out = data.listings.filter(l =>
     (st === "all" || l.status === st) && (!hood || l.hood === hood) && (l.price ?? 0) <= max &&
+    (!furn || (furn === "yes" ? l.furnished === true : furn === "no" ? l.furnished === false : l.furnished == null)) &&
     (!lease || (lease === "12mo" ? l.lease === "12mo" : l.lease && l.lease !== "12mo")) &&
     (!$("deal").checked || l.deal) && ($("inactive").checked || l.active) &&
     (onlyFav ? favs.has(l.id) : !hidden.has(l.id)));
@@ -124,6 +126,7 @@ function card(l) {
   const chips = [
     `<span class="chip ${l.status}">${l.status === "match" ? "✓ match" : "? " + esc((l.unknown || []).join(", "))}</span>`,
     isNew ? `<span class="chip new">new</span>` : "",
+    `<span class="chip">${l.furnished === true ? "🛋 furnished" : l.furnished === false ? "unfurnished" : "furnishing?"}</span>`,
     l.deal ? `<span class="chip deal">🔥 deal</span>` : "",
     drop ? `<span class="chip deal">↓ $${drop.toLocaleString()}</span>` : "",
     l.lease ? `<span class="chip">${esc(l.lease)}</span>` : "",
@@ -165,7 +168,7 @@ document.addEventListener("click", e => {
   if (h) { hidden.has(h) ? hidden.delete(h) : hidden.add(h); store.set("hidden", [...hidden]); render(); }
 });
 $("favs").onclick = () => { $("favs").setAttribute("aria-pressed", $("favs").getAttribute("aria-pressed") !== "true"); render(); };
-["status", "hood", "lease", "maxprice", "sort", "deal", "inactive"].forEach(id => $(id).addEventListener("input", render));
+["status", "furn", "hood", "lease", "maxprice", "sort", "deal", "inactive"].forEach(id => $(id).addEventListener("input", render));
 
 fetch("listings.json", { cache: "no-store" }).then(r => r.json()).then(d => {
   data = d;

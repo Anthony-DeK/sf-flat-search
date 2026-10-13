@@ -105,9 +105,12 @@ def evaluate(listing, crit=CRITERIA):
     elif not confident:
         unknown.append("neighborhood")
 
-    furnished = _flag(listing.furnished, text, crit["required"]["furnished"])
+    furnished = _flag(listing.furnished, text, crit["furnishing"])
     wd = _flag(listing.in_unit_wd, text, crit["required"]["in_unit_wd"])
-    for label, val in (("furnished", furnished), ("in-unit W/D", wd)):
+    checks = [("in-unit W/D", wd)]
+    if crit["furnishing"].get("require_furnished"):
+        checks.append(("furnished", furnished))
+    for label, val in checks:
         if val is False:
             reasons.append(f"no {label}")
         elif val is None:

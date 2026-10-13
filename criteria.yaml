@@ -37,10 +37,14 @@ exclude:
 # Zip-only matches are weak (e.g. 94110 also covers the Mission/Bernal), so they land in "maybe".
 weak_zips: ["94108", "94109", "94133", "94114", "94110", "94131", "94123", "94115", "94117", "94102", "94103", "94105", "94107", "94158"]
 
+# Furnishing is a label, not a requirement: listings are grouped Furnished / Unfurnished / Not stated.
+# Set require_furnished: true to go back to furnished-only.
+furnishing:
+  require_furnished: false
+  match: '\b(fully[- ]|partially[- ]|newly[- ])?furnished\b(?! or unfurnished)'
+  reject: '(?<!or )\bunfurnished\b|\bnot furnished\b|\bfurniture not included\b'
+
 required:
-  furnished:
-    match: '\b(fully[- ]|partially[- ]|newly[- ])?furnished\b'
-    reject: '\bunfurnished\b|\bnot furnished\b|\bfurniture not included\b'
   in_unit_wd:
     match: 'in[- ]?unit (laundry|w/?d|washer)|washer\s*(/|&|and)?\s*dryer\s*(in|inside)\s*(the\s*)?(unit|apartment)|laundry in (the )?unit|w/d in unit|w/d in apartment|private (washer|laundry)'
     reject: 'coin[- ]?op|shared laundry|laundry (on[- ]site|in (the )?building|room)|common laundry'

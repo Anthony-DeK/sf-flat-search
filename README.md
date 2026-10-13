@@ -1,9 +1,11 @@
 # SF Apartment Hunter
 
-Scans furnished-rental sources every 30 minutes (7am to midnight Pacific) for furnished 1–2BR apartments with in-unit W/D at $3–5k in Nob Hill, North Beach, Russian Hill, Cow Hollow/Marina, Pacific Heights, Hayes Valley, Castro, Mission Dolores, Noe Valley, and West/Central/East SoMa and Mission Bay. The Market St corridor between 5th and 8th (Market to Howard) is excluded. It pushes new matches to your phone (ntfy), emails a digest (Gmail) and publishes a dashboard (GitHub Pages).
+Scans furnished-rental sources every 30 minutes (7am to midnight Pacific) for 1–2BR apartments (furnished or unfurnished) with in-unit W/D at $3–5k in Nob Hill, North Beach, Russian Hill, Cow Hollow/Marina, Pacific Heights, Hayes Valley, Castro, Mission Dolores, Noe Valley, and West/Central/East SoMa and Mission Bay. The Market St corridor between 5th and 8th (Market to Howard) is excluded. It pushes new matches to your phone (ntfy), emails a digest (Gmail) and publishes a dashboard (GitHub Pages).
 
 - **match**: every requirement confirmed. Sends a push and an email.
-- **maybe**: nothing disqualifies it, but furnished, W/D or the exact neighborhood is unconfirmed. Email only.
+- **maybe**: nothing disqualifies it, but W/D, price, beds or the exact neighborhood is unconfirmed. Email only.
+- **Furnishing** is a label, not a filter: emails group listings as Furnished / Unfurnished / Not stated, and the dashboard has a furnishing filter. Set `furnishing.require_furnished: true` in `criteria.yaml` to go back to furnished-only.
+- Pushes are capped at 8 per run (deals and cheapest first), plus one summary push when there are more.
 - **🔥 deal**: in the cheapest quarter of $/bedroom for its neighborhood, once 6 or more comparable listings have been seen.
 
 Edit `criteria.yaml` (price, beds, neighborhood boxes, keyword rules) and `sources.yaml` (sources, AppFolio landlords) to change the search.
@@ -31,13 +33,14 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt pytest
 ```
 
 ## Alert-email import
-Sites that block scrapers can still email you. Create a saved search with alerts on each site below, filtered to San Francisco, $3,000–5,000, 1–2 beds, furnished and in-unit laundry where the site offers those filters. Send the alerts to the `GMAIL_USER` inbox. Each run reads the last 3 days of alerts (read-only), runs them through the same filters, and alerts you once per listing.
+Sites that block scrapers can still email you. Create a saved search with alerts on each site below, filtered to San Francisco, $3,000–5,000, 1–2 beds and in-unit laundry where the site offers that filter. Leave furnishing open unless you only want furnished. Send the alerts to the `GMAIL_USER` inbox. Each run reads the last 3 days of alerts (read-only), runs them through the same filters, and alerts you once per listing.
 
 - **Furnished Finder:** furnishedfinder.com, saved search with email alerts
 - **Zillow:** Rentals, More → Furnished and In-unit laundry, Save search
 - **HotPads:** same filters, Save search
 - **Apartments.com:** Furnished and Washer/Dryer - In Unit filters, Save search
 - **Redfin:** Rentals, Save search
+- **MLSListings:** create a free account, search Rent → San Francisco, Save search with email alerts
 
 `sources.yaml` → `Alert emails` → `assume` records what each saved search already guarantees. If you leave a filter off a site's search, remove its flag there.
 

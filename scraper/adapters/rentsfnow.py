@@ -1,5 +1,5 @@
-"""RentSFNow (WordPress 'wpas' search over RentCafe inventory). The furnished=yes flag switches the
-result set to their furnished catalog; cards show neighborhood, address, beds/baths/price."""
+"""RentSFNow (WordPress 'wpas' search over RentCafe inventory). furnished=yes switches to the furnished
+catalog; in_unit_laundry=Yes filters both. Cards show neighborhood, address, beds/baths/price."""
 import re
 
 from .. import http
@@ -9,10 +9,18 @@ BASE = "https://www.rentsfnow.com"
 
 
 def search(cfg, crit):
+    out = []
+    for furnished in (True, False):   # the site keeps furnished and unfurnished as separate catalogs
+        out += _catalog(furnished)
+    return out
+
+
+def _catalog(furnished):
     out, page = [], 1
     while page <= 10:
         html = http.post(f"{BASE}/wp-admin/admin-ajax.php", data={
-            "city": "san-francisco", "furnished": "yes", "sort": "priority_value-desc", "view": "list",
+            "city": "san-francisco", "furnished": "yes" if furnished else "", "in_unit_laundry": "Yes",
+            "sort": "priority_value-desc", "view": "list",
             "action": "wpas_ajax_load", "page": page, "type": "search"}).text
         cards = re.split(r'<div class="grid-x grid-margin-x apartment', html)[1:]
         for c in cards:
@@ -34,7 +42,8 @@ def search(cfg, crit):
                 address=(clean_text(addr.group(1)) + ", San Francisco") if addr else "",
                 hood_text=clean_text(hood.group(1)) if hood else "",
                 photo=img.group(1) if img else "",
-                furnished=True,
+                furnished=furnished,
+                in_unit_wd=True,   # requested with the in-unit laundry filter
             ))
         last = re.search(r'id="last_page"[^>]*value="(\d+)"|name="last_page" value="(\d+)"', html)
         last_n = int(next(g for g in last.groups() if g)) if last else 1

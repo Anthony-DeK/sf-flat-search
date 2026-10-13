@@ -49,7 +49,7 @@ def search(cfg, crit):
     results = {}
     for q in cfg["queries"]:
         params = {"batch": "1-0-360-0-0", "cc": "US", "lang": "en", "area_id": 1,
-                  "searchPath": cfg["category"],
+                  "searchPath": f"sfc/{cfg['category']}",   # sfc/ limits to SF; bare "apa" returns one Bay Area batch
                   "min_price": crit["price"]["min"], "max_price": crit["price"]["max"], **q}
         data = http.get(API, params=params).json()["data"]
         for l in _parse(data, cfg["category"]):
@@ -77,6 +77,8 @@ def details(l):
         l.in_unit_wd = l.in_unit_wd if l.in_unit_wd else False
     if re.search(r"\bfurnished\b", attrs_l):
         l.furnished = True
+    elif l.furnished is None and not re.search(r"furnish", f"{l.title} {l.text}", re.I):
+        l.furnished = False   # "furnished" is a poster checkbox; unticked and never mentioned = unfurnished
     img = re.search(r'<img[^>]+src="(https://images\.craigslist\.org/[^"]+)"', html)
     l.photo = img.group(1) if img else ""
     addr = re.search(r'<h2 class="street-address">(.*?)</h2>', html, re.S)

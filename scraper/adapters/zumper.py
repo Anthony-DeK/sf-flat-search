@@ -1,6 +1,5 @@
-"""Zumper/PadMapper (shared backend) via the JSON endpoint its web app uses. The /furnished city path
-returns exactly the listings tagged Furnished. Aggregates small-landlord feeds (ShowMojo, Hemlane,
-TurboTenant, ...) we can't reach directly."""
+"""Zumper/PadMapper (shared backend) via the JSON endpoint its web app uses. Aggregates small-landlord
+feeds (ShowMojo, Hemlane, TurboTenant, ...) we can't reach directly. Furnishing comes from amenity tags."""
 from .. import http
 from ..model import Listing
 
@@ -16,7 +15,7 @@ def search(cfg, crit):
     skip = set(cfg.get("skip_feeds", []))
     while offset < 500:
         rows = http.post(API, json={
-            "url": "san-francisco-ca/furnished", "limit": 100, "offset": offset,
+            "url": "san-francisco-ca", "limit": 100, "offset": offset,
             "min_price": crit["price"]["min"], "max_price": crit["price"]["max"],
             "bedrooms": crit["bedrooms"]}).json()["listables"]
         for x in rows:
@@ -39,7 +38,9 @@ def search(cfg, crit):
                 lat=x.get("lat"), lon=x.get("lng"),
                 text=(x.get("short_description") or "") + "\nFeatures: " + " | ".join(sorted(unit_tags)),
                 available=str(x.get("date_available") or ""),
-                furnished=True,
+                # The Furnished tag is what Zumper's own furnished filter uses; untagged and never mentioned = unfurnished.
+                furnished=True if "Furnished" in unit_tags else (
+                    None if "furnish" in f"{x.get('title')} {x.get('short_description')}".lower() else False),
                 in_unit_wd=True if unit_tags & IN_UNIT_TAGS else None,
                 lease=f"{round(days / 30)}mo min" if days and days >= 28 else "",
                 amenities=sorted({v for k, v in BONUS_TAGS.items() if k in tags}),

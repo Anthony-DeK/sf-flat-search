@@ -34,15 +34,26 @@ def test_wd_rejections():
         assert ev["status"] == "reject" and "no in-unit W/D" in ev["reasons"], t
 
 
-def test_unfurnished_is_rejected_not_matched():
+def test_furnishing_is_a_label():
     ev = evaluate(L(text="Unfurnished. In-unit W/D.", hood_text="nob hill"))
-    assert "no furnished" in ev["reasons"]
+    assert ev["status"] == "match" and ev["furnished"] is False
+    assert evaluate(L(text="Fully furnished, in-unit W/D", hood_text="nob hill"))["furnished"] is True
+    assert evaluate(L(text="In-unit W/D", hood_text="nob hill"))["furnished"] is None
+    assert evaluate(L(text="Available furnished or unfurnished. In-unit W/D", hood_text="nob hill"))["furnished"] is None
+
+
+def test_require_furnished_switch():
+    import copy
+    from scraper.filter import CRITERIA
+    crit = copy.deepcopy(CRITERIA)
+    crit["furnishing"]["require_furnished"] = True
+    assert "no furnished" in evaluate(L(text="Unfurnished. In-unit W/D.", hood_text="nob hill"), crit)["reasons"]
 
 
 def test_silent_listing_is_maybe():
     ev = evaluate(L(text="Sunny 1BR with views", hood_text="cow hollow"))
     assert ev["status"] == "maybe"
-    assert set(ev["unknown"]) == {"furnished", "in-unit W/D"}
+    assert set(ev["unknown"]) == {"in-unit W/D"}
     assert "views" in ev["bonus"]
 
 

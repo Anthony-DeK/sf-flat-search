@@ -47,7 +47,8 @@ furnishing:
 required:
   in_unit_wd:
     match: 'in[- ]?unit (laundry|w/?d|washer)|washer\s*(/|&|and)?\s*dryer\s*(in|inside)\s*(the\s*)?(unit|apartment)|laundry in (the )?unit|w/d in unit|w/d in apartment|private (washer|laundry)'
-    reject: 'coin[- ]?op|shared laundry|laundry (on[- ]site|in (the )?building|room)|common laundry'
+    reject: 'coin[- ]?op|shared laundry|laundry shared|on[- ]?site laundry|laundry (on[- ]site|in (the )?building|room|facilit)|common laundry'
+    match_first: true   # "in-unit W/D, plus a laundry room downstairs" is still in-unit
 
 not_residential: '^\W*(?:\w+\s+){0,2}parking\b|\b(commercial|office|retail) space\b|\bparking (space|spot) (for rent|available)\b|\bstorage unit\b'
 

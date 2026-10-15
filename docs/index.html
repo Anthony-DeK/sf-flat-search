@@ -70,7 +70,8 @@ td, th { text-align: left; padding: 4px 6px; border-bottom: 1px solid var(--bord
 </header>
 <main>
   <div class="controls">
-    <select id="status"><option value="match">Matches</option><option value="all">Matches + maybes</option><option value="maybe">Maybes</option></select>
+    <select id="status"><option value="match">Confirmed</option><option value="all">Confirmed + needs a check</option><option value="W/D not confirmed">W/D not confirmed</option><option value="Location not confirmed">Location not confirmed</option><option value="Price/beds missing">Price/beds missing</option></select>
+    <select id="beds"><option value="">1BR + 2BR + other</option><option value="1">1BR</option><option value="2">2BR</option><option value="other">Other / not stated</option></select>
     <select id="furn"><option value="">Furnished + unfurnished</option><option value="yes">Furnished</option><option value="no">Unfurnished</option><option value="unknown">Furnishing not stated</option></select>
     <select id="hood"><option value="">All neighborhoods</option></select>
     <select id="lease"><option value="">Any lease</option><option value="12mo">12-month</option><option value="short">Shorter / flexible</option></select>
@@ -104,10 +105,12 @@ const money = n => n ? "$" + n.toLocaleString() : "$?";
 const ago = iso => { const h = (Date.now() - new Date(iso)) / 36e5; return h < 1 ? "just now" : h < 24 ? Math.round(h) + "h ago" : Math.round(h / 24) + "d ago"; };
 
 function filtered() {
-  const st = $("status").value, hood = $("hood").value, furn = $("furn").value, lease = $("lease").value, max = +$("maxprice").value || Infinity;
+  const st = $("status").value, hood = $("hood").value, furn = $("furn").value, beds = $("beds").value, lease = $("lease").value, max = +$("maxprice").value || Infinity;
   const onlyFav = $("favs").getAttribute("aria-pressed") === "true";
   let out = data.listings.filter(l =>
-    (st === "all" || l.status === st) && (!hood || l.hood === hood) && (l.price ?? 0) <= max &&
+    (st === "all" || (st === "match" ? l.status === "match" : (l.check || []).includes(st))) &&
+    (!beds || (beds === "other" ? ![1, 2].includes(l.beds) : l.beds === +beds)) &&
+    (!hood || l.hood === hood) && (l.price ?? 0) <= max &&
     (!furn || (furn === "yes" ? l.furnished === true : furn === "no" ? l.furnished === false : l.furnished == null)) &&
     (!lease || (lease === "12mo" ? l.lease === "12mo" : l.lease && l.lease !== "12mo")) &&
     (!$("deal").checked || l.deal) && ($("inactive").checked || l.active) &&
@@ -124,7 +127,7 @@ function card(l) {
   const drop = ph.length > 1 && ph[ph.length - 1][1] < ph[0][1] ? ph[0][1] - ph[ph.length - 1][1] : 0;
   const isNew = lastVisit && l.first_seen > lastVisit;
   const chips = [
-    `<span class="chip ${l.status}">${l.status === "match" ? "✓ match" : "? " + esc((l.unknown || []).join(", "))}</span>`,
+    `<span class="chip ${l.status}">${l.status === "match" ? "✓ confirmed" : "? " + esc((l.check || l.unknown || []).join(", "))}</span>`,
     isNew ? `<span class="chip new">new</span>` : "",
     `<span class="chip">${l.furnished === true ? "🛋 furnished" : l.furnished === false ? "unfurnished" : "furnishing?"}</span>`,
     l.deal ? `<span class="chip deal">🔥 deal</span>` : "",
@@ -168,7 +171,7 @@ document.addEventListener("click", e => {
   if (h) { hidden.has(h) ? hidden.delete(h) : hidden.add(h); store.set("hidden", [...hidden]); render(); }
 });
 $("favs").onclick = () => { $("favs").setAttribute("aria-pressed", $("favs").getAttribute("aria-pressed") !== "true"); render(); };
-["status", "furn", "hood", "lease", "maxprice", "sort", "deal", "inactive"].forEach(id => $(id).addEventListener("input", render));
+["status", "beds", "furn", "hood", "lease", "maxprice", "sort", "deal", "inactive"].forEach(id => $(id).addEventListener("input", render));
 
 fetch("listings.json", { cache: "no-store" }).then(r => r.json()).then(d => {
   data = d;

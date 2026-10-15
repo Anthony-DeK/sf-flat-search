@@ -54,7 +54,7 @@ def _rows(items):
         f'<tr><td><a href="{escape(l["url"])}">{escape(l["title"][:90])}</a><br>'
         f'<small>{escape(_line(l))} · {escape(l["source"])}'
         f'{" · " + escape(", ".join(l["bonus"])) if l.get("bonus") else ""}'
-        f'{" · unknown: " + escape(", ".join(l["unknown"])) if l.get("unknown") else ""}</small></td></tr>'
+        f'{" · " + escape(", ".join(l["check"])) if l.get("check") else ""}</small></td></tr>'
         for l in items)
 
 
@@ -66,16 +66,21 @@ def email(matches, maybes, broken, dashboard_url="", dry_run=False):
         nf = sum(1 for l in matches if l.get("furnished") is True)
         subject = (f"🏠 {len(matches)} new match{'es' * (len(matches) != 1)}"
                    + (f" ({nf} furnished, {len(matches) - nf} unfurnished/unstated)" if matches else "")
-                   + (f", {len(maybes)} maybe" if maybes else ""))
+                   + (f", {len(maybes)} to check" if maybes else ""))
     else:
         subject = "⚠️ Apartment hunter: a source stopped working"
     html = ""
+    if matches:
+        html += "<h2>Confirmed matches</h2>"
     for label in ("Furnished", "Unfurnished", "Furnishing not stated"):
         group = [l for l in matches if furnishing(l) == label]
         if group:
             html += f"<h3>{label} ({len(group)})</h3><table>{_rows(group)}</table>"
     if maybes:
-        html += f"<h3>Maybe (missing info, worth a look)</h3><table>{_rows(maybes)}</table>"
+        html += "<h2>Needs a check</h2><p><small>Nothing rules these out, but one detail isn't confirmed by the listing.</small></p>"
+        for label in sorted({c for l in maybes for c in l.get("check") or ["Other"]}):
+            group = [l for l in maybes if label in (l.get("check") or ["Other"])]
+            html += f"<h3>{escape(label)} ({len(group)})</h3><table>{_rows(group)}</table>"
     if broken:
         html += "<h3>⚠️ Sources returning nothing</h3><ul>" + "".join(f"<li>{escape(b)}</li>" for b in broken) + "</ul>"
     if dashboard_url:

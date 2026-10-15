@@ -29,7 +29,8 @@ def test_wd_phrasings():
 
 
 def test_wd_rejections():
-    for t in ["coin-op laundry in basement", "shared laundry", "laundry on site", "Laundry in building"]:
+    for t in ["coin-op laundry in basement", "shared laundry", "laundry on site", "Laundry in building",
+              "Features: Dishwasher | Onsite Laundry", "Features: Laundry Shared"]:
         ev = evaluate(L(text=f"furnished. {t}", hood_text="noe valley"))
         assert ev["status"] == "reject" and "no in-unit W/D" in ev["reasons"], t
 
@@ -132,3 +133,8 @@ def test_market_corridor_excluded():
     ev = evaluate(L(lat=37.7800, lon=-122.4100, text="furnished, in-unit laundry"))   # 6th & Mission
     assert ev["status"] == "reject" and ev["reasons"][0].startswith("excluded area")
     assert "not residential" in evaluate(L(title="Spacious Garage Parking - Close to Jasper"))["reasons"]
+
+
+def test_in_unit_beats_building_laundry():
+    ev = evaluate(L(text="In-unit washer/dryer. Building also has a laundry room.", hood_text="nob hill"))
+    assert ev["in_unit_wd"] is True

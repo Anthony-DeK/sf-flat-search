@@ -6,6 +6,9 @@ import yaml
 
 CRITERIA = yaml.safe_load((Path(__file__).parent.parent / "criteria.yaml").read_text())
 
+CHECK_LABELS = {"in-unit W/D": "W/D not confirmed", "neighborhood": "Location not confirmed",
+                "price": "Price/beds missing", "beds": "Price/beds missing", "furnished": "Furnishing not confirmed"}
+
 ZIP_RE = re.compile(r"\b(94\d{3})\b")
 N_MONTH_RE = re.compile(r"\b(\d{1,2})[- ]?(?:month|mo)\b", re.I)
 
@@ -14,10 +17,10 @@ def _flag(structured, text, rule):
     """Structured value from the source wins; otherwise fall back to keyword regexes."""
     if structured is not None:
         return structured
-    if re.search(rule["reject"], text, re.I):
-        return False
-    if re.search(rule["match"], text, re.I):
-        return True
+    order = ("match", "reject") if rule.get("match_first") else ("reject", "match")
+    for key in order:
+        if re.search(rule[key], text, re.I):
+            return key == "match"
     return None
 
 
@@ -122,6 +125,8 @@ def evaluate(listing, crit=CRITERIA):
     status = "reject" if reasons else ("maybe" if unknown else "match")
     return {
         "status": status,
+        # What a "maybe" still needs, in plain words, for the email and dashboard.
+        "check": sorted({CHECK_LABELS[u] for u in unknown if u in CHECK_LABELS}),
         "hood": hood,
         "reasons": reasons,
         "unknown": unknown,

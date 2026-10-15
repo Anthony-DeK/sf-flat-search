@@ -11,7 +11,7 @@ from pathlib import Path
 import yaml
 
 from . import geo, http, notify
-from .filter import CRITERIA, evaluate
+from .filter import CHECK_LABELS, CRITERIA, evaluate
 from .model import Listing, norm_address
 
 ROOT = Path(__file__).parent.parent
@@ -127,6 +127,8 @@ def main():
     cutoff = now() - STALE_AFTER
     for r in state.values():
         r["active"] = datetime.fromisoformat(r["last_seen"]) >= cutoff
+        # Records not seen this run keep their old evaluation; backfill fields added since.
+        r.setdefault("check", sorted({CHECK_LABELS[u] for u in r.get("unknown", []) if u in CHECK_LABELS}))
 
     # Duplicates (reposts, or one unit on several sites): keep the earliest record, link the others.
     owner = {}

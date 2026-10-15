@@ -2,8 +2,8 @@
 
 Scans furnished-rental sources every 30 minutes (7am to midnight Pacific) for 1–2BR apartments (furnished or unfurnished) with in-unit W/D at $3–5k in Nob Hill, North Beach, Russian Hill, Cow Hollow/Marina, Pacific Heights, Hayes Valley, Castro, Mission Dolores, Noe Valley, and West/Central/East SoMa and Mission Bay. The Market St corridor between 5th and 8th (Market to Howard) is excluded. It pushes new matches to your phone (ntfy), emails a digest (Gmail) and publishes a dashboard (GitHub Pages).
 
-- **match**: every requirement confirmed. Sends a push and an email.
-- **maybe**: nothing disqualifies it, but W/D, price, beds or the exact neighborhood is unconfirmed. Email only.
+- **confirmed**: every requirement confirmed. Sends a push and an email.
+- **needs a check**: nothing rules it out, but the listing doesn't confirm one detail: *W/D not confirmed*, *Location not confirmed* or *Price/beds missing*. Email only, grouped by what's missing.
 - **Furnishing** is a label, not a filter: emails group listings as Furnished / Unfurnished / Not stated, and the dashboard has a furnishing filter. Set `furnishing.require_furnished: true` in `criteria.yaml` to go back to furnished-only.
 - Pushes are capped at 8 per run (deals and cheapest first), plus one summary push when there are more.
 - **🔥 deal**: in the cheapest quarter of $/bedroom for its neighborhood, once 6 or more comparable listings have been seen.

@@ -27,7 +27,8 @@ sources:
   - name: AppFolio landlords
     adapter: appfolio
     subdomains: [amsires, eminvest, twobliving, azaripm, bancalsf, apg, progressivesf, luminor, greenerealty,
-                 spsf, chandlerproperties, baypropertygroup, amore, ggproperties, ralstonmgmt]
+                 spsf, chandlerproperties, baypropertygroup, amore, ggproperties, ralstonmgmt,
+                 gaetanirealestate, sfcityrents]
 
   - name: Zumper / PadMapper
     adapter: zumper
@@ -60,5 +61,4 @@ manual:
   - {name: Apartment List, why: "403"}
   - {name: Redfin rentals, why: "captcha"}
   - {name: CorporateHousing.com, why: "403"}
-  - {name: SF City Rents, why: "listings rendered by JS (AppFolio websites)"}
   - {name: "Facebook: SF Housing, Rooms, Apartments, Sublets", why: "login required"}

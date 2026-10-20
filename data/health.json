@@ -3,8 +3,8 @@
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": false,
-  "last_count": 196,
-  "last_ok": "2026-10-20T12:56:30+00:00",
+  "last_count": 194,
+  "last_ok": "2026-10-20T18:26:05+00:00",
   "last_error": null
  },
  "Craigslist sublets": {
@@ -13,14 +13,14 @@
   "can_be_empty": true,
   "last_count": 13,
   "last_error": null,
-  "last_ok": "2026-10-20T12:56:30+00:00"
+  "last_ok": "2026-10-20T18:26:05+00:00"
  },
  "Blueground": {
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": false,
-  "last_count": 211,
-  "last_ok": "2026-10-20T12:56:30+00:00",
+  "last_count": 213,
+  "last_ok": "2026-10-20T18:26:05+00:00",
   "last_error": null
  },
  "RentSFNow": {
@@ -28,15 +28,15 @@
   "error_runs": 0,
   "can_be_empty": true,
   "last_count": 36,
-  "last_ok": "2026-10-20T12:56:30+00:00",
+  "last_ok": "2026-10-20T18:26:05+00:00",
   "last_error": null
  },
  "AppFolio landlords": {
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": false,
-  "last_count": 155,
-  "last_ok": "2026-10-20T12:56:30+00:00",
+  "last_count": 151,
+  "last_ok": "2026-10-20T18:26:05+00:00",
   "last_error": null
  },
  "r/SFBayHousing": {
@@ -44,7 +44,7 @@
   "error_runs": 0,
   "can_be_empty": true,
   "last_count": 7,
-  "last_ok": "2026-10-20T12:56:30+00:00",
+  "last_ok": "2026-10-20T18:26:05+00:00",
   "last_error": null
  },
  "Zumper / PadMapper": {
@@ -52,12 +52,12 @@
   "error_runs": 0,
   "can_be_empty": false,
   "last_count": 180,
-  "last_ok": "2026-10-20T12:56:30+00:00",
+  "last_ok": "2026-10-20T18:26:05+00:00",
   "last_error": null
  },
  "Alert emails": {
   "zero_runs": 0,
-  "error_runs": 45,
+  "error_runs": 46,
   "can_be_empty": true,
   "last_count": 0,
   "last_error": "error: command SEARCH illegal in state AUTH, only allowed in states SELECTED"

@@ -9,7 +9,7 @@ neighborhoods:
   North Beach:     {names: [north beach, telegraph hill],           box: [37.796, 37.808, -122.414, -122.400]}
   Russian Hill:    {names: [russian hill],                          box: [37.795, 37.806, -122.4255, -122.414]}
   Cow Hollow:      {names: [cow hollow, marina],                    box: [37.794, 37.808, -122.448, -122.4255]}
-  Pacific Heights: {names: ['(lower )?pac(ific)? h(eigh)?ts'],      box: [37.784, 37.794, -122.4475, -122.4225]}
+  Pacific Heights: {names: ['(lower )?pac(ific)? h(eigh)?ts?', '(lower )?pacific height'], box: [37.784, 37.794, -122.4475, -122.4225]}
   Hayes Valley:    {names: [hayes valley],                          box: [37.7715, 37.780, -122.4335, -122.4195]}
   Mission Dolores: {names: [mission dolores, dolores heights, dolores park], box: [37.755, 37.770, -122.436, -122.420]}
   Castro:          {names: ['castro(?! valley)', duboce triangle, eureka valley, upper market], box: [37.755, 37.7715, -122.4425, -122.436]}

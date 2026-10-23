@@ -12,12 +12,8 @@ import re
 from email.header import decode_header, make_header
 from html import unescape
 
-from ..model import Listing, clean_text, norm_address, parse_beds, parse_price
+from ..model import ADDRESS_RE, Listing, clean_text, norm_address, parse_beds, parse_price
 
-ADDRESS_RE = re.compile(
-    r"\b\d{1,5}[A-Z]?\s+(?:[A-Z0-9][\w'.-]*\s){1,4}"
-    r"(?:St|Street|Ave|Avenue|Blvd|Boulevard|Way|Pl|Place|Ter|Terrace|Dr|Drive|Ln|Lane|Ct|Court|Rd|Road|Aly|Alley|Hwy)\b"
-    r"(?:[ ,]*(?:#|Apt|Unit|Ste)\s*[\w-]+)?", re.I)
 ANCHOR_RE = re.compile(r"<a\b[^>]*href=\"([^\"]+)\"[^>]*>(.*?)</a>", re.S | re.I)
 
 

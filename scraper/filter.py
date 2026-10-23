@@ -1,4 +1,5 @@
 """Decide whether a listing matches the search: "match", "maybe" (something unknown) or "reject"."""
+import math
 import re
 from pathlib import Path
 
@@ -11,6 +12,12 @@ CHECK_LABELS = {"in-unit W/D": "W/D not confirmed", "neighborhood": "Location no
 
 ZIP_RE = re.compile(r"\b(94\d{3})\b")
 N_MONTH_RE = re.compile(r"\b(\d{1,2})[- ]?(?:month|mo)\b", re.I)
+# Pins and geocodes can land a block off; a point this close to a neighborhood the listing names counts as in it.
+NEAR_EDGE_M = 250
+# "walk to North Beach", "easy commute to Financial, SOMA": the description names a place nearby, not the location.
+NEARBY_RE = re.compile(r"\b(near(by)?|close to|walk(ing|able)?|steps|blocks?|minutes?|mins?|commute|access|"
+                       r"border(s|ing)?|between|views? of)\b\W+(?:\w+\W+){0,3}$", re.I)
+STREET_AFTER_RE = re.compile(r"\s+(st|street|ave|avenue|blvd)\b", re.I)   # "Castro Street", "Hayes St"
 
 
 def _flag(structured, text, rule):
@@ -26,6 +33,38 @@ def _flag(structured, text, rule):
 
 def _named(text, h):
     return any(re.search(rf"\b{n}\b", text, re.I) for n in h["names"])
+
+
+def _mentioned(text, h, nearby_ok=False):
+    """Description mentions of the area, never "X Street". Unless nearby_ok, also skip "near X" / "commute to X"."""
+    for n in h["names"]:
+        for m in re.finditer(rf"\b{n}\b", text, re.I):
+            if STREET_AFTER_RE.match(text, m.end()):
+                continue
+            if nearby_ok or not NEARBY_RE.search(text[max(0, m.start() - 40):m.start()]):
+                return True
+    return False
+
+
+def _dist_m(lat, lon, h):
+    """Meters from the point to the area's outline (0 inside); infinite for areas with no shape."""
+    if "box" not in h and "poly" not in h:
+        return math.inf
+    if _inside(lat, lon, h):
+        return 0
+    if "box" in h:
+        la0, la1, lo0, lo1 = h["box"]
+        pts = [[la0, lo0], [la0, lo1], [la1, lo1], [la1, lo0]]
+    else:
+        pts = h["poly"]
+    kx = 111320 * math.cos(math.radians(lat))   # local flat projection; fine at neighborhood scale
+    best = math.inf
+    for (y1, x1), (y2, x2) in zip(pts, pts[1:] + pts[:1]):
+        ax, ay, bx, by = (x1 - lon) * kx, (y1 - lat) * 110540, (x2 - lon) * kx, (y2 - lat) * 110540
+        dx, dy = bx - ax, by - ay
+        t = max(0, min(1, -(ax * dx + ay * dy) / (dx * dx + dy * dy or 1)))
+        best = min(best, math.hypot(ax + t * dx, ay + t * dy))
+    return best
 
 
 def _inside(lat, lon, h):
@@ -52,20 +91,26 @@ def excluded(listing, crit=CRITERIA):
 def neighborhood(listing, crit=CRITERIA):
     """Return (name, confident). name is None when the listing is outside the target area."""
     hoods = crit["neighborhoods"]
+    labeled = " ".join([listing.hood_text, listing.title, listing.address])
     if listing.lat is not None and listing.lon is not None:
         if excluded(listing, crit):
             return None, True
         for name, h in hoods.items():
             if _inside(listing.lat, listing.lon, h):
                 return name, True
+        # Beyond that, the point wins: posters label Ocean Beach "lower nob hill".
+        for name, h in hoods.items():
+            if _named(labeled, h) and _dist_m(listing.lat, listing.lon, h) <= NEAR_EDGE_M:
+                return name, True
         return None, True
-    labeled = " ".join([listing.hood_text, listing.title, listing.address])
     for name, h in hoods.items():
         if _named(labeled, h):
             return name, not h.get("weak")
-    for name, h in hoods.items():
-        if _named(listing.text, h):
-            return name, False   # only mentioned in the description ("walk to North Beach")
+    # Only in the description: "located in Nob Hill" first, then "walk to North Beach" as a last hint.
+    for nearby_ok in (False, True):
+        for name, h in hoods.items():
+            if _mentioned(listing.text, h, nearby_ok):
+                return name, False
     m = ZIP_RE.search(listing.address or "")
     if m and m.group(1) in crit["weak_zips"]:
         return f"zip {m.group(1)}", False

@@ -3,6 +3,7 @@ import argparse
 import importlib
 import json
 import os
+import re
 import statistics
 import traceback
 from datetime import datetime, timedelta, timezone
@@ -12,7 +13,7 @@ import yaml
 
 from . import geo, http, notify
 from .filter import CHECK_LABELS, CRITERIA, evaluate
-from .model import Listing, norm_address
+from .model import Listing, find_address, norm_address
 
 ROOT = Path(__file__).parent.parent
 STATE = ROOT / "data" / "listings.json"
@@ -21,7 +22,12 @@ REMOVED = ROOT / "data" / "removed.json"  # ids the weekly prune found taken dow
 PUBLIC = ROOT / "docs" / "listings.json"
 STALE_AFTER = timedelta(days=3)       # unseen this long -> inactive (rented / taken down)
 DROP_REJECTS_AFTER = timedelta(days=14)
-DETAIL_FIELDS = ("text", "address", "photo", "price", "in_unit_wd", "furnished", "amenities", "lat", "lon", "available")
+DETAIL_FIELDS = ("text", "address", "photo", "price", "in_unit_wd", "furnished", "amenities", "lat", "lon", "available",
+                 "geo_tried")
+MAX_GEOCODES = 60   # per run; the Census geocoder is free but slow
+# An address lifted from free text is only assumed to be in SF when no other city is named.
+OTHER_CITY_RE = re.compile(r"\b(mountain view|oakland|berkeley|san jose|palo alto|daly city|sausalito|south san francisco|"
+                           r"redwood city|menlo park|sunnyvale|alameda|emeryville|san mateo|burlingame|millbrae)\b", re.I)
 
 
 def now():
@@ -40,6 +46,25 @@ def save(path, obj):
 def prefilter_rejects(l, ev):
     """Rejections we trust before fetching details. Neighborhood isn't one of them when coords may come later."""
     return [r for r in ev["reasons"] if not (r.startswith("outside") and l.lat is None)]
+
+
+def locate(l, budget):
+    """Coordinates for a listing whose source gave none: geocode its address, or one written in the title or
+    description ("Welcome to 175 Bluxome Street!"). Each address is tried once unless the geocoder was unreachable."""
+    addr = l.address
+    if not addr and not OTHER_CITY_RE.search(f"{l.title}\n{l.text}"):
+        addr = find_address(f"{l.title}\n{l.text}")
+    if l.lat is not None or not addr or addr == l.geo_tried or budget[0] <= 0:
+        return
+    budget[0] -= 1
+    try:
+        ll = geo.geocode(addr)
+    except Exception as e:
+        print(f"  geocode failed {addr!r}: {e}")
+        return
+    l.geo_tried = addr
+    if ll:
+        l.lat, l.lon = ll
 
 
 def deal_flags(records):
@@ -68,6 +93,7 @@ def main():
     removed = load(REMOVED, {})
     t = now().isoformat(timespec="seconds")
     details_left = args.max_details
+    geocodes_left = [MAX_GEOCODES]
     new_matches, new_maybes = [], []
 
     for src in cfg["sources"]:
@@ -98,6 +124,9 @@ def main():
                     if prev.get(f) not in (None, "", []) and getattr(l, f) in (None, "", []):
                         setattr(l, f, prev[f])
             ev = evaluate(l)
+            if l.lat is None and not prefilter_rejects(l, ev):
+                locate(l, geocodes_left)
+                ev = evaluate(l)
             # Older records flagged rejects as detailed without fetching; a fetched record always has text.
             was_detailed = bool(prev and prev.get("detailed") and (prev.get("text") or prev["status"] != "reject"))
             needs_detail = not was_detailed and not prefilter_rejects(l, ev)
@@ -106,8 +135,7 @@ def main():
                 try:
                     http.pause()
                     adapter.details(l)
-                    if l.lat is None and (ll := geo.geocode(l.address)):
-                        l.lat, l.lon = ll
+                    locate(l, geocodes_left)
                     ev = evaluate(l)
                     detailed = True
                 except Exception as e:

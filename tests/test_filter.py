@@ -138,3 +138,28 @@ def test_market_corridor_excluded():
 def test_in_unit_beats_building_laundry():
     ev = evaluate(L(text="In-unit washer/dryer. Building also has a laundry room.", hood_text="nob hill"))
     assert ev["in_unit_wd"] is True
+
+
+def test_pin_just_outside_named_hood():
+    # "Gorgeous 1x1 in Nob Hill": craigslist pin ~20 m east of the Nob Hill box
+    assert neighborhood(L(title="Gorgeous 1x1 in Nob Hill", lat=37.7917, lon=-122.4083)) == ("Nob Hill", True)
+    # 72 Pearl St, "Near Mission Dolores", geocoded ~17 m north of the box
+    assert neighborhood(L(title="Charming 1-Bedroom - Near Mission Dolores", lat=37.770154, lon=-122.423929)) \
+        == ("Mission Dolores", True)
+    # A label far from its neighborhood is the poster's guess; the pin wins
+    assert neighborhood(L(hood_text="lower nob hill", lat=37.7382, lon=-122.5016)) == (None, True)
+
+
+def test_description_mentions():
+    # Presidio Heights flat: "Easy Commute to Financial, SOMA" is not its location
+    assert neighborhood(L(text="Located in Russian Hill. Easy Commute to Financial, SOMA")) == ("Russian Hill", False)
+    # The Sevens, Mountain View: "Castro Street" is a street, not the Castro
+    assert neighborhood(L(text="convenient access to downtown Mountain View, Castro Street, Caltrain")) == (None, False)
+    assert neighborhood(L(title="Spacious 1BR/1BA in Prime Pacific Height Location")) == ("Pacific Heights", True)
+
+
+def test_find_address():
+    from scraper.model import find_address
+    assert find_address("Welcome to 175 Bluxome Street! This huge unit") == "175 Bluxome Street"
+    assert find_address("845 California@Stockton") == ""
+    assert find_address("2 blocks to Fillmore St, 1 bath, walk to Hayes St") == ""

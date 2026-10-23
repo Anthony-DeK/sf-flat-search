@@ -24,11 +24,18 @@ class Listing:
     in_unit_wd: bool | None = None
     lease: str = ""              # "12mo", "m2m", "6mo", ... or "" when unknown
     amenities: list[str] = field(default_factory=list)
+    geo_tried: str = ""          # address last sent to the geocoder, so a failing one isn't retried every run
 
     def to_dict(self):
         return asdict(self)
 
 
+ADDRESS_RE = re.compile(
+    r"\b\d{1,5}[A-Z]?\s+(?:[A-Z0-9][\w'.-]*\s){1,4}"
+    r"(?:St|Street|Ave|Avenue|Blvd|Boulevard|Way|Pl|Place|Ter|Terrace|Dr|Drive|Ln|Lane|Ct|Court|Rd|Road|Aly|Alley|Hwy)\b"
+    r"(?:[ ,]*(?:#|Apt|Unit|Ste)\s*[\w-]+)?", re.I)
+# "2 blocks to Fillmore St", "1 bath, walk to Hayes St": a number followed by these words isn't a house number.
+NOT_ADDRESS_RE = re.compile(r"\b(blocks?|min(ute)?s?|beds?|bedrooms?|baths?|br|ba|bd|walk|to|from|near|floors?|stor(y|ies))\b", re.I)
 PRICE_RE = re.compile(r"\$\s?(\d{1,2},?\d{3})")
 BEDS_RE = re.compile(r"\b(\d)\s*(?:br|bds?|beds?|bedrooms?)\b|\b(studio)\b", re.I)
 
@@ -43,6 +50,14 @@ def parse_beds(s):
     if not m:
         return None
     return 0 if m.group(2) else int(m.group(1))
+
+
+def find_address(text):
+    """First street address written in free text, e.g. "Welcome to 175 Bluxome Street!"."""
+    for m in ADDRESS_RE.finditer(text or ""):
+        if not NOT_ADDRESS_RE.search(m.group(0)):
+            return m.group(0)
+    return ""
 
 
 def clean_text(html):

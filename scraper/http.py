@@ -16,6 +16,12 @@ def get(url, **kw):
     return r
 
 
+def get_any(url, **kw):
+    """Like get, but returns error responses (404, 410, ...) instead of raising."""
+    kw.setdefault("timeout", 25)
+    return _session.get(url, **kw)
+
+
 def post(url, **kw):
     kw.setdefault("timeout", 25)
     r = _session.post(url, **kw)

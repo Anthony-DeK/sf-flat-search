@@ -47,5 +47,6 @@ Sites that block scrapers can still email you. Create a saved search with alerts
 ## Notes
 - **Craigslist may block GitHub's servers.** If the Craigslist count on the dashboard's "Sources & health" stays at 0, or you get a "source stopped working" email, run Craigslist from your Mac instead: schedule `python -m scraper.run --source craigslist` with launchd/cron, then `git pull --rebase && git push`.
 - **Sites that can't be scraped** (bot protection or login) are listed on the dashboard. Furnished Finder is the one worth a saved-search alert.
+- **Weekly cleanup:** every Sunday (~3am Pacific) the `prune` workflow re-opens every kept listing and deletes the ones taken down (Craigslist, Blueground, AppFolio, RentSFNow, Zumper). Their ids go into `data/removed.json` for 90 days so they can't come back. Reddit and alert-email listings can't be checked and are left alone. Try it locally with `python -m scraper.prune --dry-run`.
 - **Adding a landlord on AppFolio:** if a landlord's "Available rentals" page is `<name>.appfolio.com/listings`, add `<name>` to `subdomains` in `sources.yaml`.
 - **Blueground prices** depend on stay length. The price shown is the lowest rent for the minimum stay.

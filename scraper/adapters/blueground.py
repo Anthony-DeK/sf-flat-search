@@ -86,3 +86,8 @@ def details(l):
     d = re.search(r'"description":"(.*?)(?<!\\)"', html)
     l.text = d.group(1).encode().decode("unicode_escape", "ignore")[:3000] if d else ""
     return l
+
+
+def still_listed(rec):
+    r = http.get_any(rec["url"])
+    return False if r.status_code in (404, 410) else True if r.ok else None

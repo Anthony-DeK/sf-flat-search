@@ -86,3 +86,9 @@ def details(l):
     av = re.search(r"available[^<]{0,40}", attrs, re.I)
     l.available = av.group(0).strip() if av else ""
     return l
+
+
+def still_listed(rec):
+    """Deleted and expired posts answer 410 (sometimes 404)."""
+    r = http.get_any(rec["url"])
+    return False if r.status_code in (404, 410) else True if r.ok else None

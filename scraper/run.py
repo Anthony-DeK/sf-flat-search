@@ -17,6 +17,7 @@ from .model import Listing, norm_address
 ROOT = Path(__file__).parent.parent
 STATE = ROOT / "data" / "listings.json"
 HEALTH = ROOT / "data" / "health.json"
+REMOVED = ROOT / "data" / "removed.json"  # ids the weekly prune found taken down
 PUBLIC = ROOT / "docs" / "listings.json"
 STALE_AFTER = timedelta(days=3)       # unseen this long -> inactive (rented / taken down)
 DROP_REJECTS_AFTER = timedelta(days=14)
@@ -64,6 +65,7 @@ def main():
     cfg = yaml.safe_load((ROOT / "sources.yaml").read_text())
     state = load(STATE, {})
     health = load(HEALTH, {})
+    removed = load(REMOVED, {})
     t = now().isoformat(timespec="seconds")
     details_left = args.max_details
     new_matches, new_maybes = [], []
@@ -88,6 +90,8 @@ def main():
 
         stats = {"match": 0, "maybe": 0, "reject": 0, "new": 0}
         for l in found:
+            if l.id in removed:   # taken down, but still in the source's search results
+                continue
             prev = state.get(l.id)
             if prev:  # reuse detail-page facts from earlier runs
                 for f in DETAIL_FIELDS:

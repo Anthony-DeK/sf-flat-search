@@ -67,3 +67,13 @@ def details(l):
     if any(i in ("furnished", "fully furnished") for i in low):
         l.furnished = True
     return l
+
+
+def still_listed(rec):
+    """A taken-down unit redirects from /listings/detail/<id> to the landlord's index."""
+    if "/listings/detail/" not in rec["url"]:
+        return None
+    r = http.get_any(rec["url"])
+    if r.status_code in (404, 410) or (r.ok and "/listings/detail/" not in r.url):
+        return False
+    return True if r.ok else None

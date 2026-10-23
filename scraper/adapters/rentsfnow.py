@@ -61,3 +61,11 @@ def details(l):
     l.text = (clean_text(body.group(1)) if body else "") + "\n" + " | ".join(
         clean_text(f) for f in feats if 3 < len(clean_text(f)) < 60)
     return l
+
+
+def still_listed(rec):
+    """Rented units keep a 200 page with an "Apartment No Longer Available" banner."""
+    r = http.get_any(rec["url"])
+    if r.status_code in (404, 410) or (r.ok and "no longer available" in r.text.lower()):
+        return False
+    return True if r.ok else None

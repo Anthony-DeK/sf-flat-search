@@ -4,6 +4,7 @@ from .. import http
 from ..model import Listing
 
 API = "https://www.zumper.com/api/t/1/pages/listables"
+LISTING_API = "https://www.zumper.com/api/t/1/listings/"
 IN_UNIT_TAGS = {"In-Unit Laundry", "Washer and Dryer", "Washer/Dryer In Unit", "Washer/Dryer in Unit", "In Unit Washer & Dryer"}
 BONUS_TAGS = {"Balcony": "balcony", "Private Balcony": "balcony", "Roof Deck": "rooftop", "Rooftop": "rooftop",
               "Assigned Parking": "parking", "Garage Parking": "parking", "Gym": "gym", "Fitness Center": "gym",
@@ -54,3 +55,11 @@ def search(cfg, crit):
 
 def details(l):
     return l   # listing pages sit behind a JS challenge; the API row is all we get
+
+
+def still_listed(rec):
+    """Pages are JS-gated, but the listing API answers; listing_status 1 is the only live state seen."""
+    r = http.get_any(LISTING_API + rec["id"].split(":", 1)[1])
+    if r.status_code == 404:
+        return False
+    return r.json().get("listing_status") == 1 if r.ok else None

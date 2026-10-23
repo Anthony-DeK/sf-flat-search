@@ -28,7 +28,22 @@ sources:
     adapter: appfolio
     subdomains: [amsires, eminvest, twobliving, azaripm, bancalsf, apg, progressivesf, luminor, greenerealty,
                  spsf, chandlerproperties, baypropertygroup, amore, ggproperties, ralstonmgmt,
-                 gaetanirealestate, sfcityrents]
+                 gaetanirealestate, sfcityrents,
+                 # added 2026-10-24 from agencies seen on Zumper/Craigslist and AppFolio search results
+                 towerrents, improperties, hppm, rentwise, skylinepmg, gordon, cybus, georgegoodwin,
+                 questrealestate, tenantplanet, thehousingguild, rdrealty, sutro, abacus, paseoproperties]
+
+  - name: Buildium landlords
+    adapter: buildium
+    can_be_empty: true     # few SF units each; some weeks none are in range
+    subdomains: [mavericks, steeleproperties, thesfpropertymanagement, skybox, pmp, studioapartments,
+                 gwtreproperties, bridges8, sharevest]
+
+  - name: J. Wavro
+    adapter: jwavro
+
+  - name: Rentals Inc.
+    adapter: rentalsinc
 
   - name: Zumper / PadMapper
     adapter: zumper

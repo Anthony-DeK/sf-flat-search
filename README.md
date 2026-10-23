@@ -49,4 +49,6 @@ Sites that block scrapers can still email you. Create a saved search with alerts
 - **Sites that can't be scraped** (bot protection or login) are listed on the dashboard. Furnished Finder is the one worth a saved-search alert.
 - **Weekly cleanup:** every Sunday (~3am Pacific) the `prune` workflow re-opens every kept listing and deletes the ones taken down (Craigslist, Blueground, AppFolio, RentSFNow, Zumper). Their ids go into `data/removed.json` for 90 days so they can't come back. Reddit and alert-email listings can't be checked and are left alone. Try it locally with `python -m scraper.prune --dry-run`.
 - **Adding a landlord on AppFolio:** if a landlord's "Available rentals" page is `<name>.appfolio.com/listings`, add `<name>` to `subdomains` in `sources.yaml`.
+- **Adding a landlord on Buildium:** same idea for `<name>.managebuilding.com/Resident/public/rentals`: add `<name>` under `Buildium landlords`.
+- **Local agencies:** J. Wavro and Rentals Inc. are scraped from their own sites. Other agencies checked (Brick & Mortar, Anchor Realty, Kenney & Everest / Everest Mwamba, Brick+Timber's RentCafe portal) either load listings with JavaScript or are already covered through Zumper.
 - **Blueground prices** depend on stay length. The price shown is the lowest rent for the minimum stay.

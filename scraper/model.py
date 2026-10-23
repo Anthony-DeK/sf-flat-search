@@ -1,4 +1,5 @@
 import re
+from html import unescape
 from dataclasses import dataclass, field, asdict
 
 
@@ -64,8 +65,7 @@ def clean_text(html):
     s = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", html or "", flags=re.S | re.I)
     s = re.sub(r"<br\s*/?>|</p>|</li>", "\n", s, flags=re.I)
     s = re.sub(r"<[^>]+>", " ", s)
-    s = (s.replace("&amp;", "&").replace("&nbsp;", " ").replace("&#36;", "$")
-          .replace("&#39;", "'").replace("&quot;", '"'))
+    s = unescape(s).replace("\xa0", " ")   # &ndash;, &#x27;, &nbsp; ...
     return re.sub(r"[ \t]+", " ", s).strip()
 
 

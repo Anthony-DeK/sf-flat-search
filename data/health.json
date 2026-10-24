@@ -3,8 +3,8 @@
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": false,
-  "last_count": 229,
-  "last_ok": "2026-10-24T00:00:12+00:00",
+  "last_count": 232,
+  "last_ok": "2026-10-24T04:26:40+00:00",
   "last_error": null
  },
  "Craigslist sublets": {
@@ -13,14 +13,14 @@
   "can_be_empty": true,
   "last_count": 19,
   "last_error": null,
-  "last_ok": "2026-10-24T00:00:12+00:00"
+  "last_ok": "2026-10-24T04:26:40+00:00"
  },
  "Blueground": {
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": false,
   "last_count": 208,
-  "last_ok": "2026-10-24T00:00:12+00:00",
+  "last_ok": "2026-10-24T04:26:40+00:00",
   "last_error": null
  },
  "RentSFNow": {
@@ -28,15 +28,15 @@
   "error_runs": 0,
   "can_be_empty": true,
   "last_count": 43,
-  "last_ok": "2026-10-24T00:00:12+00:00",
+  "last_ok": "2026-10-24T04:26:40+00:00",
   "last_error": null
  },
  "AppFolio landlords": {
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": false,
-  "last_count": 208,
-  "last_ok": "2026-10-24T00:00:12+00:00",
+  "last_count": 207,
+  "last_ok": "2026-10-24T04:26:40+00:00",
   "last_error": null
  },
  "r/SFBayHousing": {
@@ -44,20 +44,20 @@
   "error_runs": 0,
   "can_be_empty": true,
   "last_count": 10,
-  "last_ok": "2026-10-24T00:00:12+00:00",
+  "last_ok": "2026-10-24T04:26:40+00:00",
   "last_error": null
  },
  "Zumper / PadMapper": {
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": false,
-  "last_count": 174,
-  "last_ok": "2026-10-24T00:00:12+00:00",
+  "last_count": 179,
+  "last_ok": "2026-10-24T04:26:40+00:00",
   "last_error": null
  },
  "Alert emails": {
   "zero_runs": 0,
-  "error_runs": 63,
+  "error_runs": 64,
   "can_be_empty": true,
   "last_count": 0,
   "last_error": "error: command SEARCH illegal in state AUTH, only allowed in states SELECTED"
@@ -67,7 +67,7 @@
   "error_runs": 0,
   "can_be_empty": true,
   "last_count": 19,
-  "last_ok": "2026-10-24T00:00:12+00:00",
+  "last_ok": "2026-10-24T04:26:40+00:00",
   "last_error": null
  },
  "J. Wavro": {
@@ -75,7 +75,7 @@
   "error_runs": 0,
   "can_be_empty": false,
   "last_count": 21,
-  "last_ok": "2026-10-24T00:00:12+00:00",
+  "last_ok": "2026-10-24T04:26:40+00:00",
   "last_error": null
  },
  "Rentals Inc.": {
@@ -83,7 +83,7 @@
   "error_runs": 0,
   "can_be_empty": false,
   "last_count": 36,
-  "last_ok": "2026-10-24T00:00:12+00:00",
+  "last_ok": "2026-10-24T04:26:40+00:00",
   "last_error": null
  }
 }

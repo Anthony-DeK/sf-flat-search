@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T09:54:12+00:00",
+ "updated": "2026-11-02T22:43:29+00:00",
  "listings": [
   {
    "id": "craigslist:7980294789",
@@ -33,7 +33,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -78,7 +78,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -121,7 +121,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -160,7 +160,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -203,7 +203,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -218,7 +218,8 @@
    ],
    "also_on": [
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sun-1255pm-115pm/7992470199.html",
-    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sun-1255pm-115pm/7993428501.html"
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sun-1255pm-115pm/7993428501.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-modernw-droof-deck-252/7994037531.html"
    ],
    "deal": true,
    "snippet": "3rd Floor 2BR/1BA Condo\r\n* $4,495/month annual lease\r\n* In-unit laundry\r\n* Shared roof deck\r\n* Elevator in building\r\n* Available: January 1st, 2027\r\n\r\nOPEN HOUSE: Sunday (11/1) 12:55pm-1:15pm\r\nADDRESS: 252 9th Street #304\r\n\r\nModern third-floor 2BR/1BA condo in the heart of SoMa, located on 9th Street between Howard and Folsom.\r\nThe spacious, light-filled living room features windows at one end ..."
@@ -228,7 +229,7 @@
    "source": "AppFolio · twobliving",
    "url": "https://twobliving.appfolio.com/listings/detail/4d932783-f937-451e-be21-9bd7256fcbac",
    "title": "Charming 1-Bedroom Apartment - Near Mission Dolores",
-   "price": 4250,
+   "price": 4150,
    "beds": 1,
    "baths": 1.0,
    "sqft": 650,
@@ -254,7 +255,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -269,6 +270,10 @@
     [
      "2026-10-27T23:07:05+00:00",
      4250
+    ],
+    [
+     "2026-11-02T22:43:29+00:00",
+     4150
     ]
    ],
    "also_on": [
@@ -304,7 +309,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -391,7 +396,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -438,7 +443,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -490,7 +495,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -540,7 +545,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -585,7 +590,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -606,7 +611,7 @@
    "source": "Zumper · Vivmark Residential",
    "url": "https://www.zumper.com/apartment-buildings/p18111/avalon-at-mission-bay-south-beach-san-francisco-ca",
    "title": "A1",
-   "price": 4241,
+   "price": 4281,
    "beds": 1,
    "baths": 1,
    "sqft": null,
@@ -632,7 +637,7 @@
     "gym"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -707,6 +712,10 @@
     [
      "2026-11-01T14:28:04+00:00",
      4241
+    ],
+    [
+     "2026-11-02T22:43:29+00:00",
+     4281
     ]
    ],
    "deal": false,
@@ -839,7 +848,7 @@
    "baths": null,
    "sqft": null,
    "address": "Grace Street, San Francisco, CA 94103",
-   "hood_text": "nob hill",
+   "hood_text": "Marina District",
    "lat": 37.7751,
    "lon": -122.4146,
    "photo": "https://images.craigslist.org/00y0y_6XP0ghCkV2a_0ew08B_600x450.jpg",
@@ -861,7 +870,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -903,7 +912,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -925,7 +934,7 @@
    "baths": null,
    "sqft": null,
    "address": "3809 20th, San Francisco, CA 94114",
-   "hood_text": "Tenderloin",
+   "hood_text": "cole valley / ashbury hts",
    "lat": 37.7582,
    "lon": -122.426,
    "photo": "https://images.craigslist.org/00808_pS9ruvzvuq_0uY0hq_600x450.jpg",
@@ -942,7 +951,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -964,7 +973,7 @@
    "baths": null,
    "sqft": null,
    "address": "250 Fell #24, San Francisco, CA 94102",
-   "hood_text": "Mid-Market",
+   "hood_text": "hayes valley",
    "lat": 37.7761,
    "lon": -122.422,
    "photo": "https://images.craigslist.org/00S0S_g59JgSAxNzW_0x20m1_600x450.jpg",
@@ -983,7 +992,7 @@
     "garage"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -996,7 +1005,8 @@
     "https://www.rentsfnow.com/apartments/rental/250-fell-24",
     "https://www.zumper.com/apartment-buildings/p355411/250-fell-hayes-valley-san-francisco-ca",
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-hayes-valley-250/7993050444.html",
-    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-walk-to-muni-and-easy/7993184139.html"
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-walk-to-muni-and-easy/7993184139.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-hayes-valley-250/7994209914.html"
    ],
    "deal": false,
    "snippet": "250 Fell St San Francisco, CA 94102 | 516 Sq Ft \n\n\n\n$325 Move-In Special\n\n\n\nPlease call or email with the following information: \n\n-NAME\n\n-PHONE NUMBER\n\n-EMAIL\n\n\n\n\n\nPETS\n\nDogs Welcome\n\nCats Welcome\n\nPets under 40 lbs allowed\n\nPet rent- Cats $50mnth/Dogs $75mnth\n\n\n\n\n\nNEIGHBORHOOD HOTSPOTS\n\nDomo\n\nSouvla\n\nCala\n\nMonsieur Benjamin\n\nPadrecito\n\nPetite Crenn\n\nSteven Alan\n\nJohnny's Doughnuts\n\nSuppenkuche\n\n"
@@ -1030,7 +1040,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1084,7 +1094,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1129,7 +1139,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1185,7 +1195,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1230,7 +1240,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1286,7 +1296,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1332,7 +1342,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1387,7 +1397,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1398,7 +1408,9 @@
    ],
    "also_on": [
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-nob-hill-655powellpine-d/7992481821.html",
-    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-nob-hill-655powellpine-d/7993051752.html"
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-nob-hill-655powellpine-d/7993051752.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-nob-hill-655powellpine-d/7994211189.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-nob-hill-655powellpine-d/7993958781.html"
    ],
    "deal": true,
    "snippet": "Welcome to your dream Nob Hill home! This updated apartment boasts brand-new floors, a stylish kitchen with blue cabinetry and gold finishes, stainless steel appliances, and in-unit laundry. Located in a prime spot near world-class dining and shopping, you’ll love the convenience of city living. And when you need a break, head up to the rooftop deck to take in stunning panoramic views of San Franc"
@@ -1433,7 +1445,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1485,7 +1497,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1537,7 +1549,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1582,7 +1594,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1631,7 +1643,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1696,7 +1708,7 @@
     "terrace"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1747,7 +1759,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1794,7 +1806,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1881,7 +1893,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1905,7 +1917,7 @@
    "source": "Zumper · Vivmark Residential",
    "url": "https://www.zumper.com/apartment-buildings/p56745/ava-55-ninth-soma-san-francisco-ca",
    "title": "A1",
-   "price": 3815,
+   "price": 3765,
    "beds": 1,
    "baths": 1,
    "sqft": null,
@@ -1937,7 +1949,7 @@
     "gym"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1996,6 +2008,10 @@
     [
      "2026-11-01T14:28:04+00:00",
      3815
+    ],
+    [
+     "2026-11-02T22:43:29+00:00",
+     3765
     ]
    ],
    "deal": false,
@@ -2040,7 +2056,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -2107,7 +2123,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -2402,7 +2418,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -2679,7 +2695,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -3455,7 +3471,7 @@
    "baths": null,
    "sqft": 574,
    "address": "1474 Sacramento #403 Street, San Francisco, CA 94109",
-   "hood_text": "hayes valley",
+   "hood_text": "nob hill",
    "lat": 37.7917,
    "lon": -122.4186,
    "photo": "https://images.craigslist.org/00J0J_428Ic7G2gys_0x20m1_600x450.jpg",
@@ -3472,7 +3488,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-13T23:50:41+00:00",
    "price_history": [
@@ -3513,7 +3529,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-14T04:44:13+00:00",
    "price_history": [
@@ -3566,7 +3582,7 @@
     "terrace"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-14T10:04:50+00:00",
    "price_history": [
@@ -3730,7 +3746,7 @@
    "baths": null,
    "sqft": null,
    "address": "Van ness avenue, San Francisco, CA 94109",
-   "hood_text": "mission district",
+   "hood_text": "city of san francisco",
    "lat": 37.7997,
    "lon": -122.4239,
    "photo": "https://images.craigslist.org/00l0l_dMo0BcVg7dF_0CI0t2_600x450.jpg",
@@ -3750,7 +3766,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-15T00:28:01+00:00",
    "price_history": [
@@ -3865,7 +3881,7 @@
    "baths": null,
    "sqft": 641,
    "address": "Sutter St, San Francisco, CA 94109",
-   "hood_text": "russian hill",
+   "hood_text": "lower nob hill",
    "lat": 37.7886,
    "lon": -122.4139,
    "photo": "https://images.craigslist.org/00G0G_1LjcGAV7en4_0CI0t2_600x450.jpg",
@@ -3885,7 +3901,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-16T04:55:55+00:00",
    "price_history": [
@@ -3974,7 +3990,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-16T20:58:45+00:00",
    "price_history": [
@@ -3987,23 +4003,23 @@
    "snippet": "Spacious Potrero Hill Loft-Style Condo | 18' Ceilings, Garage Parking & In-Unit Laundry\n\n\n\nExperience distinctive city living in this 1,350 sq. ft. loft-style condo in Potrero Hill. Soaring 18-foot ceilings and a dramatic wall of windows fill the home with natural light, creating an open, airy living space with a unique architectural feel.\n\n\n\nThe upper level features a glass-walled bedroom that of"
   },
   {
-   "id": "craigslist:7984860453",
+   "id": "craigslist:7984972218",
    "source": "Craigslist (apa)",
-   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-totally-renovated-bed/7984860453.html",
-   "title": "Totally renovated 2 Bed 2 Bath Condo with Washer and Dryer and Parking",
-   "price": 4750,
-   "beds": 2,
+   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-645-stocktoncalifornia-wd/7984972218.html",
+   "title": "645 Stockton@California/W+D In Unit/City View/Nr. BART + MUNI + Shops!",
+   "price": 4900,
+   "beds": 1,
    "baths": null,
-   "sqft": 1200,
-   "address": "900 Van Ness Ave, San Francisco, CA 94109",
-   "hood_text": "Nob Hill",
-   "lat": 37.7838,
-   "lon": -122.4208,
-   "photo": "https://images.craigslist.org/00y0y_lQKDo1QWlxK_0t20CI_600x450.jpg",
-   "available": "available now \n \n \n\n\n \n rent period: \n monthly",
+   "sqft": 572,
+   "address": "645 Stockton St., San Francisco, CA 94108",
+   "hood_text": "nob hill",
+   "lat": 37.7919,
+   "lon": -122.4074,
+   "photo": "https://images.craigslist.org/00Y0Y_8EnLOi11mdZ_0CI0lM_600x450.jpg",
+   "available": "",
    "furnished": false,
    "in_unit_wd": true,
-   "lease": "",
+   "lease": "12mo",
    "amenities": [],
    "geo_tried": "",
    "status": "match",
@@ -4012,21 +4028,73 @@
    "reasons": [],
    "unknown": [],
    "bonus": [
+    "garage",
     "parking",
-    "patio"
+    "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
-   "first_seen": "2026-10-16T23:29:57+00:00",
+   "first_seen": "2026-10-17T06:06:04+00:00",
    "price_history": [
     [
-     "2026-10-16T23:29:57+00:00",
-     4750
+     "2026-10-17T06:06:04+00:00",
+     4900
     ]
    ],
-   "deal": true,
-   "snippet": "Totally renovated unit with in unit washer and dryer and parking available \n \n \n \n\n \n\n Property Address \n\n\n900 Van Ness Ave - 204 | San Francisco, CA 94109\n\n\n\n Available: 11/10/2026\n\n\n\n\n\n Offered By \n\n\nGRM Properties LLC / Beam Properties, Inc | show contact info \n\n\n\n\n\n \n\n\n Description \n \n 900 Van Ness Avenue, San Francisco \n\n\n\n\n\nTo book a tour or to apply, please do so through The Apartment Plug "
+   "also_on": [
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-1br-with-in-unit/7990108458.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-1br-1ba-laundry-in/7991255022.html"
+   ],
+   "deal": false,
+   "snippet": "Text me for fastest response:\n\n show contact info \n\n\n\n\nDetails\n\n- Building: 645 Stockton St. #503\n\n- Neighborhood: Nob Hill\n\n- Rent Controlled\n\n- 12 Month Lease\n\n- $1,000 deposit with approved credit\n\n-Ask about our other listings\n\n\n\nVIRTUAL TOUR: https://my.matterport.com/show/?m=eAgTt4chR5i\n\n\n\n*** No garage parking available; Street parking only. ***\n\n\n\nAmenities\n\n* Cable Ready\n\n* Efficient Appl"
+  },
+  {
+   "id": "craigslist:7985027844",
+   "source": "Craigslist (apa)",
+   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-50-joicecalifornia-nice/7985027844.html",
+   "title": "50 Joice@California/Nice Layout/W+D In Unit/Garden View/Nr. MUNI+BART",
+   "price": 4425,
+   "beds": 1,
+   "baths": null,
+   "sqft": 461,
+   "address": "50 Joice St., San Francisco, CA 94108",
+   "hood_text": "nob hill",
+   "lat": 37.7917,
+   "lon": -122.4083,
+   "photo": "https://images.craigslist.org/00V0V_eMXjRUc4ldk_0CI0lM_600x450.jpg",
+   "available": "",
+   "furnished": false,
+   "in_unit_wd": true,
+   "lease": "12mo",
+   "amenities": [],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "Nob Hill",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [
+    "garage",
+    "garden",
+    "parking",
+    "views"
+   ],
+   "hood_confident": true,
+   "last_seen": "2026-11-02T22:43:29+00:00",
+   "active": true,
+   "first_seen": "2026-10-17T10:35:42+00:00",
+   "price_history": [
+    [
+     "2026-10-17T10:35:42+00:00",
+     4425
+    ]
+   ],
+   "also_on": [
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-gorgeous-1x1-in-nob-hill/7990123545.html"
+   ],
+   "deal": false,
+   "snippet": "Text me for fastest response:\n\n show contact info \n\n\n\n\nDetails\n\n- Building: 50 Joice St. #14\n\n- Neighborhood: Nob Hill\n\n- Rent Controlled\n\n- 12 Month Lease\n\n- $1,000 deposit with approved credit\n\n-Ask about our other listings\n\n\n\nVIRTUAL TOUR: https://my.matterport.com/show/?m=fT2UueLDToZ\n\n\n\n*** No garage parking available; Street parking only. ***\n\n\n\nAmenities\n\n* Cable Ready\n\n* Efficient Appliance"
   },
   {
    "id": "zumper:58204134",
@@ -4077,7 +4145,7 @@
    "baths": null,
    "sqft": 790,
    "address": "285A 30th St, San Francisco, CA 94131",
-   "hood_text": "alamo square / nopa",
+   "hood_text": "mission district",
    "lat": 37.7421,
    "lon": -122.4266,
    "photo": "https://images.craigslist.org/00E0E_iDGSB4GZfOX_0CI0t2_600x450.jpg",
@@ -4097,7 +4165,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-18T04:20:12+00:00",
    "price_history": [
@@ -4138,7 +4206,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-18T22:23:15+00:00",
    "price_history": [
@@ -4313,7 +4381,7 @@
    "baths": null,
    "sqft": 473,
    "address": "686 Post, San Francisco, CA 94109",
-   "hood_text": "Nob Hill",
+   "hood_text": "noe valley",
    "lat": 37.7877,
    "lon": -122.4131,
    "photo": "https://images.craigslist.org/00f0f_9gb22ACTCzi_0cT08B_600x450.jpg",
@@ -4333,7 +4401,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-19T19:49:03+00:00",
    "price_history": [
@@ -4378,7 +4446,7 @@
     "patio"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-19T23:33:58+00:00",
    "price_history": [
@@ -4538,7 +4606,7 @@
    "baths": null,
    "sqft": 550,
    "address": "418 Union St #B, San Francisco, CA 94133",
-   "hood_text": "financial district",
+   "hood_text": "NOPA",
    "lat": 37.8009,
    "lon": -122.4064,
    "photo": "https://images.craigslist.org/00Q0Q_7Bs79dDkNTZ_0x20lY_600x450.jpg",
@@ -4559,7 +4627,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-22T00:37:22+00:00",
    "price_history": [
@@ -4728,7 +4796,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-22T18:28:46+00:00",
    "price_history": [
@@ -4750,7 +4818,7 @@
    "baths": null,
    "sqft": 1667,
    "address": "1161 Jackson St, San Francisco, CA 94109",
-   "hood_text": "hayes valley",
+   "hood_text": "nob hill",
    "lat": 37.7951,
    "lon": -122.4142,
    "photo": "https://images.craigslist.org/00M0M_kF5XK1Y27zh_06y096_600x450.jpg",
@@ -4769,7 +4837,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-23T18:15:24+00:00",
    "price_history": [
@@ -4811,7 +4879,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-23T18:15:24+00:00",
    "price_history": [
@@ -4822,7 +4890,9 @@
    ],
    "also_on": [
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-hayes-valley/7993038753.html",
-    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-walk-to-muni-from-lower/7993186272.html"
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-walk-to-muni-from-lower/7993186272.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-hayes-valley/7994202915.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-hayes-valley/7994007675.html"
    ],
    "deal": false,
    "snippet": "Grand and contemporary, this blue building has convenience down to a science. Hardwood floors and bright bay windows are pillars of a classic San Francisco design. An in-unit washer/dryer, large closet space, and stainless steel kitchen appliances complete this masterpiece.\nOakland | Los Angeles | Pet-Friendly Apartments | Neighborhoods | Buildings | Coming Soon | Tour | Parking | About | Blog | L"
@@ -4856,7 +4926,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-23T21:37:06+00:00",
    "price_history": [
@@ -4900,7 +4970,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-23T21:37:06+00:00",
    "price_history": [
@@ -4911,7 +4981,8 @@
    ],
    "also_on": [
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-1br-nob-hill-bay-windows/7991382102.html",
-    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-nob-hill-655powellpine-d/7992482064.html"
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-nob-hill-655powellpine-d/7992482064.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-nob-hill-655powellpine-d/7993959015.html"
    ],
    "deal": false,
    "snippet": "This pet-friendly home is in the perfect, walkable neighborhood near it all. Just down the hill from Grace Cathedral and Huntington Park, you can enjoy beautiful city landmarks anytime you want. Inside this cozy apartment, you will find hardwood floors, sunny bay windows, stainless steel kitchen appliances, plenty of closet space, and in-unit laundry.\nOakland | Los Angeles | Pet-Friendly Apartment"
@@ -4945,7 +5016,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-23T21:37:06+00:00",
    "price_history": [
@@ -5002,7 +5073,7 @@
      3850
     ]
    ],
-   "deal": false,
+   "deal": true,
    "snippet": "Schedule showings here:\n\nhttps://showmojo.com/l/0de0a600b1\n\nThis is not a hyperlink :-(. You'll have to copy/paste it into your browser.\n\n\n\nShowing times displayed are the only ones available at this time.\n\n\n\nThis modern and squeaky clean Jr. 1 Bedroom 1 bath condominium is in the heart of San Francisco's South Beach neighborhood and has the following features:\n\n\n\n~ Gourmet Kitchen with honed blac"
   },
   {
@@ -5038,7 +5109,7 @@
     "patio"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-24T00:00:12+00:00",
    "price_history": [
@@ -5086,7 +5157,7 @@
    ],
    "bonus": [],
    "hood_confident": false,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-24T00:00:12+00:00",
    "price_history": [],
@@ -5129,7 +5200,7 @@
    ],
    "bonus": [],
    "hood_confident": false,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-24T00:00:12+00:00",
    "price_history": [],
@@ -5163,7 +5234,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-24T00:00:12+00:00",
    "price_history": [
@@ -5256,7 +5327,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-24T00:00:12+00:00",
    "price_history": [
@@ -5303,7 +5374,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-24T00:00:12+00:00",
    "price_history": [
@@ -5355,11 +5426,11 @@
      4495
     ]
    ],
+   "deal": false,
    "also_on": [
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-nob-hill-1br-with/7990754610.html",
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-nob-hill-1br-with/7993534617.html"
    ],
-   "deal": false,
    "snippet": "Enjoy convenient San Francisco living at 1560 Sacramento St #202, a 1-bedroom, 1-bathroom apartment in the desirable Nob Hill neighborhood."
   },
   {
@@ -5404,7 +5475,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-24T00:00:12+00:00",
    "price_history": [
@@ -5459,7 +5530,7 @@
      3000
     ]
    ],
-   "deal": false,
+   "deal": true,
    "snippet": "\nFeatures: Balcony | Deck | Dishwasher | Fireplace | Furnished | Hardwood Floor | In-Unit Laundry"
   },
   {
@@ -5602,7 +5673,7 @@
      3850
     ]
    ],
-   "deal": false,
+   "deal": true,
    "snippet": "\nFeatures: Assigned Parking | Condo Quality | Deck | Dishwasher | Fitness Center | Furnished | Garage Parking | Gas Stove/Oven | Hardwood Floor | In-Unit Laundry | Media Room/Clubhouse | Microwave | No Smoking | One Year Lease | Outdoor Pool | Roof Deck | Stainless Steel Appliances | Tenant Pays Parking | Trash Removal Included | Washer and Dryer | Water & Sewer Included"
   },
   {
@@ -5634,7 +5705,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-24T22:25:06+00:00",
    "price_history": [
@@ -5726,7 +5797,7 @@
     "terrace"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-25T10:05:27+00:00",
    "price_history": [
@@ -5768,7 +5839,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-25T17:36:51+00:00",
    "price_history": [
@@ -5904,7 +5975,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-26T06:02:21+00:00",
    "price_history": [
@@ -5947,7 +6018,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-26T19:52:06+00:00",
    "price_history": [
@@ -5969,7 +6040,7 @@
    "baths": null,
    "sqft": 600,
    "address": "",
-   "hood_text": "SOMA / south beach",
+   "hood_text": "alamo square / nopa",
    "lat": 37.7856,
    "lon": -122.4358,
    "photo": "https://images.craigslist.org/00o0o_k86wu9WZvJz_0mg0fQ_600x450.jpg",
@@ -5990,7 +6061,7 @@
     "patio"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-26T19:52:06+00:00",
    "price_history": [
@@ -6003,45 +6074,6 @@
    "snippet": "Available Jan 1 2027. \n\n\n\nThis a rare find! \n\n\n\nBeautifully furnished and thoughtfully designed apartment with private patio and another large shared deck, located just off iconic Divis Street in one of San Francisco’s most vibrant and walkable neighborhoods. Tucked away from the street, the space offers a peaceful and quiet retreat while still being steps from some of the city’s best restaurants,"
   },
   {
-   "id": "craigslist:7990123545",
-   "source": "Craigslist (apa)",
-   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-gorgeous-1x1-in-nob-hill/7990123545.html",
-   "title": "Gorgeous 1x1 in Nob Hill with In-Unit W/D Unit# 14",
-   "price": 4120,
-   "beds": 1,
-   "baths": null,
-   "sqft": 461,
-   "address": "50 Joice Street, San Francisco, CA 94108",
-   "hood_text": "hayes valley",
-   "lat": 37.7917,
-   "lon": -122.4083,
-   "photo": "https://images.craigslist.org/00F0F_6Ry1JdKNCuh_0CI0lM_600x450.jpg",
-   "available": "",
-   "furnished": false,
-   "in_unit_wd": true,
-   "lease": "12mo",
-   "amenities": [],
-   "geo_tried": "",
-   "status": "match",
-   "check": [],
-   "hood": "Nob Hill",
-   "reasons": [],
-   "unknown": [],
-   "bonus": [],
-   "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
-   "active": true,
-   "first_seen": "2026-10-26T19:52:06+00:00",
-   "price_history": [
-    [
-     "2026-10-26T19:52:06+00:00",
-     4120
-    ]
-   ],
-   "deal": false,
-   "snippet": "Take a virtual tour! Click here: https://my.matterport.com/show/?m=fT2UueLDToZ\n\n\n\nUnit Features:\n\n- Beautifully renovated and bright 1 bedroom\n\n- 1-bath with tub and shower\n\n- Kitchen with stainless steel appliances.\n\n- Sleek countertop and multiple cupboards\n\n- Gorgeous flooring throughout the unit\n\n- In-unit washer and dryer for convenience\n\n\n\nCommunity Amenities\n\nShared Common Backyard • Common"
-  },
-  {
    "id": "craigslist:7990112220",
    "source": "Craigslist (apa)",
    "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-prime-russian-hill-1br-in/7990112220.html",
@@ -6051,7 +6083,7 @@
    "baths": null,
    "sqft": 471,
    "address": "1260 Broadway Street, San Francisco, CA 94109",
-   "hood_text": "San Francisco, CA",
+   "hood_text": "russian hill",
    "lat": 37.7965,
    "lon": -122.4176,
    "photo": "https://images.craigslist.org/00u0u_eKRu7EjC2nC_0uY0hq_600x450.jpg",
@@ -6071,7 +6103,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-26T19:52:06+00:00",
    "price_history": [
@@ -6121,6 +6153,7 @@
      4240
     ]
    ],
+   "deal": false,
    "also_on": [
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-355-fulton-st-308/7990747857.html",
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-355-fulton-st-308/7991289393.html",
@@ -6128,7 +6161,6 @@
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-355-fulton-st-308/7991951733.html",
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-355-fulton-amazing-1x1-wd/7992611781.html"
    ],
-   "deal": false,
    "snippet": "Take a virtual tour. Click here: https://my.matterport.com/show/?m=7ir5dAvzGW8\n\n\n\nUnit Features:\n\n- Bright and Beautiful 1-bedroom.\n\n- Bathroom with bathtub and shower.\n\n- Kitchen with energy-efficient stainless steel appliances.\n\n- Lovely countertops with plenty of cupboards.\n\n- Gorgeous flooring throughout the unit.\n\n- Convenient in-unit washer and dryer.\n\n\n\nLease Terms:\n\n- Lease Duration: 12 mo"
   },
   {
@@ -6141,7 +6173,7 @@
    "baths": null,
    "sqft": 1639,
    "address": "425 1st St, San Francisco, CA 94105",
-   "hood_text": "nob hill",
+   "hood_text": "Marina District",
    "lat": 37.7859,
    "lon": -122.3928,
    "photo": "https://images.craigslist.org/00303_74FFoF6O2cC_0ak06S_600x450.jpg",
@@ -6162,7 +6194,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-26T19:52:06+00:00",
    "price_history": [
@@ -6203,7 +6235,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-26T23:47:11+00:00",
    "price_history": [
@@ -6242,7 +6274,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-27T04:53:04+00:00",
    "price_history": [
@@ -6264,7 +6296,7 @@
    "baths": null,
    "sqft": 500,
    "address": "3783 20th st, San Francisco, CA 94114",
-   "hood_text": "noe valley",
+   "hood_text": "financial district",
    "lat": 37.7582,
    "lon": -122.4254,
    "photo": "https://images.craigslist.org/00B0B_6mH0MEUBq2_0CI0lM_600x450.jpg",
@@ -6281,7 +6313,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-27T19:23:22+00:00",
    "price_history": [
@@ -6306,7 +6338,7 @@
    "baths": null,
    "sqft": 625,
    "address": "1401 Jones, San Francisco, CA 94109",
-   "hood_text": "hayes valley",
+   "hood_text": "nob hill",
    "lat": 37.7941,
    "lon": -122.4147,
    "photo": "https://images.craigslist.org/00b0b_7mT2eX6Qq67_0CI0lM_600x450.jpg",
@@ -6323,7 +6355,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-27T19:23:22+00:00",
    "price_history": [
@@ -6353,7 +6385,7 @@
    "baths": null,
    "sqft": 472,
    "address": "1656 leavenworth, San Francisco, CA 94109",
-   "hood_text": "hayes valley",
+   "hood_text": "nob hill",
    "lat": 37.7963,
    "lon": -122.4168,
    "photo": "https://images.craigslist.org/00606_2LtmDZMhN0c_0CI0lM_600x450.jpg",
@@ -6370,7 +6402,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-27T19:23:22+00:00",
    "price_history": [
@@ -6395,7 +6427,7 @@
    "baths": null,
    "sqft": 479,
    "address": "520 buchanan, San Francisco, CA 94117",
-   "hood_text": "Mid-Market",
+   "hood_text": "hayes valley",
    "lat": 37.7749,
    "lon": -122.4276,
    "photo": "https://images.craigslist.org/00J0J_aYi0Ikg2d7c_0CI0lM_600x450.jpg",
@@ -6412,7 +6444,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-27T19:23:22+00:00",
    "price_history": [
@@ -6441,7 +6473,7 @@
    "baths": null,
    "sqft": null,
    "address": "100 Broderick, San Francisco, CA 94117",
-   "hood_text": "San Francisco",
+   "hood_text": "glen park",
    "lat": 37.7711,
    "lon": -122.4387,
    "photo": "https://images.craigslist.org/00Q0Q_k619CZQEl5c_0uY0hq_600x450.jpg",
@@ -6458,7 +6490,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-27T19:23:22+00:00",
    "price_history": [
@@ -6507,7 +6539,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-27T19:23:22+00:00",
    "price_history": [
@@ -6546,7 +6578,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-27T19:23:22+00:00",
    "price_history": [
@@ -6592,7 +6624,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-27T19:23:22+00:00",
    "price_history": [
@@ -6602,7 +6634,50 @@
     ]
    ],
    "deal": false,
-   "snippet": "Furnished 1BR/1BA within a block of Dolores Park, on a quiet side street in Mission Dolores. Available November 1, 2026 for a three- or four-month term, ending January 31 or February 28, 2027.\n FULL-TIME: $4,250/month with a three- or four-month commitment. All utilities and Wi-Fi included.\n MORE DETAILS: Bedroom and living area separated by double doors that can be opened or closed to create more"
+   "snippet": "Updated availability: November 15, 2026 for a three- or four-month term. Full-time only, $4,250/month including utilities and Wi-Fi.\n Furnished 1BR/1BA within a block of Dolores Park, on a quiet side street in Mission Dolores.\n MORE DETAILS: Bedroom and living area separated by double doors that can be opened or closed to create more space/privacy. Furnishings are primarily from Article and includ"
+  },
+  {
+   "id": "craigslist:7990994265",
+   "source": "Craigslist (apa)",
+   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-1br-1ba-laundry/7990994265.html",
+   "title": "Updated 1BR/1BA Laundry In Unit Outdoor Access Pets OK",
+   "price": 4120,
+   "beds": 1,
+   "baths": null,
+   "sqft": null,
+   "address": "50 Joice, San Francisco, CA 94108",
+   "hood_text": "nob hill",
+   "lat": 37.7917,
+   "lon": -122.4083,
+   "photo": "https://images.craigslist.org/00q0q_crSorRXwZpU_0CI0lM_600x450.jpg",
+   "available": "available now \n \n \n\n\n \n rent period: \n monthly",
+   "furnished": false,
+   "in_unit_wd": true,
+   "lease": "12mo",
+   "amenities": [],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "Nob Hill",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [],
+   "hood_confident": true,
+   "last_seen": "2026-11-02T22:43:29+00:00",
+   "active": true,
+   "first_seen": "2026-10-27T23:07:05+00:00",
+   "price_history": [
+    [
+     "2026-10-27T23:07:05+00:00",
+     4120
+    ]
+   ],
+   "also_on": [
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-1br-1ba-laundry/7991403381.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-50-joice-14-charmin-1x1/7991641176.html"
+   ],
+   "deal": false,
+   "snippet": "50 Joice St #14, San Francisco, CA 94108\n\n\n\nFor the fastest response, text Pieter at show contact info \n today to schedule an in-person tour! Please include the address in your message.\n\n\n\nTake a virtual tour: https://my.matterport.com/show/?m=fT2UueLDToZ\n\n\n\n- Reduced $1,000 security deposit with approved credit\n\n\n\nAbout Unit #14:\n\n- Updated compact 1 bedroom unit\n\n- Updated kitchen\n\n- Laundry in "
   },
   {
    "id": "craigslist:7990985271",
@@ -6614,7 +6689,7 @@
    "baths": null,
    "sqft": null,
    "address": "2600 van ness, San Francisco, CA 94109",
-   "hood_text": "San Francisco, CA",
+   "hood_text": "russian hill",
    "lat": 37.8013,
    "lon": -122.4245,
    "photo": "https://images.craigslist.org/00303_k2bWF8jUyhv_0uY0hq_600x450.jpg",
@@ -6631,7 +6706,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-27T23:07:05+00:00",
    "price_history": [
@@ -6645,6 +6720,45 @@
    ],
    "deal": false,
    "snippet": "2600 Van Ness #306, San Francisco, CA 94109\n\n\n\nPlease text Pieter show contact info \n for the fastest response!\n\n\n\nTake a virtual tour: https://my.matterport.com/show/?m=qFYQFW9bA6s\n\n\n\n* SECURITY DEPOSIT SPECIAL: $1000 security deposit with approved credit\n\n\n\nUnit #306 Features:\n\n- 1 bedroom unit\n\n- Plenty of cabinet space in the kitchen\n\n- Laundry in unit\n\n\n\nLocation Highlights:\n\n- 15-minute walk"
+  },
+  {
+   "id": "craigslist:7991036451",
+   "source": "Craigslist (apa)",
+   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-spacious-1br-1ba/7991036451.html",
+   "title": "Updated Spacious 1BR/1BA Laundry In Unit Pet Friendly Close To FiDi",
+   "price": 4500,
+   "beds": 1,
+   "baths": null,
+   "sqft": 633,
+   "address": "621 Stockton, San Francisco, CA 94108",
+   "hood_text": "nob hill",
+   "lat": 37.7915,
+   "lon": -122.4074,
+   "photo": "https://images.craigslist.org/01010_iX0g4Rwp19_0CI0lM_600x450.jpg",
+   "available": "available nov 17\n \n \n \n\n\n \n rent period: \n monthl",
+   "furnished": false,
+   "in_unit_wd": true,
+   "lease": "12mo",
+   "amenities": [],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "Nob Hill",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [],
+   "hood_confident": true,
+   "last_seen": "2026-11-02T22:43:29+00:00",
+   "active": true,
+   "first_seen": "2026-10-28T02:11:13+00:00",
+   "price_history": [
+    [
+     "2026-10-28T02:11:13+00:00",
+     4500
+    ]
+   ],
+   "deal": false,
+   "snippet": "621 Stockton St #203, San Francisco, CA 94108\n\n\n\nFor the fastest response, text Pieter at show contact info \n today to schedule an in-person tour! Please include the address in your message.\n\n\n\nTake a virtual tour: https://my.matterport.com/show/?m=HosoBXunJnS\n\n\n\n- Reduced $1,000 security deposit with approved credit\n\n\n\nAbout Unit #203:\n\n- Updated 1 bedroom unit\n\n- Updated kitchen\n\n- Laundry in un"
   },
   {
    "id": "craigslist:7991130777",
@@ -6677,7 +6791,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-28T08:56:10+00:00",
    "price_history": [
@@ -6699,7 +6813,7 @@
    "baths": null,
    "sqft": 790,
    "address": "74 New Montgomery St, San Francisco, CA 94105",
-   "hood_text": "nob hill",
+   "hood_text": "Marina District",
    "lat": 37.7878,
    "lon": -122.4009,
    "photo": "",
@@ -6719,7 +6833,7 @@
     "roof deck"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-28T08:56:10+00:00",
    "price_history": [
@@ -6741,7 +6855,7 @@
    "baths": null,
    "sqft": 1066,
    "address": "175 Bluxome St., San Francisco, CA 94107",
-   "hood_text": "nob hill",
+   "hood_text": "Marina District",
    "lat": 37.7741,
    "lon": -122.3997,
    "photo": "https://images.craigslist.org/00A0A_6g7Dq2kGWDj_09G07g_600x450.jpg",
@@ -6760,7 +6874,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-28T19:28:33+00:00",
    "price_history": [
@@ -6861,10 +6975,11 @@
      3995
     ]
    ],
-   "also_on": [
-    "https://www.rentsfnow.com/apartments/rental/3875-18th-street-15"
-   ],
    "deal": true,
+   "also_on": [
+    "https://www.rentsfnow.com/apartments/rental/3875-18th-street-15",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-mission-dolores-park/7993958517.html"
+   ],
    "snippet": "3875 18th st. #15\n\n\n\n\n\nMOVE IN SPECIAL \n\n1/2 Month deposit with good credit!\n\n\n\n*Ground Level!!\n\n\n\n*Church Muni Station\n\n\n\n\n\nWithin walking distance: \n\nMission Dolores park \n\nmuni\n\nMission high school\n\nLe marais bakery\n\nSaucy Asian\n\nSanchez street stairs\n\n \n\n\n\n\n\nUnit Features:\n\nHardwood floors \n\nRemodeled Kitchen \n\nStainless steel appliances \n\nDishwasher \n\nWasher/Dryer in unit!\n\nOpen Family room \n"
   },
   {
@@ -6908,14 +7023,15 @@
      3673
     ]
    ],
+   "deal": true,
    "also_on": [
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-ev-charging-washer-and/7992378636.html",
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-gated-ev-charging-washer/7992729387.html",
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-ev-charging-washer-and/7992799590.html",
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-pets-welcome-roof-view/7993134498.html",
-    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-stainless-steel/7993080618.html"
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-stainless-steel/7993080618.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-great-location-soma-life/7994141202.html"
    ],
-   "deal": true,
    "snippet": "Olume 1401 Mission Street, San Francisco, CA, 94103\n\nCall Now - show contact info \n x 39 \nOR Text 39 to show contact info \n to text our team directly.\n\n Follow The Link Below:\nhttps://moreinfo.touraptnow.com/foagwz \n\nWelcome Home to Olume\n\n2 bedroom | 2 bath | 911 square feet \n Features ✓ Great Location ✓ Douglas Fir Cabinetry ✓ Pets Welcome ✓ Vessel Sinks in Bathroom ✓ Dark Bronze Concrete Floori"
   },
   {
@@ -6948,7 +7064,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-30T19:14:13+00:00",
    "price_history": [
@@ -7005,6 +7121,7 @@
      3046
     ]
    ],
+   "deal": false,
    "also_on": [
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-now-touring-bike-stor/7992603063.html",
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-gated-now-showing-ev/7992760299.html",
@@ -7018,7 +7135,6 @@
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-roof-view-fire-pits/7993755621.html",
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-great-location-pets/7993724505.html"
    ],
-   "deal": false,
    "snippet": "This is a 1 Bedroom, 1 Bath, Approximately 696 Sq. Ft. \n\n\n Need more information? Copy this link:\nhttps://moreinfo.touraptnow.com/qxl1zg \n\nCall Now - show contact info \n x 40 \nOR Text 40 to show contact info \n to contact our team. Welcome Home to Olume Community Info: Experience vibrant city living at Olume, ideally situated in San Francisco's lively Mid-Market neighborhood. With amenities like a "
   },
   {
@@ -7052,7 +7168,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-30T19:14:13+00:00",
    "price_history": [
@@ -7091,7 +7207,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-30T19:14:13+00:00",
    "price_history": [
@@ -7142,6 +7258,9 @@
     ]
    ],
    "deal": false,
+   "also_on": [
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-lower-nob-hill/7994213214.html"
+   ],
    "snippet": "1035 Sutter #17\n\n\n\n\n\n*Available Now~Apply now to be first in line!!\n\n\n\n*Backyard Area\n\n\n\nWithin walking distance \n\nUforia\n\nMayes\n\nMcteagues\n\nCvs\n\nJanes\n\n\n\nUnit Features:\n\nHardwood floors \n\nRemodeled Kitchen \n\noven/stove\n\nrefrigerator\n\nremodeled Bathroom\n\nWasher / Dryer in unit \n\n Dishwasher\n\n\n\nPets Allowed ( 40 pounds or less and no aggressive breeds)\n\n$75 per month for each pet\n\nUtilities not inc"
   },
   {
@@ -7154,7 +7273,7 @@
    "baths": null,
    "sqft": null,
    "address": "King Street, San Francisco, CA 94107",
-   "hood_text": "nob hill",
+   "hood_text": "Marina District",
    "lat": 37.7763,
    "lon": -122.394,
    "photo": "https://images.craigslist.org/00404_7oiHHDPuuV7_0fk08C_600x450.jpg",
@@ -7176,7 +7295,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-31T18:28:16+00:00",
    "price_history": [
@@ -7198,7 +7317,7 @@
    "baths": null,
    "sqft": 600,
    "address": "2645 Van Ness Avenue, San Francisco, CA 94109",
-   "hood_text": "mission district",
+   "hood_text": "city of san francisco",
    "lat": 37.7998,
    "lon": -122.4243,
    "photo": "https://images.craigslist.org/00X0X_bvytszq4IiA_0lM0t2_600x450.jpg",
@@ -7217,7 +7336,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-31T18:28:16+00:00",
    "price_history": [
@@ -7259,7 +7378,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-31T21:49:56+00:00",
    "price_history": [
@@ -7301,7 +7420,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-10-31T21:49:56+00:00",
    "price_history": [
@@ -7355,6 +7474,9 @@
     ]
    ],
    "deal": false,
+   "also_on": [
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-16-mo-bicycle/7994054490.html"
+   ],
    "snippet": "Solaire 299 Fremont Street , San Francisco, CA, 94105\n\nCall Now - show contact info \n x 12 \nOR Text 12 to show contact info \n to text our leasing team.\n\n Need more information? Copy this link:\nhttps://greystar.leasehomenow.com/8fckym \n\nHigh-rise meets high design.\n\n1 bedroom | 1 bath | 566 square feet \n Total Monthly Leasing Price (TMLP) $4,569.06 (15-month lease) Features ✓ Wood Plank-Style Floor"
   },
   {
@@ -7387,7 +7509,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-11-01T01:00:33+00:00",
    "price_history": [
@@ -7409,7 +7531,7 @@
    "baths": null,
    "sqft": 600,
    "address": "230 Oak St, San Francisco, CA 94102",
-   "hood_text": "Mid-Market",
+   "hood_text": "hayes valley",
    "lat": 37.7749,
    "lon": -122.4232,
    "photo": "https://images.craigslist.org/00F0F_kWrgl5rDR8L_0t20CI_600x450.jpg",
@@ -7428,7 +7550,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-11-01T01:00:33+00:00",
    "price_history": [
@@ -7450,7 +7572,7 @@
    "baths": null,
    "sqft": null,
    "address": "400 Page St - 105, San Francisco, CA 94102",
-   "hood_text": "Mid-Market",
+   "hood_text": "hayes valley",
    "lat": 37.7735,
    "lon": -122.4274,
    "photo": "https://images.craigslist.org/00e0e_l69Dq14K6nM_0CI0lM_600x450.jpg",
@@ -7469,7 +7591,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-11-01T01:00:33+00:00",
    "price_history": [
@@ -7512,7 +7634,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-11-01T01:00:33+00:00",
    "price_history": [
@@ -7554,7 +7676,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-11-01T14:28:04+00:00",
    "price_history": [
@@ -7576,7 +7698,7 @@
    "baths": null,
    "sqft": 837,
    "address": "239 brannan street, san francisco, CA 94107",
-   "hood_text": "nob hill",
+   "hood_text": "Marina District",
    "lat": 37.783,
    "lon": -122.3906,
    "photo": "https://images.craigslist.org/00202_1YQcqdurEob_0lM0t2_600x450.jpg",
@@ -7595,7 +7717,7 @@
     "patio"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-02T09:54:12+00:00",
+   "last_seen": "2026-11-02T22:43:29+00:00",
    "active": true,
    "first_seen": "2026-11-01T23:00:25+00:00",
    "price_history": [
@@ -7647,6 +7769,222 @@
    ],
    "deal": false,
    "snippet": "Location, location, location! This charming, renovated 1 Br/1 Ba condo located at a great Pacific Heights location across from Alta Plaza Park! Light filled top floor corner unit with great City views to the South - Park outlook North - Skyline outlooks East. High ceilings, recessed lighting and hardwood floors throughout. Large living room with Bay windows, great remodeled kitchen with an eat-in "
+  },
+  {
+   "id": "craigslist:7993751769",
+   "source": "Craigslist (apa)",
+   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-weeks-free-7th-flr-1bed/7993751769.html",
+   "title": "3 WEEKS FREE! 7th Flr* 1Bed/1Bath*Walk-in/Shower, Spacious Living Room",
+   "price": 3986,
+   "beds": 1,
+   "baths": null,
+   "sqft": 621,
+   "address": "101 Polk Street, San Francisco, CA 941081465",
+   "hood_text": "hayes valley",
+   "lat": 37.7775,
+   "lon": -122.418,
+   "photo": "https://images.craigslist.org/00a0a_fNBJrJjNa0c_0CI0pO_600x450.jpg",
+   "available": "available now \n \n \n\n\n \n application fee details:",
+   "furnished": false,
+   "in_unit_wd": true,
+   "lease": "12mo",
+   "amenities": [],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "Hayes Valley",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [
+    "garage",
+    "parking"
+   ],
+   "hood_confident": true,
+   "last_seen": "2026-11-02T22:43:29+00:00",
+   "active": true,
+   "first_seen": "2026-11-02T02:23:17+00:00",
+   "price_history": [
+    [
+     "2026-11-02T02:23:17+00:00",
+     3986
+    ]
+   ],
+   "also_on": [
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-3weeks-free-penthouse/7993747176.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2weeks-free-2nd-flr-1bd/7994257293.html"
+   ],
+   "deal": true,
+   "snippet": "The Civic - Call Us Today show contact info \n \n APPLY DURING YOUR TOUR TO RECEIVE 3 WEEKS FREE! \n(New Tenant Applications Only!)\n\n Address: 101 Polk St, San Francisco, CA 94102 \n\n* Unit #709 - Available Now \n* 1 bed / 1 bath / 621 Sq.Ft.\n * Base Rent of 12 Month Lease: $4,233 \n* Effective Net Rent:3,986\n\n Website: https://www.thecivicsf.com/ \n\nWelcome a bright new day in this one-bedroom, one-bath"
+  },
+  {
+   "id": "craigslist:7993718079",
+   "source": "Craigslist (apa)",
+   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-845-californiastockton/7993718079.html",
+   "title": "845 California@Stockton/Amazing Views/W+D In Unit/Corner Unit/Pets OK!",
+   "price": 3925,
+   "beds": 1,
+   "baths": null,
+   "sqft": 482,
+   "address": "845 California St., San Francisco, CA 94108",
+   "hood_text": "nob hill",
+   "lat": 37.7921,
+   "lon": -122.4083,
+   "photo": "https://images.craigslist.org/00r0r_9TJTsijFeuf_0CI0lM_600x450.jpg",
+   "available": "",
+   "furnished": false,
+   "in_unit_wd": true,
+   "lease": "12mo",
+   "amenities": [],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "Nob Hill",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [
+    "garage",
+    "parking",
+    "views"
+   ],
+   "hood_confident": true,
+   "last_seen": "2026-11-02T22:43:29+00:00",
+   "active": true,
+   "first_seen": "2026-11-02T02:23:17+00:00",
+   "price_history": [
+    [
+     "2026-11-02T02:23:17+00:00",
+     3925
+    ]
+   ],
+   "deal": true,
+   "snippet": "Text me for fastest response:\n\n show contact info \n\n\n\n\nDetails\n\n- Building: 845 California St. #505\n\n- Neighborhood: Nob Hill\n\n- Rent Controlled\n\n- 12 Month Lease\n\n- $1,000 deposit with approved credit\n\n-Ask about our other listings\n\n\n\nVIRTUAL TOUR: https://my.matterport.com/show/?m=EUWWpmgo1De\n\n\n\n*** No garage parking available; Street parking only. ***\n\n\n\nAmenities\n\n* Cable Ready\n\n* Efficient Ap"
+  },
+  {
+   "id": "craigslist:7994028795",
+   "source": "Craigslist (apa)",
+   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-touch-of-parisian/7994028795.html",
+   "title": "Touch of Parisian elegance nestled in the vibrant heart of San Francis",
+   "price": 3750,
+   "beds": 1,
+   "baths": null,
+   "sqft": 1088,
+   "address": "1242 Sacramento Street, San Francisco, CA 94108",
+   "hood_text": "nob hill",
+   "lat": 37.7925,
+   "lon": -122.4133,
+   "photo": "https://images.craigslist.org/00J0J_kJ6hwMpnGdy_0oc0g7_600x450.jpg",
+   "available": "",
+   "furnished": true,
+   "in_unit_wd": true,
+   "lease": "",
+   "amenities": [],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "Nob Hill",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [
+    "garage",
+    "parking",
+    "views"
+   ],
+   "hood_confident": true,
+   "last_seen": "2026-11-02T22:43:29+00:00",
+   "active": true,
+   "first_seen": "2026-11-02T22:43:29+00:00",
+   "price_history": [
+    [
+     "2026-11-02T22:43:29+00:00",
+     3750
+    ]
+   ],
+   "deal": false,
+   "snippet": "That touch of Parisian elegance nestled in the vibrant heart of San Francisco! Come experience classic European design in this Nob Hill Beaux Arts-style penthouse. This 1 Bed, 1 Bath condo offers elegant living spaces atop a renowned building. Features include a fireplace-adorned living room, bay-view dining, and a spacious chef's kitchen. The master suite boasts a lavish bath and built-ins. Highl"
+  },
+  {
+   "id": "craigslist:7993999317",
+   "source": "Craigslist (apa)",
+   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-gorgeous-bedroom-bathroom/7993999317.html",
+   "title": "Gorgeous 1 bedroom, 1 bathroom upper floor condo in elevator building",
+   "price": 3000,
+   "beds": 1,
+   "baths": null,
+   "sqft": 706,
+   "address": "1650 Jackson Street, San Francisco, CA 94109",
+   "hood_text": "nob hill",
+   "lat": 37.794,
+   "lon": -122.4222,
+   "photo": "https://images.craigslist.org/01313_cqOiREL5MFh_0oc0g8_600x450.jpg",
+   "available": "",
+   "furnished": true,
+   "in_unit_wd": true,
+   "lease": "",
+   "amenities": [],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "Nob Hill",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [
+    "balcony",
+    "parking",
+    "views"
+   ],
+   "hood_confident": true,
+   "last_seen": "2026-11-02T22:43:29+00:00",
+   "active": true,
+   "first_seen": "2026-11-02T22:43:29+00:00",
+   "price_history": [
+    [
+     "2026-11-02T22:43:29+00:00",
+     3000
+    ]
+   ],
+   "deal": false,
+   "snippet": "Gorgeous 1 bedroom, 1 bathroom upper floor condo in elevator building. This unit has iconic views of the Golden Gate Bridge, Bay & Marin & has been elegantly remodeled by current owner with marble countertops and flooring. Bright, open floor plan w/ dining area & living room w/ fireplace. There are French doors that open to a spacious balcony with expansive VIEWS. Plenty of storage w/ large closet"
+  },
+  {
+   "id": "craigslist:7994203371",
+   "source": "Craigslist (apa)",
+   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-russian-hill/7994203371.html",
+   "title": "Russian Hill/1360Lombard&Polk/W/D in unit/Coming Soon!",
+   "price": 4995,
+   "beds": 1,
+   "baths": null,
+   "sqft": 580,
+   "address": "",
+   "hood_text": "russian hill",
+   "lat": 37.8015,
+   "lon": -122.4232,
+   "photo": "https://images.craigslist.org/00N0N_ik7Re8oNk6F_09G06s_600x450.jpg",
+   "available": "available nov 6\n \n \n \n\n\n \n application fee detail",
+   "furnished": false,
+   "in_unit_wd": true,
+   "lease": "2mo",
+   "amenities": [],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "Russian Hill",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [
+    "parking"
+   ],
+   "hood_confident": true,
+   "last_seen": "2026-11-02T22:43:29+00:00",
+   "active": true,
+   "first_seen": "2026-11-02T22:43:29+00:00",
+   "price_history": [
+    [
+     "2026-11-02T22:43:29+00:00",
+     4995
+    ]
+   ],
+   "deal": false,
+   "snippet": "1360 Lombard #101\n\n\n\n\n\nMOVE IN SPECIAL \n\n1/2 Month deposit with good credit!\n\n\n\n*Coming Soon- Apply Now to be first in line!!\n\n\n\nWithin Walking Distance;\n\nBobos \n\nPop Physique \n\nVoodoo Lounge\n\nLeopolds\n\nVikings Subs\n\nGhiradelli Square \n\nCrunch Fitness\n\n\n\nUnit Features:\n\nHardwood floors\n\nWalk in Closet \n\nRemodeled Kitchen \n\nStainless steel appliances \n\nOven/ Stove\n\nDishwasher \n\nRemodeled Bathroom \n"
   }
  ],
  "health": {
@@ -7654,24 +7992,24 @@
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": false,
-   "last_count": 223,
-   "last_ok": "2026-11-02T09:54:12+00:00",
+   "last_count": 219,
+   "last_ok": "2026-11-02T22:43:29+00:00",
    "last_error": null
   },
   "Craigslist sublets": {
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": true,
-   "last_count": 17,
+   "last_count": 19,
    "last_error": null,
-   "last_ok": "2026-11-02T09:54:12+00:00"
+   "last_ok": "2026-11-02T22:43:29+00:00"
   },
   "Blueground": {
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": false,
-   "last_count": 207,
-   "last_ok": "2026-11-02T09:54:12+00:00",
+   "last_count": 213,
+   "last_ok": "2026-11-02T22:43:29+00:00",
    "last_error": null
   },
   "RentSFNow": {
@@ -7679,36 +8017,36 @@
    "error_runs": 0,
    "can_be_empty": true,
    "last_count": 47,
-   "last_ok": "2026-11-02T09:54:12+00:00",
+   "last_ok": "2026-11-02T22:43:29+00:00",
    "last_error": null
   },
   "AppFolio landlords": {
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": false,
-   "last_count": 201,
-   "last_ok": "2026-11-02T09:54:12+00:00",
+   "last_count": 198,
+   "last_ok": "2026-11-02T22:43:29+00:00",
    "last_error": null
   },
   "r/SFBayHousing": {
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": true,
-   "last_count": 7,
-   "last_ok": "2026-11-02T09:54:12+00:00",
+   "last_count": 6,
+   "last_ok": "2026-11-02T22:43:29+00:00",
    "last_error": null
   },
   "Zumper / PadMapper": {
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": false,
-   "last_count": 48,
-   "last_ok": "2026-11-02T09:54:12+00:00",
+   "last_count": 43,
+   "last_ok": "2026-11-02T22:43:29+00:00",
    "last_error": null
   },
   "Alert emails": {
    "zero_runs": 0,
-   "error_runs": 105,
+   "error_runs": 106,
    "can_be_empty": true,
    "last_count": 0,
    "last_error": "error: command SEARCH illegal in state AUTH, only allowed in states SELECTED"
@@ -7718,7 +8056,7 @@
    "error_runs": 0,
    "can_be_empty": true,
    "last_count": 21,
-   "last_ok": "2026-11-02T09:54:12+00:00",
+   "last_ok": "2026-11-02T22:43:29+00:00",
    "last_error": null
   },
   "J. Wavro": {
@@ -7726,15 +8064,15 @@
    "error_runs": 0,
    "can_be_empty": false,
    "last_count": 16,
-   "last_ok": "2026-11-02T09:54:12+00:00",
+   "last_ok": "2026-11-02T22:43:29+00:00",
    "last_error": null
   },
   "Rentals Inc.": {
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": false,
-   "last_count": 35,
-   "last_ok": "2026-11-02T09:54:12+00:00",
+   "last_count": 33,
+   "last_ok": "2026-11-02T22:43:29+00:00",
    "last_error": null
   }
  },

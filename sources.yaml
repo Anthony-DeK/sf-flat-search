@@ -63,6 +63,12 @@ sources:
       - {name: Redfin,           from: redfin.com}
       - {name: MLSListings,      from: mlslistings.com}
 
+  - name: Zillow (via Claude)
+    adapter: zillow
+    dir: data/zillow        # written daily by a scheduled Claude agent using the Zillow connector
+    max_age_days: 2         # older results = the agent stopped; flagged as a broken source
+    can_be_empty: true
+
   - name: r/SFBayHousing
     adapter: reddit
     url: https://www.reddit.com/r/SFBayHousing/new/.rss

@@ -14,11 +14,12 @@ BONUS_TAGS = {"Balcony": "balcony", "Private Balcony": "balcony", "Roof Deck": "
 def search(cfg, crit):
     out, offset = [], 0
     skip = set(cfg.get("skip_feeds", []))
-    while offset < 500:
-        rows = http.post(API, json={
-            "url": "san-francisco-ca", "limit": 100, "offset": offset,
+    while offset < 1000:
+        data = http.post(API, json={
+            "url": "san-francisco-ca", "limit": 50, "offset": offset,
             "min_price": crit["price"]["min"], "max_price": crit["price"]["max"],
-            "bedrooms": crit["bedrooms"]}).json()["listables"]
+            "bedrooms": crit["bedrooms"]}).json()
+        rows = data["listables"]
         for x in rows:
             if x.get("feed_name") in skip:
                 continue
@@ -46,9 +47,10 @@ def search(cfg, crit):
                 lease=f"{round(days / 30)}mo min" if days and days >= 28 else "",
                 amenities=sorted({v for k, v in BONUS_TAGS.items() if k in tags}),
             ))
-        if len(rows) < 100:
+        # The API caps pages at 50 whatever limit is asked for, so page by what came back.
+        offset += len(rows)
+        if not rows or offset >= (data.get("matching") or 0):
             break
-        offset += 100
         http.pause(1)
     return out
 

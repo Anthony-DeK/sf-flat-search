@@ -64,6 +64,25 @@ def parse_alert(html, site, assume=None):
     return out
 
 
+def _select_all_mail(imap):
+    """Open Gmail's All Mail read-only (never marks alerts as read). Its name is localized
+    ("[Gmail]/Tous les messages", "[Google Mail]/All Mail", ...), so find it by its \\All flag;
+    fall back to INBOX if All Mail is hidden from IMAP in Gmail's settings."""
+    typ, folders = imap.list()
+    names = []
+    for f in folders if typ == "OK" else []:
+        line = f.decode(errors="replace")
+        m = re.search(r'"([^"]+)"\s*$', line) or re.search(r'(\S+)\s*$', line)
+        if m:
+            names.append((r"\All" in line, m.group(1)))
+    for _, name in sorted(names, key=lambda n: not n[0]):
+        if _ and imap.select(f'"{name}"', readonly=True)[0] == "OK":
+            return name
+    if imap.select("INBOX", readonly=True)[0] == "OK":
+        return "INBOX"
+    raise RuntimeError("could not open All Mail or INBOX over IMAP")
+
+
 def search(cfg, crit):
     user, pw = os.environ.get("GMAIL_USER"), os.environ.get("GMAIL_APP_PASSWORD")
     if not (user and pw):
@@ -73,7 +92,7 @@ def search(cfg, crit):
     imap = imaplib.IMAP4_SSL("imap.gmail.com")
     try:
         imap.login(user, pw)
-        imap.select('"[Gmail]/All Mail"', readonly=True)   # read-only: never marks alerts as read
+        _select_all_mail(imap)
         for s in cfg["senders"]:
             q = f'from:({s["from"]}) newer_than:{cfg.get("days", 3)}d'
             typ, data = imap.search(None, "X-GM-RAW", f'"{q}"')

@@ -6,6 +6,7 @@ Tagged lists: [5, beds, sqft], [6, slug], [10, "$price"], [4, images...].
 import re
 
 from .. import http
+from ..filter import price_ceiling
 from ..model import Listing, clean_text
 
 API = "https://sapi.craigslist.org/web/v8/postings/search/full"
@@ -50,7 +51,7 @@ def search(cfg, crit):
     for q in cfg["queries"]:
         params = {"batch": "1-0-360-0-0", "cc": "US", "lang": "en", "area_id": 1,
                   "searchPath": f"sfc/{cfg['category']}",   # sfc/ limits to SF; bare "apa" returns one Bay Area batch
-                  "min_price": crit["price"]["min"], "max_price": crit["price"]["max"], **q}
+                  "min_price": crit["price"]["min"], "max_price": price_ceiling(crit), **q}
         data = http.get(API, params=params).json()["data"]
         for l in _parse(data, cfg["category"]):
             # A listing matched by the is_furnished filter is structurally furnished.

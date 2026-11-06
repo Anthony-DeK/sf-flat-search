@@ -128,16 +128,24 @@ def lease_term(listing, crit=CRITERIA):
     return f"{m.group(1)}mo" if m else ""
 
 
+def price_cap(beds, crit=CRITERIA):
+    return (crit["price"].get("max_by_beds") or {}).get(beds, crit["price"]["max"])
+
+
+def price_ceiling(crit=CRITERIA):
+    """Highest cap for any bedroom count: what source-side searches should ask for."""
+    return max([crit["price"]["max"], *(crit["price"].get("max_by_beds") or {}).values()])
+
+
 def evaluate(listing, crit=CRITERIA):
     text = f"{listing.title}\n{listing.text}"
     reasons, unknown = [], []
     if re.search(crit["not_residential"], listing.title, re.I):
         reasons.append("not residential")
 
-    p = crit["price"]
     if listing.price is None:
         unknown.append("price")
-    elif not p["min"] <= listing.price <= p["max"]:
+    elif not crit["price"]["min"] <= listing.price <= price_cap(listing.beds, crit):
         reasons.append(f"price ${listing.price}")
 
     if listing.beds is None:

@@ -1,4 +1,7 @@
-price: {min: 3000, max: 5000}
+price:
+  min: 3000
+  max: 5000                 # default cap; also used when the bedroom count isn't stated
+  max_by_beds: {2: 5500}    # per-bedroom overrides
 bedrooms: [1, 2]
 
 # Areas checked in order; first hit wins. Coordinates beat text labels when present.

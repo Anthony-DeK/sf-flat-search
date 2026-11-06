@@ -163,3 +163,10 @@ def test_find_address():
     assert find_address("Welcome to 175 Bluxome Street! This huge unit") == "175 Bluxome Street"
     assert find_address("845 California@Stockton") == ""
     assert find_address("2 blocks to Fillmore St, 1 bath, walk to Hayes St") == ""
+
+
+def test_price_cap_by_beds():
+    assert evaluate(L(beds=2, price=5400, hood_text="nob hill"))["reasons"] == []
+    assert "price $5600" in evaluate(L(beds=2, price=5600, hood_text="nob hill"))["reasons"]
+    assert "price $5400" in evaluate(L(beds=1, price=5400, hood_text="nob hill"))["reasons"]
+    assert "price $5200" in evaluate(L(beds=None, price=5200, hood_text="nob hill"))["reasons"]

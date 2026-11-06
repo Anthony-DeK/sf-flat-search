@@ -1,6 +1,6 @@
 # SF Apartment Hunter
 
-Scans furnished-rental sources every 30 minutes (7am to midnight Pacific) for 1–2BR apartments (furnished or unfurnished) with in-unit W/D at $3–5k in Nob Hill, North Beach, Russian Hill, Cow Hollow/Marina, Pacific Heights, Hayes Valley, Castro, Mission Dolores, Noe Valley, and West/Central/East SoMa and Mission Bay. The Market St corridor between 5th and 8th (Market to Howard) is excluded. It pushes new matches to your phone (ntfy), emails a digest (Gmail) and publishes a dashboard (GitHub Pages).
+Scans furnished-rental sources every 30 minutes (7am to midnight Pacific) for 1–2BR apartments (furnished or unfurnished) with in-unit W/D at $3,000–5,000 (2BR up to $5,500) in Nob Hill, North Beach, Russian Hill, Cow Hollow/Marina, Pacific Heights, Hayes Valley, Castro, Mission Dolores, Noe Valley, and West/Central/East SoMa and Mission Bay. The Market St corridor between 5th and 8th (Market to Howard) is excluded. It pushes new matches to your phone (ntfy), emails a digest (Gmail) and publishes a dashboard (GitHub Pages).
 
 - **confirmed**: every requirement confirmed. Sends a push and an email.
 - **needs a check**: nothing rules it out, but the listing doesn't confirm one detail: *W/D not confirmed*, *Location not confirmed* or *Price/beds missing*. Email only, grouped by what's missing.

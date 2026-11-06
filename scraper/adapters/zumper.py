@@ -1,6 +1,7 @@
 """Zumper/PadMapper (shared backend) via the JSON endpoint its web app uses. Aggregates small-landlord
 feeds (ShowMojo, Hemlane, TurboTenant, ...) we can't reach directly. Furnishing comes from amenity tags."""
 from .. import http
+from ..filter import price_ceiling
 from ..model import Listing
 
 API = "https://www.zumper.com/api/t/1/pages/listables"
@@ -17,7 +18,7 @@ def search(cfg, crit):
     while offset < 1000:
         data = http.post(API, json={
             "url": "san-francisco-ca", "limit": 50, "offset": offset,
-            "min_price": crit["price"]["min"], "max_price": crit["price"]["max"],
+            "min_price": crit["price"]["min"], "max_price": price_ceiling(crit),
             "bedrooms": crit["bedrooms"]}).json()
         rows = data["listables"]
         for x in rows:

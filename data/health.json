@@ -4,23 +4,23 @@
   "error_runs": 0,
   "can_be_empty": false,
   "last_count": 269,
-  "last_ok": "2026-11-07T13:29:10+00:00",
+  "last_ok": "2026-11-07T18:41:07+00:00",
   "last_error": null
  },
  "Craigslist sublets": {
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": true,
-  "last_count": 24,
+  "last_count": 23,
   "last_error": null,
-  "last_ok": "2026-11-07T13:29:10+00:00"
+  "last_ok": "2026-11-07T18:41:07+00:00"
  },
  "Blueground": {
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": false,
-  "last_count": 225,
-  "last_ok": "2026-11-07T13:29:10+00:00",
+  "last_count": 224,
+  "last_ok": "2026-11-07T18:41:07+00:00",
   "last_error": null
  },
  "RentSFNow": {
@@ -28,23 +28,23 @@
   "error_runs": 0,
   "can_be_empty": true,
   "last_count": 44,
-  "last_ok": "2026-11-07T13:29:10+00:00",
+  "last_ok": "2026-11-07T18:41:07+00:00",
   "last_error": null
  },
  "AppFolio landlords": {
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": false,
-  "last_count": 201,
-  "last_ok": "2026-11-07T13:29:10+00:00",
+  "last_count": 198,
+  "last_ok": "2026-11-07T18:41:07+00:00",
   "last_error": null
  },
  "r/SFBayHousing": {
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": true,
-  "last_count": 10,
-  "last_ok": "2026-11-07T13:29:10+00:00",
+  "last_count": 9,
+  "last_ok": "2026-11-07T18:41:07+00:00",
   "last_error": null
  },
  "Zumper / PadMapper": {
@@ -52,47 +52,47 @@
   "error_runs": 0,
   "can_be_empty": false,
   "last_count": 252,
-  "last_ok": "2026-11-07T13:29:10+00:00",
+  "last_ok": "2026-11-07T18:41:07+00:00",
   "last_error": null
  },
  "Alert emails": {
-  "zero_runs": 4,
+  "zero_runs": 5,
   "error_runs": 0,
   "can_be_empty": true,
   "last_count": 0,
   "last_error": null,
-  "last_ok": "2026-11-07T13:29:10+00:00"
+  "last_ok": "2026-11-07T18:41:07+00:00"
  },
  "Buildium landlords": {
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": true,
   "last_count": 21,
-  "last_ok": "2026-11-07T13:29:10+00:00",
+  "last_ok": "2026-11-07T18:41:07+00:00",
   "last_error": null
  },
  "J. Wavro": {
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": false,
-  "last_count": 22,
-  "last_ok": "2026-11-07T13:29:10+00:00",
+  "last_count": 21,
+  "last_ok": "2026-11-07T18:41:07+00:00",
   "last_error": null
  },
  "Rentals Inc.": {
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": false,
-  "last_count": 33,
-  "last_ok": "2026-11-07T13:29:10+00:00",
+  "last_count": 30,
+  "last_ok": "2026-11-07T18:41:07+00:00",
   "last_error": null
  },
  "Zillow (via Claude)": {
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": true,
-  "last_count": 81,
-  "last_ok": "2026-11-07T13:29:10+00:00",
+  "last_count": 80,
+  "last_ok": "2026-11-07T18:41:07+00:00",
   "last_error": null
  }
 }

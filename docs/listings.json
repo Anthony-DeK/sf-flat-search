@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T09:43:31+00:00",
+ "updated": "2026-11-24T01:36:48+00:00",
  "listings": [
   {
    "id": "blueground:51084",
@@ -32,7 +32,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -74,7 +74,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -117,7 +117,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -153,7 +153,7 @@
    "source": "AppFolio · progressivesf",
    "url": "https://progressivesf.appfolio.com/listings/detail/ea194d7b-0e3f-47a5-a339-a99435a0fba3",
    "title": "HUGE 2 Level 2br/1.5Ba Loft, High Ceilings, Laundry, Central Location! PROGRESSIVE",
-   "price": 4795,
+   "price": 4695,
    "beds": 2,
    "baths": 1.5,
    "sqft": null,
@@ -175,7 +175,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-11T16:54:56+00:00",
    "price_history": [
@@ -190,6 +190,10 @@
     [
      "2026-11-04T00:51:04+00:00",
      4795
+    ],
+    [
+     "2026-11-24T01:36:48+00:00",
+     4695
     ]
    ],
    "also_on": [
@@ -270,7 +274,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -299,7 +303,7 @@
    "available": "2027-01-16",
    "furnished": true,
    "in_unit_wd": true,
-   "lease": "11mo min",
+   "lease": "2mo min",
    "amenities": [
     "gym",
     "parking",
@@ -317,7 +321,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -369,7 +373,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -401,7 +405,7 @@
    "available": "2026-12-16",
    "furnished": true,
    "in_unit_wd": true,
-   "lease": "3mo min",
+   "lease": "4mo min",
    "amenities": [
     "balcony",
     "gym",
@@ -419,7 +423,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -453,7 +457,7 @@
    "available": "2027-05-01",
    "furnished": true,
    "in_unit_wd": true,
-   "lease": "8mo min",
+   "lease": "7mo min",
    "amenities": [
     "balcony",
     "gym",
@@ -471,7 +475,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -491,7 +495,7 @@
    "source": "AppFolio · spsf",
    "url": "https://spsf.appfolio.com/listings/detail/ecbf75c1-b7e8-4e62-82ac-01f95c687bbd",
    "title": "Renovated, Top Floor 1BD w/ In-Unit Laundry & Stunning Views!",
-   "price": 4395,
+   "price": 4095,
    "beds": 1,
    "baths": 1.0,
    "sqft": 571,
@@ -515,7 +519,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -530,6 +534,10 @@
     [
      "2026-11-14T07:58:10+00:00",
      4395
+    ],
+    [
+     "2026-11-24T01:36:48+00:00",
+     4095
     ]
    ],
    "also_on": [
@@ -566,7 +574,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -591,7 +599,7 @@
    "source": "Zumper · Vivmark Residential",
    "url": "https://www.zumper.com/apartment-buildings/p18111/avalon-at-mission-bay-south-beach-san-francisco-ca",
    "title": "2TH1M",
-   "price": 4230,
+   "price": 4255,
    "beds": 1,
    "baths": 1,
    "sqft": null,
@@ -617,7 +625,7 @@
     "gym"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-11T19:10:13+00:00",
    "price_history": [
@@ -752,6 +760,10 @@
     [
      "2026-11-22T20:40:48+00:00",
      4230
+    ],
+    [
+     "2026-11-24T01:36:48+00:00",
+     4255
     ]
    ],
    "deal": false,
@@ -808,10 +820,10 @@
      3895
     ]
    ],
+   "deal": false,
    "also_on": [
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-1bedroom-1bath-lower-nob/7994804019.html"
    ],
-   "deal": false,
    "snippet": "This beautiful apartment has hardwood floors, an in-unit washer/dryer, stainless steel kitchen appliances, and it is pet-friendly. Take a cable car home then stroll past Grace Cathedral to picturesque Huntington Park to walk your pup. You're also walking distance to some of the best dining and cocktail options in the city: Osso Steakhouse for dinner, with a nightcap at the Top of the Mark with its"
   },
   {
@@ -843,7 +855,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -903,7 +915,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -952,7 +964,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1015,7 +1027,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1029,7 +1041,6 @@
     ]
    ],
    "also_on": [
-    "https://www.zillow.com/homedetails/626-Powell-St-203-San-Francisco-CA-94108/2078590861_zpid",
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-nob-hill-655powellpine-d/8003173713.html"
    ],
    "deal": false,
@@ -1065,7 +1076,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1095,6 +1106,7 @@
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-1br-balcony-stainless/7991370489.html",
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-1br-hardwood-floors-in/7991362749.html",
     "https://www.zumper.com/apartment-buildings/p205300/powell-street-downtown-san-francisco-ca",
+    "https://www.zillow.com/homedetails/626-Powell-St-203-San-Francisco-CA-94108/2078590861_zpid",
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-nob-hill-655powellpine-d/8003196420.html",
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-1br-apartment/8004723336.html"
    ],
@@ -1130,7 +1142,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1190,7 +1202,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1246,7 +1258,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1270,7 +1282,7 @@
    "source": "Zumper · Essex Property Trust, Inc",
    "url": "https://www.zumper.com/apartment-buildings/p89631/bennett-lofts-soma-san-francisco-ca",
    "title": "1 Bed, 1 Bath",
-   "price": 3589,
+   "price": 3409,
    "beds": 1,
    "baths": 1,
    "sqft": null,
@@ -1279,7 +1291,7 @@
    "lat": 37.777976,
    "lon": -122.397296,
    "photo": "",
-   "available": "2026-11-21",
+   "available": "2026-11-23",
    "furnished": false,
    "in_unit_wd": true,
    "lease": "",
@@ -1298,7 +1310,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1329,6 +1341,10 @@
     [
      "2026-11-18T03:49:59+00:00",
      3589
+    ],
+    [
+     "2026-11-24T01:36:48+00:00",
+     3409
     ]
    ],
    "deal": false,
@@ -1375,7 +1391,7 @@
     "terrace"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1434,7 +1450,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1489,7 +1505,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1580,7 +1596,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1815,7 +1831,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1870,7 +1886,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1925,7 +1941,7 @@
     "balcony"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -1984,7 +2000,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -2034,7 +2050,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -2084,7 +2100,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -2165,7 +2181,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -2218,7 +2234,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -2269,7 +2285,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -2373,7 +2389,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -2430,7 +2446,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -2583,7 +2599,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -2650,7 +2666,7 @@
     "gym"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -2709,7 +2725,7 @@
     "gym"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -2750,7 +2766,7 @@
     "deck"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-13T16:44:33+00:00",
    "price_history": [
@@ -2802,7 +2818,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-14T04:44:13+00:00",
    "price_history": [
@@ -2833,7 +2849,7 @@
    "lat": 37.766986,
    "lon": -122.397049,
    "photo": "",
-   "available": "2026-11-22",
+   "available": "2026-11-23",
    "furnished": false,
    "in_unit_wd": true,
    "lease": "",
@@ -2860,7 +2876,7 @@
     "terrace"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-14T10:04:50+00:00",
    "price_history": [
@@ -3048,7 +3064,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-17T17:03:19+00:00",
    "price_history": [
@@ -3128,7 +3144,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-18T22:23:15+00:00",
    "price_history": [
@@ -3165,7 +3181,7 @@
    "lat": 37.786073,
    "lon": -122.393551,
    "photo": "",
-   "available": "2026-11-22",
+   "available": "2026-11-23",
    "furnished": false,
    "in_unit_wd": true,
    "lease": "3mo min",
@@ -3186,7 +3202,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-18T22:23:15+00:00",
    "price_history": [
@@ -3338,7 +3354,7 @@
     "patio"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-19T23:33:58+00:00",
    "price_history": [
@@ -3381,7 +3397,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-20T12:56:30+00:00",
    "price_history": [
@@ -3432,7 +3448,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-21T00:33:29+00:00",
    "price_history": [
@@ -3571,7 +3587,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-23T21:37:06+00:00",
    "price_history": [
@@ -3624,7 +3640,7 @@
     "patio"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-24T00:00:12+00:00",
    "price_history": [
@@ -3672,7 +3688,7 @@
    ],
    "bonus": [],
    "hood_confident": false,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-24T00:00:12+00:00",
    "price_history": [],
@@ -3715,7 +3731,7 @@
    ],
    "bonus": [],
    "hood_confident": false,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-24T00:00:12+00:00",
    "price_history": [],
@@ -3749,7 +3765,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-24T00:00:12+00:00",
    "price_history": [
@@ -3798,7 +3814,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-24T00:00:12+00:00",
    "price_history": [
@@ -3904,7 +3920,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-24T00:00:12+00:00",
    "price_history": [
@@ -3955,7 +3971,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-24T00:00:12+00:00",
    "price_history": [
@@ -4006,7 +4022,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-24T00:00:12+00:00",
    "price_history": [
@@ -4119,7 +4135,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-24T00:00:12+00:00",
    "price_history": [
@@ -4158,7 +4174,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-24T04:26:40+00:00",
    "price_history": [
@@ -4180,7 +4196,7 @@
     "https://www.zillow.com/homedetails/2600-Van-Ness-Ave-APT-306-San-Francisco-CA-94109/2082182764_zpid",
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2600-van-ness-ave-306/8003923575.html"
    ],
-   "deal": true,
+   "deal": false,
    "snippet": "\nFeatures: Dishwasher | In-Unit Laundry | Onsite Laundry | Walk-in Closet"
   },
   {
@@ -4212,7 +4228,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-24T22:25:06+00:00",
    "price_history": [
@@ -4274,7 +4290,7 @@
    "id": "zumper:60557280",
    "source": "Zumper · Two Coast Living",
    "url": "https://www.zumper.com/apartment-buildings/p228900/333-fremont-south-beach-san-francisco-ca",
-   "title": "Jessie",
+   "title": "Minna",
    "price": 4684,
    "beds": 1,
    "baths": 1,
@@ -4304,7 +4320,7 @@
     "terrace"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-25T10:05:27+00:00",
    "price_history": [
@@ -4350,7 +4366,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-25T17:36:51+00:00",
    "price_history": [
@@ -4393,7 +4409,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-26T06:02:21+00:00",
    "price_history": [
@@ -4443,7 +4459,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-26T19:52:06+00:00",
    "price_history": [
@@ -4489,7 +4505,7 @@
     "patio"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-26T19:52:06+00:00",
    "price_history": [
@@ -4528,7 +4544,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-26T19:52:06+00:00",
    "price_history": [
@@ -4573,7 +4589,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-26T19:52:06+00:00",
    "price_history": [
@@ -4615,7 +4631,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-26T19:52:06+00:00",
    "price_history": [
@@ -4659,7 +4675,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-26T23:47:11+00:00",
    "price_history": [
@@ -4703,7 +4719,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-27T19:23:22+00:00",
    "price_history": [
@@ -4742,7 +4758,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-27T19:23:22+00:00",
    "price_history": [
@@ -4827,7 +4843,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-30T09:53:50+00:00",
    "price_history": [
@@ -4843,7 +4859,8 @@
    "also_on": [
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-1br-1ba-laundry/8002988913.html",
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-at-dolores-park-1br-1ba/8003530161.html",
-    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-th-stdolores-beautiful/8004681411.html"
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-th-stdolores-beautiful/8004681411.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-1br-1ba-laundry/8005390344.html"
    ],
    "deal": false,
    "snippet": "\nFeatures: Dishwasher | In-Unit Laundry | Onsite Laundry | Outdoor Space"
@@ -4878,7 +4895,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-30T19:14:13+00:00",
    "price_history": [
@@ -4928,7 +4945,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-30T19:14:13+00:00",
    "price_history": [
@@ -4967,7 +4984,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-30T23:10:15+00:00",
    "price_history": [
@@ -5008,7 +5025,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-10-31T02:41:15+00:00",
    "price_history": [
@@ -5053,7 +5070,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-01T01:00:33+00:00",
    "price_history": [
@@ -5094,7 +5111,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-01T01:00:33+00:00",
    "price_history": [
@@ -5147,7 +5164,7 @@
     "patio"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-01T23:00:25+00:00",
    "price_history": [
@@ -5190,7 +5207,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-03T03:54:09+00:00",
    "price_history": [
@@ -5238,7 +5255,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-03T03:54:09+00:00",
    "price_history": [
@@ -5285,7 +5302,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-04T00:51:04+00:00",
    "price_history": [
@@ -5324,7 +5341,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-04T00:51:04+00:00",
    "price_history": [
@@ -5363,7 +5380,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-04T00:51:04+00:00",
    "price_history": [
@@ -5402,7 +5419,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-04T00:51:04+00:00",
    "price_history": [
@@ -5444,7 +5461,7 @@
     "roof deck"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-04T00:51:04+00:00",
    "price_history": [
@@ -5497,7 +5514,7 @@
     "gym"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-04T15:43:23+00:00",
    "price_history": [
@@ -5580,7 +5597,7 @@
     "balcony"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-04T21:49:40+00:00",
    "price_history": [
@@ -5629,7 +5646,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-05T02:17:29+00:00",
    "price_history": [],
@@ -5670,7 +5687,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-05T02:17:29+00:00",
    "price_history": [],
@@ -5711,7 +5728,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-05T02:17:29+00:00",
    "price_history": [],
@@ -5752,7 +5769,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-05T02:17:29+00:00",
    "price_history": [],
@@ -5793,7 +5810,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-05T02:17:29+00:00",
    "price_history": [],
@@ -5834,7 +5851,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-05T02:17:29+00:00",
    "price_history": [],
@@ -5875,7 +5892,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-05T02:17:29+00:00",
    "price_history": [],
@@ -5916,7 +5933,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-05T02:17:29+00:00",
    "price_history": [],
@@ -5954,7 +5971,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-05T02:17:29+00:00",
    "price_history": [
@@ -6006,7 +6023,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-05T21:01:37+00:00",
    "price_history": [
@@ -6049,7 +6066,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T08:28:04+00:00",
    "price_history": [
@@ -6099,7 +6116,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T08:28:04+00:00",
    "price_history": [
@@ -6121,7 +6138,7 @@
    "baths": null,
    "sqft": 900,
    "address": "31 29th St, San Francisco, CA 94110",
-   "hood_text": "glen park",
+   "hood_text": "NOPA",
    "lat": 37.744,
    "lon": -122.4216,
    "photo": "https://images.craigslist.org/00W0W_jieEa0xZWpV_0j10c6_600x450.jpg",
@@ -6141,7 +6158,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -6188,7 +6205,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -6240,7 +6257,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -6294,7 +6311,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -6337,7 +6354,6 @@
    ],
    "also_on": [
     "https://www.zillow.com/homedetails/690-Long-Bridge-St-P-0514-San-Francisco-CA-94158/466270772_zpid",
-    "https://www.zillow.com/homedetails/690-Long-Bridge-St-T-1410-San-Francisco-CA-94158/2071099197_zpid",
     "https://www.zillow.com/homedetails/690-Long-Bridge-St-P-0348-San-Francisco-CA-94158/2079044114_zpid",
     "https://www.zillow.com/homedetails/690-Long-Bridge-St-P-0434-San-Francisco-CA-94158/2078145474_zpid"
    ],
@@ -6358,7 +6374,7 @@
    "lat": 37.77293,
    "lon": -122.391729,
    "photo": "",
-   "available": "2026-11-22",
+   "available": "2026-11-23",
    "furnished": false,
    "in_unit_wd": true,
    "lease": "",
@@ -6381,7 +6397,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -6468,7 +6484,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -6516,7 +6532,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -6564,7 +6580,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -6611,7 +6627,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -6702,7 +6718,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -6749,7 +6765,7 @@
     "gym"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -6792,7 +6808,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -6847,7 +6863,7 @@
    "id": "zillow:2053865788",
    "source": "Zillow (via Claude)",
    "url": "https://www.zillow.com/homedetails/1-Brady-St-B-620-San-Francisco-CA-94103/2053865788_zpid",
-   "title": "The Brady: 11 matching units, $4,418–$5,474",
+   "title": "The Brady: 11 matching units, $4,418–$5,460",
    "price": 4418,
    "beds": 1,
    "baths": 1,
@@ -6870,7 +6886,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -6906,9 +6922,6 @@
      "2026-11-21T20:28:28+00:00",
      4418
     ]
-   ],
-   "also_on": [
-    "https://www.zillow.com/homedetails/1-Brady-St-A-625-San-Francisco-CA-94103/2062926354_zpid"
    ],
    "deal": false,
    "snippet": ""
@@ -7035,7 +7048,7 @@
    "bonus": [],
    "hood_confident": true,
    "last_seen": "2026-11-20T11:27:03+00:00",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
     [
@@ -7048,9 +7061,6 @@
     ]
    ],
    "deal": true,
-   "also_on": [
-    "https://www.zillow.com/homedetails/1532-Harrison-St-201-San-Francisco-CA-94103/2077803085_zpid"
-   ],
    "snippet": ""
   },
   {
@@ -7080,7 +7090,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -7218,7 +7228,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -7317,7 +7327,7 @@
      4307
     ]
    ],
-   "deal": true,
+   "deal": false,
    "snippet": ""
   },
   {
@@ -7443,6 +7453,9 @@
     ]
    ],
    "deal": false,
+   "also_on": [
+    "https://www.zillow.com/homedetails/30-Otis-St-828-San-Francisco-CA-94103/2070500582_zpid"
+   ],
    "snippet": ""
   },
   {
@@ -7550,7 +7563,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -7671,7 +7684,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -8038,7 +8051,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -8087,7 +8100,7 @@
    "bonus": [],
    "hood_confident": true,
    "last_seen": "2026-11-20T11:27:03+00:00",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
     [
@@ -8328,7 +8341,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -8406,7 +8419,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -8445,7 +8458,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -8621,7 +8634,7 @@
    "id": "zillow:463560340",
    "source": "Zillow (via Claude)",
    "url": "https://www.zillow.com/homedetails/1140-Harrison-St-APT-403-San-Francisco-CA-94103/463560340_zpid",
-   "title": "Hanover Soma West: 8 matching units, $4,276–$5,341",
+   "title": "Hanover Soma West: 10 matching units, $4,276–$5,341",
    "price": 4276,
    "beds": 1,
    "baths": 1,
@@ -8644,7 +8657,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-06T20:24:27+00:00",
    "price_history": [
@@ -8698,7 +8711,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-07T00:17:15+00:00",
    "price_history": [
@@ -8742,7 +8755,7 @@
     "gym"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-07T06:31:42+00:00",
    "price_history": [
@@ -8789,7 +8802,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-07T06:31:42+00:00",
    "price_history": [
@@ -8836,7 +8849,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-07T13:29:10+00:00",
    "price_history": [
@@ -8879,7 +8892,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-07T13:29:10+00:00",
    "price_history": [
@@ -9368,7 +9381,7 @@
    "bonus": [],
    "hood_confident": true,
    "last_seen": "2026-11-20T11:27:03+00:00",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-08T18:46:56+00:00",
    "price_history": [
     [
@@ -9377,10 +9390,6 @@
     ]
    ],
    "deal": false,
-   "also_on": [
-    "https://www.zillow.com/homedetails/555-Bryant-St-514-San-Francisco-CA-94107/449354729_zpid",
-    "https://www.zillow.com/homedetails/555-Bryant-St-1312-San-Francisco-CA-94107/452740786_zpid"
-   ],
    "snippet": ""
   },
   {
@@ -9548,7 +9557,7 @@
    "bonus": [],
    "hood_confident": true,
    "last_seen": "2026-11-20T11:27:03+00:00",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-08T18:46:56+00:00",
    "price_history": [
     [
@@ -9672,7 +9681,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-09T23:23:49+00:00",
    "price_history": [
@@ -9712,7 +9721,7 @@
    "bonus": [],
    "hood_confident": true,
    "last_seen": "2026-11-20T11:27:03+00:00",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-09T23:23:49+00:00",
    "price_history": [
     [
@@ -9875,7 +9884,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-10T04:45:55+00:00",
    "price_history": [
@@ -9922,7 +9931,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-10T04:45:55+00:00",
    "price_history": [
@@ -9967,7 +9976,7 @@
     "garage"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-10T20:46:29+00:00",
    "price_history": [
@@ -10006,7 +10015,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-10T20:46:29+00:00",
    "price_history": [
@@ -10045,7 +10054,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-10T20:46:29+00:00",
    "price_history": [
@@ -10204,7 +10213,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-11T01:12:25+00:00",
    "price_history": [
@@ -10251,7 +10260,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-11T01:12:25+00:00",
    "price_history": [
@@ -10294,7 +10303,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-11T01:12:25+00:00",
    "price_history": [
@@ -10337,7 +10346,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-11T01:12:25+00:00",
    "price_history": [
@@ -10417,7 +10426,7 @@
     "deck"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-11T21:17:45+00:00",
    "price_history": [
@@ -10546,7 +10555,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-11T21:17:45+00:00",
    "price_history": [
@@ -10719,7 +10728,7 @@
    "source": "Zumper · Mill Creek Residential",
    "url": "https://www.zumper.com/apartment-buildings/p218488/2175-market-mission-dolores-san-francisco-ca",
    "title": "A03",
-   "price": 4788,
+   "price": 4751,
    "beds": 1,
    "baths": 1,
    "sqft": null,
@@ -10728,7 +10737,7 @@
    "lat": 37.766335,
    "lon": -122.429986,
    "photo": "",
-   "available": "2026-11-19",
+   "available": "2026-11-23",
    "furnished": false,
    "in_unit_wd": true,
    "lease": "13mo min",
@@ -10741,7 +10750,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-12T10:12:54+00:00",
    "price_history": [
@@ -10756,6 +10765,10 @@
     [
      "2026-11-18T12:57:07+00:00",
      4788
+    ],
+    [
+     "2026-11-24T01:36:48+00:00",
+     4751
     ]
    ],
    "also_on": [
@@ -10796,7 +10809,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-12T21:25:40+00:00",
    "price_history": [
@@ -10843,7 +10856,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-12T21:25:40+00:00",
    "price_history": [
@@ -10921,7 +10934,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-12T21:25:40+00:00",
    "price_history": [
@@ -10937,9 +10950,6 @@
      "2026-11-21T20:28:28+00:00",
      4246
     ]
-   ],
-   "also_on": [
-    "https://www.zillow.com/homedetails/788-Harrison-St-APT-803-San-Francisco-CA-94107/2084691618_zpid"
    ],
    "deal": true,
    "snippet": ""
@@ -10971,7 +10981,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-12T21:25:40+00:00",
    "price_history": [
@@ -11053,7 +11063,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-13T09:26:52+00:00",
    "price_history": [
@@ -11104,7 +11114,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-13T09:26:52+00:00",
    "price_history": [
@@ -11143,7 +11153,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-13T09:26:52+00:00",
    "price_history": [
@@ -11160,7 +11170,7 @@
    "source": "Craigslist (sub)",
    "url": "https://sfbay.craigslist.org/sfc/sub/d/san-francisco-furnished-1bd-15ba-nob/7999904274.html",
    "title": "Furnished 1BD/1.5BA Nob Hill Sublet, Dec 9 - Jan 9, All-Inclusive",
-   "price": 5000,
+   "price": 4000,
    "beds": 1,
    "baths": null,
    "sqft": null,
@@ -11184,13 +11194,17 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-13T20:52:15+00:00",
    "price_history": [
     [
      "2026-11-13T20:52:15+00:00",
      5000
+    ],
+    [
+     "2026-11-24T01:36:48+00:00",
+     4000
     ]
    ],
    "deal": false,
@@ -11200,8 +11214,8 @@
    "id": "zillow:2077215784",
    "source": "Zillow (via Claude)",
    "url": "https://www.zillow.com/homedetails/1699-Market-St-920-San-Francisco-CA-94103/2077215784_zpid",
-   "title": "Ansel Apartments: 2 matching units, $4,923–$5,478",
-   "price": 4923,
+   "title": "Ansel Apartments: 2 matching units, $4,917–$5,471",
+   "price": 4917,
    "beds": 1,
    "baths": 1,
    "sqft": 618,
@@ -11223,7 +11237,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-13T20:52:15+00:00",
    "price_history": [
@@ -11242,6 +11256,10 @@
     [
      "2026-11-22T20:40:48+00:00",
      4923
+    ],
+    [
+     "2026-11-24T01:36:48+00:00",
+     4917
     ]
    ],
    "deal": false,
@@ -11287,11 +11305,11 @@
      4128
     ]
    ],
-   "also_on": [
-    "https://www.zillow.com/homedetails/1222-Harrison-St-APT-7109-San-Francisco-CA-94103/2083949621_zpid",
-    "https://www.zillow.com/homedetails/1222-Harrison-St-APT-2429-San-Francisco-CA-94103/2080728037_zpid"
-   ],
    "deal": false,
+   "also_on": [
+    "https://www.zillow.com/homedetails/1222-Harrison-St-APT-2429-San-Francisco-CA-94103/2080728037_zpid",
+    "https://www.zillow.com/homedetails/1222-Harrison-St-6502-San-Francisco-CA-94103/2078080272_zpid"
+   ],
    "snippet": ""
   },
   {
@@ -11619,7 +11637,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-14T07:58:10+00:00",
    "price_history": [
@@ -11674,8 +11692,8 @@
    "id": "zillow:2078731216",
    "source": "Zillow (via Claude)",
    "url": "https://www.zillow.com/homedetails/923-Folsom-St-312-San-Francisco-CA-94107/2078731216_zpid",
-   "title": "923 Folsom: 5 matching units, $4,531–$5,470",
-   "price": 4531,
+   "title": "923 Folsom: 5 matching units, $4,536–$5,470",
+   "price": 4536,
    "beds": 1,
    "baths": 1,
    "sqft": 609,
@@ -11697,7 +11715,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-14T19:03:53+00:00",
    "price_history": [
@@ -11724,6 +11742,10 @@
     [
      "2026-11-21T20:28:28+00:00",
      4531
+    ],
+    [
+     "2026-11-24T01:36:48+00:00",
+     4536
     ]
    ],
    "deal": false,
@@ -11959,7 +11981,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-15T23:55:56+00:00",
    "price_history": [
@@ -12001,7 +12023,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-15T23:55:56+00:00",
    "price_history": [
@@ -12047,7 +12069,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-16T06:13:08+00:00",
    "price_history": [
@@ -12098,7 +12120,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-16T06:13:08+00:00",
    "price_history": [
@@ -12137,7 +12159,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-16T06:13:08+00:00",
    "price_history": [
@@ -12221,7 +12243,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-17T00:26:56+00:00",
    "price_history": [
@@ -12263,7 +12285,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-17T00:26:56+00:00",
    "price_history": [
@@ -12309,7 +12331,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-17T00:26:56+00:00",
    "price_history": [
@@ -12352,7 +12374,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-17T00:26:56+00:00",
    "price_history": [
@@ -12395,7 +12417,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-17T08:25:34+00:00",
    "price_history": [
@@ -12438,7 +12460,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-17T22:12:43+00:00",
    "price_history": [
@@ -12460,7 +12482,7 @@
    "baths": null,
    "sqft": null,
    "address": "400 Duboce, San Francisco, CA 94117",
-   "hood_text": "castro / upper market",
+   "hood_text": "lower haight",
    "lat": 37.7695,
    "lon": -122.4291,
    "photo": "https://images.craigslist.org/00909_a3226m4pm4C_0uY0hq_600x450.jpg",
@@ -12477,7 +12499,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-17T22:12:43+00:00",
    "price_history": [
@@ -12488,7 +12510,9 @@
    ],
    "also_on": [
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-1br-1ba-laundry/8002988772.html",
-    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-1br-1ba-laundry/8002969032.html"
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-1br-1ba-laundry/8002969032.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-1br-1ba-laundry/8005237245.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-1br-1ba-laundry/8005206450.html"
    ],
    "deal": false,
    "snippet": "400 Duboce Street Unit #313 - San Francisco, CA - Brick and Timber\n\n\n\n\n\nPlease Enjoy a 3D Virtual Tour Available Here - https://my.matterport.com/show/?m=arenEYwv5S9\n\n\n\n\n\nFOR A QUICKER RESPONSE PLEASE CALL OR TEXT Jason show contact info \n) *\n\n\n\n\n\nLEASE TERMS:\n\n-Lease: 1 Year\n\n-Income: 2.5x Rent\n\n-Utilities: None Included\n\n-Pets: Allowed! Dogs - $50 per month Cats - $25 per month! (2 pet max), Bre"
@@ -12507,7 +12531,7 @@
    "lat": 37.786574,
    "lon": -122.391243,
    "photo": "",
-   "available": "2026-11-21",
+   "available": "2026-11-23",
    "furnished": false,
    "in_unit_wd": true,
    "lease": "3mo min",
@@ -12527,7 +12551,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-17T22:12:43+00:00",
    "price_history": [
@@ -12580,7 +12604,7 @@
     "terrace"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-17T22:12:43+00:00",
    "price_history": [
@@ -12658,7 +12682,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-17T22:12:43+00:00",
    "price_history": [
@@ -12705,7 +12729,7 @@
    ],
    "bonus": [],
    "hood_confident": false,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-17T22:12:43+00:00",
    "price_history": [
@@ -12752,7 +12776,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-17T22:12:43+00:00",
    "price_history": [
@@ -12800,7 +12824,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-18T21:50:38+00:00",
    "price_history": [
@@ -12855,12 +12879,12 @@
      5000
     ]
    ],
+   "deal": false,
    "also_on": [
     "https://sutro.appfolio.com/listings/detail/c071337d-779e-4459-af09-b0e1441b5821",
     "https://www.zumper.com/listings/499008p/1-bedroom-marina-san-francisco-ca",
     "https://www.zillow.com/homedetails/3210-Gough-St-APT-102-San-Francisco-CA-94123/462722892_zpid"
    ],
-   "deal": false,
    "snippet": "Fully REMODELED 1/1. In-unit W/D! Parking Avail.! Dishwasher! \n \n \n \n\n \n\n Property Address \n\n\n3210 Gough St. | #102 | San Francisco, CA 94123\n\n\n\n Available: Now\n\n\n\n\n\n Offered By \n\n\nSutro Property Management Inc. | show contact info \n\n\n\n\n\n \n\n\n Description \n \n AVAILABILITY\n\nAvailable now. To schedule a showing please visit our website, click on the unit you are interested in, and fill in your info i"
   },
   {
@@ -12868,7 +12892,7 @@
    "source": "Craigslist (apa)",
    "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-huge-level-2br-15ba-loft/8002595664.html",
    "title": "HUGE 2 Level 2br/1.5Ba Loft, High Ceilings, Laundry, Central Location!",
-   "price": 4795,
+   "price": 4695,
    "beds": 2,
    "baths": null,
    "sqft": 1066,
@@ -12892,13 +12916,17 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-18T21:50:38+00:00",
    "price_history": [
     [
      "2026-11-18T21:50:38+00:00",
      4795
+    ],
+    [
+     "2026-11-24T01:36:48+00:00",
+     4695
     ]
    ],
    "deal": true,
@@ -12935,7 +12963,7 @@
     "roof deck"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-18T21:50:38+00:00",
    "price_history": [
@@ -12977,7 +13005,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-18T21:50:38+00:00",
    "price_history": [
@@ -13022,7 +13050,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-18T21:50:38+00:00",
    "price_history": [
@@ -13069,7 +13097,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-18T21:50:38+00:00",
    "price_history": [
@@ -13108,7 +13136,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-18T21:50:38+00:00",
    "price_history": [
@@ -13147,7 +13175,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-18T21:50:38+00:00",
    "price_history": [
@@ -13164,7 +13192,8 @@
     "https://www.zillow.com/homedetails/299-Fremont-St-321-San-Francisco-CA-94105/2079860551_zpid",
     "https://www.zillow.com/homedetails/299-Fremont-St-2508-San-Francisco-CA-94105/2069342306_zpid",
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-13-mo-state-of-the/8004854652.html",
-    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-14-mo-ev-charging/8004999048.html"
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-14-mo-ev-charging/8004999048.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-14-mo-two-toned-soft/8005430409.html"
    ],
    "deal": false,
    "snippet": ""
@@ -13277,7 +13306,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-19T03:14:26+00:00",
    "price_history": [
@@ -13316,7 +13345,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-19T03:14:26+00:00",
    "price_history": [
@@ -13370,11 +13399,12 @@
      3920
     ]
    ],
+   "deal": false,
    "also_on": [
     "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-1br-1ba-laundry/8003451978.html",
-    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-50-joice-14-charmin-1x1/8004520617.html"
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-50-joice-14-charmin-1x1/8004520617.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-1br-1ba-laundry/8005235631.html"
    ],
-   "deal": false,
    "snippet": "50 Joice St #14, San Francisco, CA 94108\n\n\n\nFor the fastest response, text Pieter at show contact info \n today to schedule an in-person tour! Please include the address in your message.\n\n\n\nTake a virtual tour: https://my.matterport.com/show/?m=fT2UueLDToZ\n\n\n\n- Reduced $1,000 security deposit with approved credit\n\n\n\nAbout Unit #14:\n\n- Updated compact 1 bedroom unit\n\n- Updated kitchen\n\n- Laundry in "
   },
   {
@@ -13415,10 +13445,11 @@
      4600
     ]
    ],
-   "also_on": [
-    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-645-stockton-awesome-1x1/8004536613.html"
-   ],
    "deal": false,
+   "also_on": [
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-645-stockton-awesome-1x1/8004536613.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-1br-1ba-laundry-in/8005210467.html"
+   ],
    "snippet": "645 Stockton St #503, San Francisco, CA 94108\n\n\n\nFor the fastest response, text Pieter at show contact info \n today to schedule an in-person tour! Please include the address in your message.\n\n\n\nTake a virtual tour: https://my.matterport.com/show/?m=eAgTt4chR5i\n\n\n\n- Reduced $1,000 security deposit with approved credit\n\n\n\nAbout Unit #503:\n\n- Updated 1 bedroom unit\n\n- Updated kitchen\n\n- Laundry in un"
   },
   {
@@ -13450,7 +13481,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-19T03:14:26+00:00",
    "price_history": [
@@ -13493,7 +13524,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-19T03:14:26+00:00",
    "price_history": [
@@ -13535,7 +13566,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-19T22:06:11+00:00",
    "price_history": [
@@ -13581,7 +13612,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-19T22:06:11+00:00",
    "price_history": [
@@ -13595,6 +13626,84 @@
    ],
    "deal": false,
    "snippet": "665 Pine #601\n\n\n\n\n\n-----1 Month deposit with good credit!!\n\n\n\nComing Soon- Apply now to hold this unit!\n\n\n\n*Huge Walk in closet \n\n\n\nWithin walking distance \n\nTop Of Mark\n\nFairmont\n\nTonga Room\n\nHogwash\n\nBoba Guys\n\n\n\nUnit Features:\n\nHardwood floors \n\nRemodeled Kitchen \n\nStainless Steel Appliances\n\noven/stove\n\nrefrigerator\n\n*No Dishwasher \n\nremodeled Bathroom\n\nWasher/Dryer in Unit!!\n\nWalk in Closet \n"
+  },
+  {
+   "id": "zillow:2062926354",
+   "source": "Zillow (via Claude)",
+   "url": "https://www.zillow.com/homedetails/1-Brady-St-A-625-San-Francisco-CA-94103/2062926354_zpid",
+   "title": "The Brady: 11 matching units, $4,424–$5,452",
+   "price": 4424,
+   "beds": 1,
+   "baths": 1,
+   "sqft": 467,
+   "address": "1 Brady St, San Francisco, CA 94103",
+   "hood_text": "",
+   "lat": 37.773457,
+   "lon": -122.42031,
+   "photo": "",
+   "available": "",
+   "furnished": null,
+   "in_unit_wd": true,
+   "lease": "",
+   "amenities": [],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "Hayes Valley",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [],
+   "hood_confident": true,
+   "last_seen": "2026-11-20T11:27:03+00:00",
+   "active": false,
+   "first_seen": "2026-11-19T22:06:11+00:00",
+   "price_history": [
+    [
+     "2026-11-19T22:06:11+00:00",
+     4424
+    ]
+   ],
+   "deal": false,
+   "snippet": ""
+  },
+  {
+   "id": "zillow:2083949621",
+   "source": "Zillow (via Claude)",
+   "url": "https://www.zillow.com/homedetails/1222-Harrison-St-APT-7109-San-Francisco-CA-94103/2083949621_zpid",
+   "title": "L Seven: 21 matching units, $4,128–$5,487",
+   "price": 4128,
+   "beds": 1,
+   "baths": 1,
+   "sqft": 715,
+   "address": "1222 Harrison St, San Francisco, CA 94103",
+   "hood_text": "",
+   "lat": 37.773518,
+   "lon": -122.40925,
+   "photo": "",
+   "available": "",
+   "furnished": null,
+   "in_unit_wd": true,
+   "lease": "",
+   "amenities": [],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "West SoMa",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [],
+   "hood_confident": true,
+   "last_seen": "2026-11-20T11:27:03+00:00",
+   "active": false,
+   "first_seen": "2026-11-19T22:06:11+00:00",
+   "price_history": [
+    [
+     "2026-11-19T22:06:11+00:00",
+     4128
+    ]
+   ],
+   "deal": false,
+   "snippet": ""
   },
   {
    "id": "zillow:466685819",
@@ -13623,7 +13732,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-22T07:56:41+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-19T22:06:11+00:00",
    "price_history": [
@@ -13640,10 +13749,88 @@
      4870
     ]
    ],
-   "deal": false,
    "also_on": [
     "https://www.zillow.com/homedetails/185-Channel-St-APT-105-San-Francisco-CA-94158/2092643958_zpid"
    ],
+   "deal": false,
+   "snippet": ""
+  },
+  {
+   "id": "zillow:2084691618",
+   "source": "Zillow (via Claude)",
+   "url": "https://www.zillow.com/homedetails/788-Harrison-St-APT-803-San-Francisco-CA-94107/2084691618_zpid",
+   "title": "Soma at 788: 6 matching units, $3,926–$4,206",
+   "price": 3926,
+   "beds": 1,
+   "baths": 1,
+   "sqft": 746,
+   "address": "788 Harrison St, San Francisco, CA 94107",
+   "hood_text": "",
+   "lat": 37.78133,
+   "lon": -122.399666,
+   "photo": "",
+   "available": "",
+   "furnished": null,
+   "in_unit_wd": true,
+   "lease": "",
+   "amenities": [],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "East SoMa / Mission Bay",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [],
+   "hood_confident": true,
+   "last_seen": "2026-11-20T11:27:03+00:00",
+   "active": false,
+   "first_seen": "2026-11-19T22:06:11+00:00",
+   "price_history": [
+    [
+     "2026-11-19T22:06:11+00:00",
+     3926
+    ]
+   ],
+   "deal": true,
+   "snippet": ""
+  },
+  {
+   "id": "zillow:2071099197",
+   "source": "Zillow (via Claude)",
+   "url": "https://www.zillow.com/homedetails/690-Long-Bridge-St-T-1410-San-Francisco-CA-94158/2071099197_zpid",
+   "title": "Azure: 11 matching units, $4,503–$5,296",
+   "price": 4503,
+   "beds": 1,
+   "baths": 1,
+   "sqft": 708,
+   "address": "690 Long Bridge St, San Francisco, CA 94158",
+   "hood_text": "",
+   "lat": 37.772858,
+   "lon": -122.39285,
+   "photo": "",
+   "available": "",
+   "furnished": null,
+   "in_unit_wd": true,
+   "lease": "",
+   "amenities": [],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "East SoMa / Mission Bay",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [],
+   "hood_confident": true,
+   "last_seen": "2026-11-20T11:27:03+00:00",
+   "active": false,
+   "first_seen": "2026-11-19T22:06:11+00:00",
+   "price_history": [
+    [
+     "2026-11-19T22:06:11+00:00",
+     4503
+    ]
+   ],
+   "deal": false,
    "snippet": ""
   },
   {
@@ -13673,7 +13860,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-19T22:06:11+00:00",
    "price_history": [
@@ -13712,7 +13899,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-20T11:27:03+00:00",
    "price_history": [
@@ -13757,7 +13944,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-20T21:45:55+00:00",
    "price_history": [
@@ -13767,7 +13954,8 @@
     ]
    ],
    "also_on": [
-    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-600-oak-11-lovely-1x1/8004499224.html"
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-600-oak-11-lovely-1x1/8004499224.html",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-600-oak-11-lovely-1x1/8005537947.html"
    ],
    "deal": false,
    "snippet": "600 Oak - 11, San Francisco, CA 94117\n\n\n\nFor the fastest response, text Pieter at show contact info \n today to schedule an in-person tour! Please include the address in your message.\n\n\n\nTake a virtual tour: https://my.matterport.com/show/?m=3EpLk3sccLS\n\n\n\nSPECIAL OFFERS:\n\n- Reduced $1,000 security deposit with approved credit\n\n\n\nAbout Unit 11:\n\n- 1 bedroom unit\n\n- Laundry in unit\n\n\n\nAdditional Inf"
@@ -13799,7 +13987,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-20T21:45:55+00:00",
    "price_history": [
@@ -13841,7 +14029,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-20T21:45:55+00:00",
    "price_history": [
@@ -13859,7 +14047,7 @@
   },
   {
    "id": "zumper:65832074",
-   "source": "Zumper · avaasa_buildings",
+   "source": "Zumper · barnwellkeallc",
    "url": "https://www.zumper.com/apartment-buildings/p1706350/1166-green-st-russian-hill-san-francisco-ca",
    "title": "2 Bed 1 Bath",
    "price": 5170,
@@ -13888,7 +14076,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-20T21:45:55+00:00",
    "price_history": [
@@ -13899,6 +14087,48 @@
    ],
    "deal": true,
    "snippet": "\nFeatures: "
+  },
+  {
+   "id": "zillow:449354729",
+   "source": "Zillow (via Claude)",
+   "url": "https://www.zillow.com/homedetails/555-Bryant-St-514-San-Francisco-CA-94107/449354729_zpid",
+   "title": "Quincy: 7 matching units, $4,330–$5,231",
+   "price": 4330,
+   "beds": 1,
+   "baths": 1,
+   "sqft": 522,
+   "address": "555 Bryant St, San Francisco, CA 94107",
+   "hood_text": "",
+   "lat": 37.779945,
+   "lon": -122.39696,
+   "photo": "",
+   "available": "",
+   "furnished": null,
+   "in_unit_wd": true,
+   "lease": "",
+   "amenities": [],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "East SoMa / Mission Bay",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [],
+   "hood_confident": true,
+   "last_seen": "2026-11-24T01:36:48+00:00",
+   "active": true,
+   "first_seen": "2026-11-20T21:45:55+00:00",
+   "price_history": [
+    [
+     "2026-11-20T21:45:55+00:00",
+     4330
+    ]
+   ],
+   "also_on": [
+    "https://www.zillow.com/homedetails/555-Bryant-St-1312-San-Francisco-CA-94107/452740786_zpid"
+   ],
+   "deal": false,
+   "snippet": ""
   },
   {
    "id": "zillow:2077803086",
@@ -13969,7 +14199,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-21T03:08:07+00:00",
    "price_history": [
@@ -14014,7 +14244,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-21T03:08:07+00:00",
    "price_history": [
@@ -14057,7 +14287,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-21T03:08:07+00:00",
    "price_history": [
@@ -14103,7 +14333,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-21T03:08:07+00:00",
    "price_history": [
@@ -14113,7 +14343,8 @@
     ]
    ],
    "also_on": [
-    "https://www.zillow.com/homedetails/1-Hawthorne-St-UNIT-12B-San-Francisco-CA-94105/111711064_zpid"
+    "https://www.zillow.com/homedetails/1-Hawthorne-St-UNIT-12B-San-Francisco-CA-94105/111711064_zpid",
+    "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-downtown-luxury-large-jr/8005534545.html"
    ],
    "deal": true,
    "snippet": "\nFeatures: Central Heat | Hardwood Floor | In-Unit Laundry"
@@ -14147,7 +14378,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-21T11:41:39+00:00",
    "price_history": [
@@ -14229,7 +14460,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-21T20:28:28+00:00",
    "price_history": [
@@ -14271,7 +14502,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-21T20:28:28+00:00",
    "price_history": [
@@ -14312,7 +14543,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-21T20:28:28+00:00",
    "price_history": [
@@ -14323,6 +14554,45 @@
    ],
    "deal": false,
    "snippet": "\nFeatures: Dishwasher | Dogs OK Up to 25 Pounds | Gas Stove/Oven | In-Unit Laundry | No Parking Available | One Year Lease | Onsite Laundry | Tenant Pays All Utilities | Tenant Pays Trash Removal | Tenant Pays Water/Sewer | Washer and Dryer"
+  },
+  {
+   "id": "zillow:2077803085",
+   "source": "Zillow (via Claude)",
+   "url": "https://www.zillow.com/homedetails/1532-Harrison-St-201-San-Francisco-CA-94103/2077803085_zpid",
+   "title": "HQ: 2 matching units, $5,174–$5,323",
+   "price": 5174,
+   "beds": 2,
+   "baths": 1,
+   "sqft": 758,
+   "address": "1532 Harrison St, San Francisco, CA 94103",
+   "hood_text": "",
+   "lat": 37.77048,
+   "lon": -122.413315,
+   "photo": "",
+   "available": "",
+   "furnished": null,
+   "in_unit_wd": true,
+   "lease": "",
+   "amenities": [],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "West SoMa",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [],
+   "hood_confident": true,
+   "last_seen": "2026-11-24T01:36:48+00:00",
+   "active": true,
+   "first_seen": "2026-11-21T20:28:28+00:00",
+   "price_history": [
+    [
+     "2026-11-21T20:28:28+00:00",
+     5174
+    ]
+   ],
+   "deal": true,
+   "snippet": ""
   },
   {
    "id": "zillow:80732939",
@@ -14351,7 +14621,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-21T20:28:28+00:00",
    "price_history": [
@@ -14390,7 +14660,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-21T20:28:28+00:00",
    "price_history": [
@@ -14429,7 +14699,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-21T20:28:28+00:00",
    "price_history": [
@@ -14473,7 +14743,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-22T07:56:41+00:00",
    "price_history": [
@@ -14516,7 +14786,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-22T07:56:41+00:00",
    "price_history": [
@@ -14558,7 +14828,7 @@
     "parking"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-22T07:56:41+00:00",
    "price_history": [
@@ -14601,7 +14871,7 @@
    "unknown": [],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-22T20:40:48+00:00",
    "price_history": [
@@ -14647,7 +14917,7 @@
     "views"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-22T20:40:48+00:00",
    "price_history": [
@@ -14690,7 +14960,7 @@
     "rooftop"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-22T20:40:48+00:00",
    "price_history": [
@@ -14857,7 +15127,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-22T20:40:48+00:00",
    "price_history": [
@@ -14899,7 +15169,7 @@
     "garage"
    ],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-23T01:34:10+00:00",
    "price_history": [
@@ -14942,7 +15212,7 @@
    ],
    "bonus": [],
    "hood_confident": true,
-   "last_seen": "2026-11-23T09:43:31+00:00",
+   "last_seen": "2026-11-24T01:36:48+00:00",
    "active": true,
    "first_seen": "2026-11-23T01:34:10+00:00",
    "price_history": [
@@ -14995,6 +15265,139 @@
    ],
    "deal": true,
    "snippet": "Elegant Marina-Style Flat with Timeless Charm and Thoughtful Updates + Garage Parking.\n\nLocated in a coveted Marina neighborhood at Francisco &; Divisadero, this spacious 1-bedroom, 1-bathroom flat blends classic San Francisco architecture with modern conveniences, all just steps from the vibrant shops, restaurants, and amenities of Chestnut Street.\n\nThis beautifully maintained home features origi"
+  },
+  {
+   "id": "craigslist:8005333599",
+   "source": "Craigslist (apa)",
+   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-12th-flr-2bed-1bathin/8005333599.html",
+   "title": "12th Flr* 2Bed/1Bath*In-Unit w/D, Large Balcony*Close to Hayes Valley",
+   "price": 5136,
+   "beds": 2,
+   "baths": null,
+   "sqft": 751,
+   "address": "101 Polk Street, San Francisco, CA 94102",
+   "hood_text": "hayes valley",
+   "lat": 37.7775,
+   "lon": -122.418,
+   "photo": "https://images.craigslist.org/00a0a_fNBJrJjNa0c_0CI0pO_600x450.jpg",
+   "available": "available now \n \n \n\n\n \n application fee details:",
+   "furnished": false,
+   "in_unit_wd": true,
+   "lease": "12mo",
+   "amenities": [],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "Hayes Valley",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [
+    "balcony",
+    "deck",
+    "garage",
+    "parking",
+    "roof deck"
+   ],
+   "hood_confident": true,
+   "last_seen": "2026-11-24T01:36:48+00:00",
+   "active": true,
+   "first_seen": "2026-11-24T01:36:48+00:00",
+   "price_history": [
+    [
+     "2026-11-24T01:36:48+00:00",
+     5136
+    ]
+   ],
+   "deal": true,
+   "snippet": "Welcome to The Civic - Steps Away from Hayes Valley! \n\n Unit 1202 - Available Now!\n* 2 bed / 1 bath / 751 Sq.Ft.\n* Base Rent 12 Month Lease: $5,145\n\n The Civic \n Website: https://www.thecivicsf.com/ \n Address: 101 Polk St San Francisco, CA 94102 \n\n Call Us Today! show contact info \n x282 Property Description \n The Civic currently has a two-bedroom, one-bathroom apartment available for lease. Your "
+  },
+  {
+   "id": "craigslist:8005113402",
+   "source": "Craigslist (apa)",
+   "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-2br-at-happy/8005113402.html",
+   "title": "Spacious 2BR at Happy Apartments, Russian Hill – $3,699/mo",
+   "price": 3699,
+   "beds": 2,
+   "baths": null,
+   "sqft": 1043,
+   "address": "2130 Leavenworth St APT 1, San Francisco, CA 94133",
+   "hood_text": "russian hill",
+   "lat": 37.8006,
+   "lon": -122.4177,
+   "photo": "https://images.craigslist.org/00H0H_lhMSIWyzAJR_0ai0bM_600x450.jpg",
+   "available": "available dec 7\n \n \n \n\n\n\n open house dates:",
+   "furnished": false,
+   "in_unit_wd": true,
+   "lease": "",
+   "amenities": [],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "Russian Hill",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [
+    "parking"
+   ],
+   "hood_confident": true,
+   "last_seen": "2026-11-24T01:36:48+00:00",
+   "active": true,
+   "first_seen": "2026-11-24T01:36:48+00:00",
+   "price_history": [
+    [
+     "2026-11-24T01:36:48+00:00",
+     3699
+    ]
+   ],
+   "deal": true,
+   "snippet": "Spacious 2BR at Happy Apartments, Russian Hill – $3,699/mo\n\n\n\nAvailable now through May 31, 2027\n\n\n\nBright, south-facing 2 bed apartment (1043 sq ft) in a safe, quiet community. Lots of natural light all day.\n\n\n\nDetails:\n\n\n\n• 2 bedroom, 1043 sq ft\n\n• South-facing with ample sunlight\n\n• In-unit washer and dryer\n\n• Central AC and heating\n\n• Parking included in rent\n\n• Rent: $3,699/mo\n\n• Utilities va"
+  },
+  {
+   "id": "zumper:65848971",
+   "source": "Zumper · barnwellkeallc",
+   "url": "https://www.zumper.com/listings/1823854p/1-bedroom-soma-san-francisco-ca",
+   "title": "322 6th St #13",
+   "price": 4650,
+   "beds": 1,
+   "baths": 2,
+   "sqft": null,
+   "address": "322 6th St #13, San Francisco, CA 94103",
+   "hood_text": "SOMA",
+   "lat": 37.77793,
+   "lon": -122.405399,
+   "photo": "",
+   "available": "2026-12-17",
+   "furnished": false,
+   "in_unit_wd": true,
+   "lease": "",
+   "amenities": [
+    "balcony",
+    "parking",
+    "rooftop"
+   ],
+   "geo_tried": "",
+   "status": "match",
+   "check": [],
+   "hood": "Central SoMa",
+   "reasons": [],
+   "unknown": [],
+   "bonus": [
+    "balcony",
+    "parking",
+    "rooftop"
+   ],
+   "hood_confident": true,
+   "last_seen": "2026-11-24T01:36:48+00:00",
+   "active": true,
+   "first_seen": "2026-11-24T01:36:48+00:00",
+   "price_history": [
+    [
+     "2026-11-24T01:36:48+00:00",
+     4650
+    ]
+   ],
+   "deal": false,
+   "snippet": "\nFeatures: Air Conditioning | Balcony | Cable | Dishwasher | Fireplace | Hardwood Floor | In-Unit Laundry | Walk-in Closet"
   }
  ],
  "health": {
@@ -15003,7 +15406,7 @@
    "error_runs": 0,
    "can_be_empty": false,
    "last_count": 252,
-   "last_ok": "2026-11-23T09:43:31+00:00",
+   "last_ok": "2026-11-24T01:36:48+00:00",
    "last_error": null
   },
   "Craigslist sublets": {
@@ -15012,35 +15415,35 @@
    "can_be_empty": true,
    "last_count": 28,
    "last_error": null,
-   "last_ok": "2026-11-23T09:43:31+00:00"
+   "last_ok": "2026-11-24T01:36:48+00:00"
   },
   "Blueground": {
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": false,
-   "last_count": 213,
-   "last_ok": "2026-11-23T09:43:31+00:00",
+   "last_count": 212,
+   "last_ok": "2026-11-24T01:36:48+00:00",
    "last_error": null
   },
   "RentSFNow": {
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": true,
-   "last_count": 40,
-   "last_ok": "2026-11-23T09:43:31+00:00",
+   "last_count": 36,
+   "last_ok": "2026-11-24T01:36:48+00:00",
    "last_error": null
   },
   "AppFolio landlords": {
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": false,
-   "last_count": 203,
-   "last_ok": "2026-11-23T09:43:31+00:00",
+   "last_count": 201,
+   "last_ok": "2026-11-24T01:36:48+00:00",
    "last_error": null
   },
   "r/SFBayHousing": {
    "zero_runs": 0,
-   "error_runs": 18,
+   "error_runs": 19,
    "can_be_empty": true,
    "last_count": 0,
    "last_ok": "2026-11-17T08:25:34+00:00",
@@ -15050,40 +15453,40 @@
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": false,
-   "last_count": 231,
-   "last_ok": "2026-11-23T09:43:31+00:00",
+   "last_count": 227,
+   "last_ok": "2026-11-24T01:36:48+00:00",
    "last_error": null
   },
   "Alert emails": {
-   "zero_runs": 55,
+   "zero_runs": 56,
    "error_runs": 0,
    "can_be_empty": true,
    "last_count": 0,
    "last_error": null,
-   "last_ok": "2026-11-23T09:43:31+00:00"
+   "last_ok": "2026-11-24T01:36:48+00:00"
   },
   "Buildium landlords": {
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": true,
-   "last_count": 17,
-   "last_ok": "2026-11-23T09:43:31+00:00",
+   "last_count": 16,
+   "last_ok": "2026-11-24T01:36:48+00:00",
    "last_error": null
   },
   "J. Wavro": {
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": false,
-   "last_count": 23,
-   "last_ok": "2026-11-23T09:43:31+00:00",
+   "last_count": 22,
+   "last_ok": "2026-11-24T01:36:48+00:00",
    "last_error": null
   },
   "Rentals Inc.": {
    "zero_runs": 0,
    "error_runs": 0,
    "can_be_empty": false,
-   "last_count": 28,
-   "last_ok": "2026-11-23T09:43:31+00:00",
+   "last_count": 27,
+   "last_ok": "2026-11-24T01:36:48+00:00",
    "last_error": null
   },
   "Zillow (via Claude)": {
@@ -15091,7 +15494,7 @@
    "error_runs": 0,
    "can_be_empty": true,
    "last_count": 82,
-   "last_ok": "2026-11-23T09:43:31+00:00",
+   "last_ok": "2026-11-24T01:36:48+00:00",
    "last_error": null
   }
  },

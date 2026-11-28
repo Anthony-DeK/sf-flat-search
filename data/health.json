@@ -1,26 +1,26 @@
 {
  "Craigslist apartments": {
   "zero_runs": 0,
-  "error_runs": 0,
+  "error_runs": 1,
   "can_be_empty": false,
-  "last_count": 225,
+  "last_count": 0,
   "last_ok": "2026-11-27T23:23:25+00:00",
-  "last_error": null
+  "last_error": "HTTPError: 400 Client Error: Bad Request for url: https://sapi.craigslist.org/web/v8/postings/search/full?batch=1-0-360-0-0&cc=US&lang=en&area_id=1&searchPath=sfc%2Fapa&min_price=3000&max_price=5500&laundry=1&min_bedrooms=1&max_bedrooms=2"
  },
  "Craigslist sublets": {
   "zero_runs": 0,
-  "error_runs": 1,
+  "error_runs": 0,
   "can_be_empty": true,
-  "last_count": 0,
-  "last_error": "HTTPError: 400 Client Error: Bad Request for url: https://sapi.craigslist.org/web/v8/postings/search/full?batch=1-0-360-0-0&cc=US&lang=en&area_id=1&searchPath=sfc%2Fsub&min_price=3000&max_price=5500&is_furnished=1",
-  "last_ok": "2026-11-27T14:55:49+00:00"
+  "last_count": 30,
+  "last_error": null,
+  "last_ok": "2026-11-28T04:55:43+00:00"
  },
  "Blueground": {
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": false,
   "last_count": 212,
-  "last_ok": "2026-11-27T23:23:25+00:00",
+  "last_ok": "2026-11-28T04:55:43+00:00",
   "last_error": null
  },
  "RentSFNow": {
@@ -28,7 +28,7 @@
   "error_runs": 0,
   "can_be_empty": true,
   "last_count": 31,
-  "last_ok": "2026-11-27T23:23:25+00:00",
+  "last_ok": "2026-11-28T04:55:43+00:00",
   "last_error": null
  },
  "AppFolio landlords": {
@@ -36,12 +36,12 @@
   "error_runs": 0,
   "can_be_empty": false,
   "last_count": 198,
-  "last_ok": "2026-11-27T23:23:25+00:00",
+  "last_ok": "2026-11-28T04:55:43+00:00",
   "last_error": null
  },
  "r/SFBayHousing": {
   "zero_runs": 0,
-  "error_runs": 29,
+  "error_runs": 30,
   "can_be_empty": true,
   "last_count": 0,
   "last_ok": "2026-11-17T08:25:34+00:00",
@@ -52,23 +52,23 @@
   "error_runs": 0,
   "can_be_empty": false,
   "last_count": 227,
-  "last_ok": "2026-11-27T23:23:25+00:00",
+  "last_ok": "2026-11-28T04:55:43+00:00",
   "last_error": null
  },
  "Alert emails": {
-  "zero_runs": 66,
+  "zero_runs": 67,
   "error_runs": 0,
   "can_be_empty": true,
   "last_count": 0,
   "last_error": null,
-  "last_ok": "2026-11-27T23:23:25+00:00"
+  "last_ok": "2026-11-28T04:55:43+00:00"
  },
  "Buildium landlords": {
   "zero_runs": 0,
   "error_runs": 0,
   "can_be_empty": true,
-  "last_count": 12,
-  "last_ok": "2026-11-27T23:23:25+00:00",
+  "last_count": 11,
+  "last_ok": "2026-11-28T04:55:43+00:00",
   "last_error": null
  },
  "J. Wavro": {
@@ -76,7 +76,7 @@
   "error_runs": 0,
   "can_be_empty": false,
   "last_count": 20,
-  "last_ok": "2026-11-27T23:23:25+00:00",
+  "last_ok": "2026-11-28T04:55:43+00:00",
   "last_error": null
  },
  "Rentals Inc.": {
@@ -84,7 +84,7 @@
   "error_runs": 0,
   "can_be_empty": false,
   "last_count": 28,
-  "last_ok": "2026-11-27T23:23:25+00:00",
+  "last_ok": "2026-11-28T04:55:43+00:00",
   "last_error": null
  },
  "Zillow (via Claude)": {
@@ -92,7 +92,7 @@
   "error_runs": 0,
   "can_be_empty": true,
   "last_count": 82,
-  "last_ok": "2026-11-27T23:23:25+00:00",
+  "last_ok": "2026-11-28T04:55:43+00:00",
   "last_error": null
  }
 }
